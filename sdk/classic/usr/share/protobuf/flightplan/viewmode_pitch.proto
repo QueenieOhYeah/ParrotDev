@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package Flightplan.Enums.ViewMode.Pitch;
+
+// Pitch view mode
+enum Enum {
+    FREE = 0;     // Unconstrained: No camera reference (reference not updated).
+    CONSTANT = 1; // Travelling: Constant camera angle.
+    RAMP = 2;     // Transition: Reference varies linearly to join the reference on the waypoint.
+    POI = 3;      // Point Of Interest: Camera tracks a fixed target.
+    TANGENT = 4;  // Subjective: Camera aligned with its velocity vector.
+    SET_ON_WAYPOINT = 5; // FREE mode outside of waypoint validation radius, CONSTANT mode inside.
+}

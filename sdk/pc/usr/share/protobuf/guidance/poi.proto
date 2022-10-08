@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package Guidance.Poi.Messages;
+
+// Point of interest type
+enum Type {
+    // The front camera pitch will track the POI altitude.
+    TYPE_FREE = 0;
+
+    // The pilot has control of the front camera pitch angle.
+    TYPE_LOCKED = 1;
+
+    // TODO: Internal only -> use a dedicated variable/state in code
+    TYPE_LOCK_ONCE = 2;
+}
+
+// Point of interest modes configuration
+message Config {
+    // Point of interest types
+    Type type = 1;
+    // Latitude of the point of interest [°].
+    float latitude = 2;
+    // Longitude of the point of interest [°].
+    float longitude = 3;
+    // Altitude of the point of interest above takeoff [m].
+    float altitude = 4;
+}

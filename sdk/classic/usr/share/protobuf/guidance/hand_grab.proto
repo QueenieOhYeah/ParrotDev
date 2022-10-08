@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package Guidance.HandGrab.Messages;
+
+import 'google/protobuf/empty.proto';
+
+// Hand grab type
+enum Type {
+    // Only position will be followed.
+    TYPE_POSITION = 0;
+    // Position and orientation will be followed.
+    TYPE_POSITION_ORIENTATION = 1;
+}
+
+// Hand grab modes (Descent/Goto) configuration
+message Config {
+    // Hand grab type.
+    Type type = 1;
+}
+
+message Command {
+    oneof id {
+        google.protobuf.Empty empty = 1;
+    }
+}
+
+message Event {
+    oneof id {
+        // Request to go to hand point completed.
+        google.protobuf.Empty done = 1;
+        // Request to go to hand point aborted.
+        google.protobuf.Empty abort = 2;
+    }
+}

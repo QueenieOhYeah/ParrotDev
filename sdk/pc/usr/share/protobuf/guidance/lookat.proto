@@ -1,0 +1,36 @@
+syntax = "proto3";
+package Guidance.LookAt.Messages;
+
+import 'google/protobuf/empty.proto';
+
+enum Type {
+    TYPE_NONE = 0;
+    TYPE_TARGET = 1;
+    TYPE_PILOT = 2;
+}
+
+// Framing offset
+message FramingOffset {
+    // Horizontal framing offset in percentage of image (50 is center) [%].
+    sint32 horizontal = 1;
+    // Vertical framing offset in percentage of image (50 is center) [%].
+    sint32 vertical = 2;
+}
+
+// LookAt mode configuration
+message Config {
+    Type type = 1 ;
+}
+
+message Command {
+    oneof id {
+        // Set the framing offset of the target in the image.
+        FramingOffset set_framing_offset = 1;
+    }
+}
+
+message Event {
+    oneof id {
+        google.protobuf.Empty empty = 1;
+    }
+}

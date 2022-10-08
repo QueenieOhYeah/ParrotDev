@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package Flightplan.Enums.ValidationType;
+
+// Validation type
+enum Enum {
+    STOP = 0;   // Stop and wait on the waypoint until it receives an ok to continue.
+    SPHERE = 1; // Fly through in a neighborhood of specified radius around the waypoint.
+    ARC = 2;    // Similar to SPHERE but the turns are circular arcs with a limited turning rate.
+}

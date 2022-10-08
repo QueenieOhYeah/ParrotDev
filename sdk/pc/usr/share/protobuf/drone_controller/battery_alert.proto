@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+package DroneController.Messages.BatteryAlert;
+
+// Alert level for a battery alert
+enum Enum {
+    // No alert.
+    NONE = 0;
+    // Warning alert level.
+    WARNING = 1;
+    // Critical alert level.
+    CRITICAL = 2;
+}

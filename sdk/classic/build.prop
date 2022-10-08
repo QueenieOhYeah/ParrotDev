@@ -1,0 +1,13 @@
+ro.build.date=Fri Jun 17 05:24:53 UTC 2022
+ro.build.date.utc=1655443493
+ro.missions.sdk_target_arch=aarch64
+ro.build.alchemy.product=anafi2
+ro.build.alchemy.variant=classic_airsdk
+ro.build.hostname=jenkins
+ro.parrot.build.group=drones
+ro.parrot.build.project=anafi2
+ro.parrot.build.product=anafi2
+ro.parrot.build.variant=classic_airsdk
+ro.parrot.build.region=
+ro.parrot.build.uid=anafi2-classic_airsdk-7.3.0
+ro.parrot.build.version=7.3.0

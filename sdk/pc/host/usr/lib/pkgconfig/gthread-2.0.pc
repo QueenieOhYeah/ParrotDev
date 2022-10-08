@@ -1,0 +1,11 @@
+prefix=/data/jenkins/jobs/anafi2-airsdk-release/workspace/out/anafi2-pc_airsdk/staging-host/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: GThread
+Description: Thread support for GLib
+Requires: glib-2.0
+Version: 2.48.1
+Libs: -L${libdir} -lgthread-2.0 -pthread
+Cflags: -pthread

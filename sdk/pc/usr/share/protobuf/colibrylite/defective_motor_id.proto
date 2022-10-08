@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+
+package ColibryLite.Messages.DefectiveMotorId;
+
+enum Enum {
+    // Front left motor down.
+    FRONT_LEFT = 0;
+    // Front right motor down.
+    FRONT_RIGHT = 1;
+    // Rear right motor down.
+    REAR_RIGHT = 2;
+    // Rear left motor down.
+    REAR_LEFT = 3;
+    // Default: all motors running.
+    NONE = 4;
+}

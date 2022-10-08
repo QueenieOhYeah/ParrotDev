@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+
+import public "cam_controller/control_mode.proto";
+import public "cam_controller/frame_of_reference.proto";
+
+package CamController.Messages;
+
+// Axis configuration.
+message AxisConfig {
+    // Specify if axis reference will be used or discarded.
+    oneof optional_locked {
+        bool locked = 1;
+    }
+    // Enable filtering to have a smoother movement.
+    oneof optional_filtered {
+        bool filtered = 2;
+    }
+    // The filtering magnitude applied to the axis.
+    oneof optional_smoothness {
+        float smoothness = 3;
+    }
+    // The maximum velocity of the axis.
+    oneof optional_max_vel {
+        float max_vel = 4;
+    }
+}
+
+// Reference for a single axis.
+message AxisReference {
+    // Control mode type.
+    CamController.Messages.ControlMode.Enum ctrl_mode = 1;
+    // Axis position and velocity frame of reference.
+    CamController.Messages.FrameOfReference.Enum frame_of_ref = 2;
+    // Axis position reference [rad].
+    float position = 3;
+    // Axis velocity reference [rad/s].
+    float velocity = 4;
+}

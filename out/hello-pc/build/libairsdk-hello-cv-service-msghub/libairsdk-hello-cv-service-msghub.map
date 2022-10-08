@@ -1,0 +1,712 @@
+
+Merging program properties
+
+
+As-needed library included to satisfy reference by file (symbol)
+
+libairsdk-hello-cv-service-pb.so
+                              /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o (samples::hello::cv_service::messages::Command::set_allocated_processing_stop(google::protobuf::Empty*))
+libmsghub.so                  /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o (msghub::MessageSender::send(msghub::Message const&, pomp::Connection*))
+libprotobuf.so.18             /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o (google::protobuf::MessageLite::ParseFromArray(void const*, int))
+libstdc++.so.6                /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o (std::ios_base::Init::~Init()@@GLIBCXX_3.4)
+libgcc_s.so.1                 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o (_Unwind_Resume@@GCC_3.0)
+libc.so.6                     /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o (__stack_chk_fail@@GLIBC_2.4)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .group         0x0000000000000000       0x14 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .group         0x0000000000000000       0x14 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .group         0x0000000000000000       0x14 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .group         0x0000000000000000       0x14 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .text          0x0000000000000000        0x0 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .data          0x0000000000000000        0x0 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+LOAD /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+LOAD /home/queenie/airsdk/out/hello-pc/staging/usr/lib/libairsdk-hello-cv-service-pb.so
+LOAD /home/queenie/airsdk/sdk/pc/usr/lib/libmsghub.so
+LOAD /home/queenie/airsdk/sdk/pc/usr/lib/libprotobuf.so
+LOAD /home/queenie/airsdk/sdk/pc/usr/lib/libprotoc.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libstdc++.so
+LOAD /home/queenie/airsdk/sdk/pc/lib/x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /home/queenie/airsdk/sdk/pc/lib/x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so
+LOAD /home/queenie/airsdk/sdk/pc/lib/x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /home/queenie/airsdk/sdk/pc/lib/x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000002a8                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.note.gnu.property
+                0x00000000000002a8       0x20
+ .note.gnu.property
+                0x00000000000002a8       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.note.gnu.build-id
+                0x00000000000002c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000002c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000002f0      0x1ac
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000002f0      0x1ac /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x00000000000004a0      0x7c8
+ *(.dynsym)
+ .dynsym        0x00000000000004a0      0x7c8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000000c68     0x15bb
+ *(.dynstr)
+ .dynstr        0x0000000000000c68     0x15bb /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x0000000000002224       0xa6
+ *(.gnu.version)
+ .gnu.version   0x0000000000002224       0xa6 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x00000000000022d0        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000000022d0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x00000000000022d0       0x90
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000022d0       0x90 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x0000000000002360      0x558
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000002360        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.startup._GLOBAL__sub_I_messages.msghub.cc
+                0x0000000000002360        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000002360       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTIN7samples5hello10cv_service8messages6msghub13CommandSenderE
+                0x0000000000002378       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTIN7samples5hello10cv_service8messages6msghub14CommandHandlerE
+                0x00000000000023c0       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTIN7samples5hello10cv_service8messages6msghub11EventSenderE
+                0x0000000000002408       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTIN7samples5hello10cv_service8messages6msghub12EventHandlerE
+                0x0000000000002450       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTVN7samples5hello10cv_service8messages6msghub13CommandSenderE
+                0x0000000000002498       0xc0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTVN7samples5hello10cv_service8messages6msghub14CommandHandlerE
+                0x0000000000002558       0xa8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTVN7samples5hello10cv_service8messages6msghub11EventSenderE
+                0x0000000000002600       0xc0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTVN7samples5hello10cv_service8messages6msghub12EventHandlerE
+                0x00000000000026c0       0xc0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000002780       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000002798       0xd8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000002870        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x0000000000002870       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x0000000000002888       0x30 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.eh_frame
+                0x00000000000028b8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x00000000000028b8      0x1f8
+ *(.rela.plt)
+ .rela.plt      0x00000000000028b8      0x1f8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+                0x0000000000003000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000003000       0x1b
+ *(SORT_NONE(.init))
+ .init          0x0000000000003000       0x16 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000003000                _init
+ .init          0x0000000000003016        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000003020      0x160
+ *(.plt)
+ .plt           0x0000000000003020      0x160 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x0000000000003180       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000003180       0x10 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.plt.sec        0x0000000000003190      0x150
+ *(.plt.sec)
+ .plt.sec       0x0000000000003190      0x150 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.text           0x00000000000032e0      0xccf
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ .text.unlikely._ZN7samples5hello10cv_service8messages6msghub13CommandSenderC2Ev
+                0x00000000000032e0       0x17 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ *fill*         0x00000000000032f7        0x1 
+ .text.unlikely._ZN7samples5hello10cv_service8messages6msghub14CommandHandlerC2Ev
+                0x00000000000032f8       0x17 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ *fill*         0x000000000000330f        0x1 
+ .text.unlikely._ZN7samples5hello10cv_service8messages6msghub11EventSenderC2Ev
+                0x0000000000003310       0x17 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ *fill*         0x0000000000003327        0x1 
+ .text.unlikely._ZN7samples5hello10cv_service8messages6msghub12EventHandlerC2Ev
+                0x0000000000003328       0x17 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ *fill*         0x000000000000333f        0x1 
+ .text.unlikely._ZN7samples5hello10cv_service8messages6msghub13CommandSender15processingStartERKN6google8protobuf5EmptyEPN4pomp10ConnectionE
+                0x0000000000003340       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .text.unlikely._ZN7samples5hello10cv_service8messages6msghub13CommandSender14processingStopERKN6google8protobuf5EmptyEPN4pomp10ConnectionE
+                0x0000000000003350       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .text.unlikely._ZN7samples5hello10cv_service8messages6msghub14CommandHandler6handleERKN6msghub7MessageE
+                0x0000000000003360       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .text.unlikely._ZN7samples5hello10cv_service8messages6msghub11EventSender5closeERKN6google8protobuf5EmptyEPN4pomp10ConnectionE
+                0x0000000000003370       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .text.unlikely._ZN7samples5hello10cv_service8messages6msghub11EventSender3farERKN6google8protobuf5EmptyEPN4pomp10ConnectionE
+                0x0000000000003380       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .text.unlikely._ZN7samples5hello10cv_service8messages6msghub11EventSender9depthMeanEfPN4pomp10ConnectionE
+                0x0000000000003390       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .text.unlikely._ZN7samples5hello10cv_service8messages6msghub12EventHandler6handleERKN6msghub7MessageE
+                0x00000000000033a0       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup._GLOBAL__sub_I_messages.msghub.cc
+                0x00000000000033b0       0x32 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ *fill*         0x00000000000033e2        0xe 
+ .text          0x00000000000033f0       0xb9 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x00000000000034a9        0x7 
+ .text._ZN7samples5hello10cv_service8messages6msghub13CommandSender10beforeSendERNS2_7CommandE
+                0x00000000000034b0        0x5 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x00000000000034b0                samples::hello::cv_service::messages::msghub::EventSender::beforeSend(samples::hello::cv_service::messages::Event&)
+                0x00000000000034b0                samples::hello::cv_service::messages::msghub::EventHandler::close(google::protobuf::Empty const&)
+                0x00000000000034b0                samples::hello::cv_service::messages::msghub::CommandHandler::processingStop(google::protobuf::Empty const&)
+                0x00000000000034b0                samples::hello::cv_service::messages::msghub::EventHandler::far(google::protobuf::Empty const&)
+                0x00000000000034b0                samples::hello::cv_service::messages::msghub::CommandSender::beforeSend(samples::hello::cv_service::messages::Command&)
+                0x00000000000034b0                samples::hello::cv_service::messages::msghub::CommandHandler::processingStart(google::protobuf::Empty const&)
+ *fill*         0x00000000000034b5        0xb 
+ .text._ZN7samples5hello10cv_service8messages6msghub12EventHandler9depthMeanEf
+                0x00000000000034c0        0x5 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x00000000000034c0                samples::hello::cv_service::messages::msghub::EventHandler::depthMean(float)
+ *fill*         0x00000000000034c5        0xb 
+ .text._ZN7samples5hello10cv_service8messages6msghub13CommandSender4sendERKNS2_7CommandEPN4pomp10ConnectionE
+                0x00000000000034d0       0x16 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x00000000000034d0                samples::hello::cv_service::messages::msghub::CommandSender::send(samples::hello::cv_service::messages::Command const&, pomp::Connection*)
+ *fill*         0x00000000000034e6        0xa 
+ .text._ZN7samples5hello10cv_service8messages6msghub11EventSender4sendERKNS2_5EventEPN4pomp10ConnectionE
+                0x00000000000034f0       0x16 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x00000000000034f0                samples::hello::cv_service::messages::msghub::EventSender::send(samples::hello::cv_service::messages::Event const&, pomp::Connection*)
+ *fill*         0x0000000000003506        0xa 
+ .text._ZN7samples5hello10cv_service8messages6msghub12EventHandlerD2Ev
+                0x0000000000003510       0x17 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000003510                samples::hello::cv_service::messages::msghub::EventHandler::~EventHandler()
+                0x0000000000003510                samples::hello::cv_service::messages::msghub::EventHandler::~EventHandler()
+ *fill*         0x0000000000003527        0x9 
+ .text._ZN7samples5hello10cv_service8messages6msghub12EventHandlerD0Ev
+                0x0000000000003530       0x24 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000003530                samples::hello::cv_service::messages::msghub::EventHandler::~EventHandler()
+ *fill*         0x0000000000003554        0xc 
+ .text._ZN7samples5hello10cv_service8messages6msghub14CommandHandlerD2Ev
+                0x0000000000003560       0x17 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000003560                samples::hello::cv_service::messages::msghub::CommandHandler::~CommandHandler()
+                0x0000000000003560                samples::hello::cv_service::messages::msghub::CommandHandler::~CommandHandler()
+ *fill*         0x0000000000003577        0x9 
+ .text._ZN7samples5hello10cv_service8messages6msghub14CommandHandlerD0Ev
+                0x0000000000003580       0x24 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000003580                samples::hello::cv_service::messages::msghub::CommandHandler::~CommandHandler()
+ *fill*         0x00000000000035a4        0xc 
+ .text._ZN7samples5hello10cv_service8messages6msghub11EventSenderD2Ev
+                0x00000000000035b0       0x17 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x00000000000035b0                samples::hello::cv_service::messages::msghub::EventSender::~EventSender()
+                0x00000000000035b0                samples::hello::cv_service::messages::msghub::EventSender::~EventSender()
+ *fill*         0x00000000000035c7        0x9 
+ .text._ZN7samples5hello10cv_service8messages6msghub11EventSenderD0Ev
+                0x00000000000035d0       0x24 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x00000000000035d0                samples::hello::cv_service::messages::msghub::EventSender::~EventSender()
+ *fill*         0x00000000000035f4        0xc 
+ .text._ZN7samples5hello10cv_service8messages6msghub13CommandSenderD2Ev
+                0x0000000000003600       0x17 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000003600                samples::hello::cv_service::messages::msghub::CommandSender::~CommandSender()
+                0x0000000000003600                samples::hello::cv_service::messages::msghub::CommandSender::~CommandSender()
+ *fill*         0x0000000000003617        0x9 
+ .text._ZN7samples5hello10cv_service8messages6msghub13CommandSenderD0Ev
+                0x0000000000003620       0x24 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000003620                samples::hello::cv_service::messages::msghub::CommandSender::~CommandSender()
+ *fill*         0x0000000000003644        0xc 
+ .text._ZN7samples5hello10cv_service8messages6msghub14CommandHandler13handleCommandERKNS2_7CommandE
+                0x0000000000003650       0x49 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000003650                samples::hello::cv_service::messages::msghub::CommandHandler::handleCommand(samples::hello::cv_service::messages::Command const&)
+ *fill*         0x0000000000003699        0x7 
+ .text._ZN7samples5hello10cv_service8messages6msghub12EventHandler11handleEventERKNS2_5EventE
+                0x00000000000036a0       0x74 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x00000000000036a0                samples::hello::cv_service::messages::msghub::EventHandler::handleEvent(samples::hello::cv_service::messages::Event const&)
+ *fill*         0x0000000000003714        0xc 
+ .text._ZN7samples5hello10cv_service8messages6msghub13CommandSenderC2Ev
+                0x0000000000003720       0xe3 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000003720                samples::hello::cv_service::messages::msghub::CommandSender::CommandSender()
+                0x0000000000003720                samples::hello::cv_service::messages::msghub::CommandSender::CommandSender()
+ *fill*         0x0000000000003803        0xd 
+ .text._ZN7samples5hello10cv_service8messages6msghub14CommandHandlerC2Ev
+                0x0000000000003810       0xe3 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000003810                samples::hello::cv_service::messages::msghub::CommandHandler::CommandHandler()
+                0x0000000000003810                samples::hello::cv_service::messages::msghub::CommandHandler::CommandHandler()
+ *fill*         0x00000000000038f3        0xd 
+ .text._ZN7samples5hello10cv_service8messages6msghub11EventSenderC2Ev
+                0x0000000000003900       0xe5 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000003900                samples::hello::cv_service::messages::msghub::EventSender::EventSender()
+                0x0000000000003900                samples::hello::cv_service::messages::msghub::EventSender::EventSender()
+ *fill*         0x00000000000039e5        0xb 
+ .text._ZN7samples5hello10cv_service8messages6msghub12EventHandlerC2Ev
+                0x00000000000039f0       0xe5 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x00000000000039f0                samples::hello::cv_service::messages::msghub::EventHandler::EventHandler()
+                0x00000000000039f0                samples::hello::cv_service::messages::msghub::EventHandler::EventHandler()
+ *fill*         0x0000000000003ad5        0xb 
+ .text._ZN7samples5hello10cv_service8messages6msghub13CommandSender15processingStartERKN6google8protobuf5EmptyEPN4pomp10ConnectionE
+                0x0000000000003ae0       0xbf /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000003ae0                samples::hello::cv_service::messages::msghub::CommandSender::processingStart(google::protobuf::Empty const&, pomp::Connection*)
+ *fill*         0x0000000000003b9f        0x1 
+ .text._ZN7samples5hello10cv_service8messages6msghub13CommandSender14processingStopERKN6google8protobuf5EmptyEPN4pomp10ConnectionE
+                0x0000000000003ba0       0xbf /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000003ba0                samples::hello::cv_service::messages::msghub::CommandSender::processingStop(google::protobuf::Empty const&, pomp::Connection*)
+ *fill*         0x0000000000003c5f        0x1 
+ .text._ZN7samples5hello10cv_service8messages6msghub14CommandHandler6handleERKN6msghub7MessageE
+                0x0000000000003c60       0x7f /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000003c60                samples::hello::cv_service::messages::msghub::CommandHandler::handle(msghub::Message const&)
+ *fill*         0x0000000000003cdf        0x1 
+ .text._ZN7samples5hello10cv_service8messages6msghub11EventSender5closeERKN6google8protobuf5EmptyEPN4pomp10ConnectionE
+                0x0000000000003ce0       0xbf /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000003ce0                samples::hello::cv_service::messages::msghub::EventSender::close(google::protobuf::Empty const&, pomp::Connection*)
+ *fill*         0x0000000000003d9f        0x1 
+ .text._ZN7samples5hello10cv_service8messages6msghub11EventSender3farERKN6google8protobuf5EmptyEPN4pomp10ConnectionE
+                0x0000000000003da0       0xbf /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000003da0                samples::hello::cv_service::messages::msghub::EventSender::far(google::protobuf::Empty const&, pomp::Connection*)
+ *fill*         0x0000000000003e5f        0x1 
+ .text._ZN7samples5hello10cv_service8messages6msghub11EventSender9depthMeanEfPN4pomp10ConnectionE
+                0x0000000000003e60       0xcf /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000003e60                samples::hello::cv_service::messages::msghub::EventSender::depthMean(float, pomp::Connection*)
+ *fill*         0x0000000000003f2f        0x1 
+ .text._ZN7samples5hello10cv_service8messages6msghub12EventHandler6handleERKN6msghub7MessageE
+                0x0000000000003f30       0x7f /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000003f30                samples::hello::cv_service::messages::msghub::EventHandler::handle(msghub::Message const&)
+ *(.gnu.warning)
+
+.fini           0x0000000000003fb0        0xd
+ *(SORT_NONE(.fini))
+ .fini          0x0000000000003fb0        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000003fb0                _fini
+ .fini          0x0000000000003fb8        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x0000000000004000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x0000000000004000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x0000000000004000      0x120
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata._ZTSN7samples5hello10cv_service8messages6msghub13CommandSenderE
+                0x0000000000004000       0x3c /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000004000                typeinfo name for samples::hello::cv_service::messages::msghub::CommandSender
+ *fill*         0x000000000000403c        0x4 
+ .rodata._ZTSN7samples5hello10cv_service8messages6msghub14CommandHandlerE
+                0x0000000000004040       0x3d /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000004040                typeinfo name for samples::hello::cv_service::messages::msghub::CommandHandler
+ *fill*         0x000000000000407d        0x3 
+ .rodata._ZTSN7samples5hello10cv_service8messages6msghub11EventSenderE
+                0x0000000000004080       0x3a /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000004080                typeinfo name for samples::hello::cv_service::messages::msghub::EventSender
+ *fill*         0x00000000000040ba        0x6 
+ .rodata._ZTSN7samples5hello10cv_service8messages6msghub12EventHandlerE
+                0x00000000000040c0       0x3b /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x00000000000040c0                typeinfo name for samples::hello::cv_service::messages::msghub::EventHandler
+ *fill*         0x00000000000040fb        0x5 
+ .rodata.cst16  0x0000000000004100       0x20 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000004120      0x14c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000004120      0x14c /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000004120                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000004270      0x614
+ *(.eh_frame)
+ .eh_frame      0x0000000000004270       0x40 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x00000000000042b0       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x00000000000042c8       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x00000000000042e0      0x5a0 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                                        0x5b8 (size before relaxing)
+ .eh_frame      0x0000000000004880        0x4 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+                0x0000000000004884       0xe9
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table._ZN7samples5hello10cv_service8messages6msghub13CommandSenderC2Ev
+                0x0000000000004884       0x16 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages6msghub14CommandHandlerC2Ev
+                0x000000000000489a       0x16 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages6msghub11EventSenderC2Ev
+                0x00000000000048b0       0x16 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages6msghub12EventHandlerC2Ev
+                0x00000000000048c6       0x16 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages6msghub13CommandSender15processingStartERKN6google8protobuf5EmptyEPN4pomp10ConnectionE
+                0x00000000000048dc       0x15 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages6msghub13CommandSender14processingStopERKN6google8protobuf5EmptyEPN4pomp10ConnectionE
+                0x00000000000048f1       0x15 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages6msghub14CommandHandler6handleERKN6msghub7MessageE
+                0x0000000000004906       0x14 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages6msghub11EventSender5closeERKN6google8protobuf5EmptyEPN4pomp10ConnectionE
+                0x000000000000491a       0x15 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages6msghub11EventSender3farERKN6google8protobuf5EmptyEPN4pomp10ConnectionE
+                0x000000000000492f       0x15 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages6msghub11EventSender9depthMeanEfPN4pomp10ConnectionE
+                0x0000000000004944       0x15 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages6msghub12EventHandler6handleERKN6msghub7MessageE
+                0x0000000000004959       0x14 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x0000000000005bf8                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x0000000000005bf8       0x10
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000005bf8        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .init_array    0x0000000000005c00        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+
+.fini_array     0x0000000000005c08        0x8
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000005c08        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000005c10      0x178
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000005c10        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data.rel.ro._ZTIN7samples5hello10cv_service8messages6msghub13CommandSenderE
+                0x0000000000005c10       0x18 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000005c10                typeinfo for samples::hello::cv_service::messages::msghub::CommandSender
+ .data.rel.ro._ZTIN7samples5hello10cv_service8messages6msghub14CommandHandlerE
+                0x0000000000005c28       0x18 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000005c28                typeinfo for samples::hello::cv_service::messages::msghub::CommandHandler
+ .data.rel.ro._ZTIN7samples5hello10cv_service8messages6msghub11EventSenderE
+                0x0000000000005c40       0x18 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000005c40                typeinfo for samples::hello::cv_service::messages::msghub::EventSender
+ .data.rel.ro._ZTIN7samples5hello10cv_service8messages6msghub12EventHandlerE
+                0x0000000000005c58       0x18 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000005c58                typeinfo for samples::hello::cv_service::messages::msghub::EventHandler
+ .data.rel.ro._ZTVN7samples5hello10cv_service8messages6msghub13CommandSenderE
+                0x0000000000005c70       0x48 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000005c70                vtable for samples::hello::cv_service::messages::msghub::CommandSender
+ .data.rel.ro._ZTVN7samples5hello10cv_service8messages6msghub14CommandHandlerE
+                0x0000000000005cb8       0x40 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000005cb8                vtable for samples::hello::cv_service::messages::msghub::CommandHandler
+ .data.rel.ro._ZTVN7samples5hello10cv_service8messages6msghub11EventSenderE
+                0x0000000000005cf8       0x48 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000005cf8                vtable for samples::hello::cv_service::messages::msghub::EventSender
+ .data.rel.ro._ZTVN7samples5hello10cv_service8messages6msghub12EventHandlerE
+                0x0000000000005d40       0x48 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x0000000000005d40                vtable for samples::hello::cv_service::messages::msghub::EventHandler
+
+.dynamic        0x0000000000005d88      0x230
+ *(.dynamic)
+ .dynamic       0x0000000000005d88      0x230 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000005d88                _DYNAMIC
+
+.got            0x0000000000005fb8       0x48
+ *(.got)
+ .got           0x0000000000005fb8       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x0000000000006fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000006000       0xc0
+ *(.got.plt)
+ .got.plt       0x0000000000006000       0xc0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000006000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00000000000060c0       0x10
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x00000000000060c0        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                0x00000000000060c0                __dso_handle
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x00000000000060c8        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                0x00000000000060c8                DW.ref.__gxx_personality_v0
+
+.tm_clone_table
+                0x00000000000060d0        0x0
+ .tm_clone_table
+                0x00000000000060d0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .tm_clone_table
+                0x00000000000060d0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.data1
+ *(.data1)
+                [!provide]                        PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                0x00000000000060d0                . = .
+                [!provide]                        PROVIDE (__bss_start = .)
+
+.bss            0x00000000000060d0        0x8
+ *(.dynbss)
+ .dynbss        0x00000000000060d0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000000060d0        0x1 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .bss           0x00000000000060d1        0x1 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ *(COMMON)
+                0x00000000000060d8                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x00000000000060d2        0x6 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x00000000000060d8                . = ALIGN (0x8)
+                0x00000000000060d8                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x00000000000080d8        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x00000000000080d8                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x00000000000080d8                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+                0x00000000000080d8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+ .comment       0x000000000000002b       0x2c /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x270
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x270 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xe0a1
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0xe0a1 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+
+.debug_abbrev   0x0000000000000000      0xfa5
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0xfa5 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+
+.debug_line     0x0000000000000000     0x18a7
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000     0x18a7 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0xc99d
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0xc99d /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+                                       0xd079 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x4692
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x4692 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0xec0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0xec0 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/obj/gen/samples/hello/cv-service/messages.msghub.cc.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/hello-pc/build/libairsdk-hello-cv-service-msghub/libairsdk-hello-cv-service-msghub.so elf64-x86-64)

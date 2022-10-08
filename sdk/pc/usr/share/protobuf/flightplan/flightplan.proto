@@ -1,0 +1,81 @@
+syntax = "proto3";
+
+package Flightplan.Messages;
+
+import public "flightplan/validation_type.proto";
+import public "flightplan/viewmode_yaw.proto";
+import public "flightplan/viewmode_pitch.proto";
+import public "flightplan/viewmode_roll.proto";
+import public "flightplan/viewmode_zoom.proto";
+
+message GeoCoordinates {
+    double latitude = 1;  // [degree] north
+    double longitude = 2; // [degree] east
+    double altitude = 3;  // [m] Altitude above takeoff (ATO)
+}
+
+message NedCoordinates {
+    float north = 1; // [m]
+    float east = 2;  // [m]
+    float down = 3;  // [m]
+}
+
+message Orientation {
+    float roll = 1;  // [rad]
+    float pitch = 2; // [rad]
+    float yaw = 3;   // [rad]
+}
+
+message Position {
+    oneof CoordType {
+        // Geographic coordinates
+        GeoCoordinates geo = 1;
+        // North-East-Down coordinates
+        NedCoordinates ned = 2;
+    }
+}
+
+// 7D viewpoint: 3D position, 3D orientation, 1D zoom factor
+message View {
+    // Position of the viewpoint
+    Position position = 1;
+    // Orientation of the viewpoint
+    Orientation orientation = 2;
+    // Zoom factor
+    float zoom_factor = 3;
+}
+
+message ViewMode {
+    // Yaw view mode
+    Flightplan.Enums.ViewMode.Yaw.Enum yaw = 1;
+    // Pitch view mode
+    Flightplan.Enums.ViewMode.Pitch.Enum pitch = 2;
+    // Roll view mode
+    Flightplan.Enums.ViewMode.Roll.Enum roll = 3;
+    // Zoom view mode
+    Flightplan.Enums.ViewMode.Zoom.Enum zoom = 4;
+    // Position of the point of interest (POI)
+    // Taken into account if one of the view modes is 'poi'
+    Position poi_position = 5;
+}
+
+// Waypoint containing
+// - A View to join (camera position, attitude and zoom factor)
+// - A camera behavior (ViewMode) to adopt while joining the waypoint
+// - A speed reference to respect while joining the waypoint
+// - A type of validation (specifying the criterion to validate the waypoint)
+// - A validation radius used for trajectory generation
+message Waypoint {
+    View view = 1;          // Camera view on the waypoint
+    ViewMode view_mode = 2; // Camera view mode while joining the waypoint - "FREE" if not provided
+    Flightplan.Enums.ValidationType.Enum validation_type = 3; // Type of waypoint validation
+    float validation_radius = 4;        // Waypoint validation radius for sphere waypoints [m]
+    float speed = 5;                    // Speed reference for joining the waypoint [m/s]
+    int32 original_id = 6;              // ID of waypoint, >=0 if waypoint is original, <0 if it was added dynamically
+}
+
+// Series of waypoint
+message WaypointPath {
+    repeated Waypoint waypoints = 1; // List of waypoints to follow
+    uint32 start_at_index = 2; // Starting index, 0 by default
+}

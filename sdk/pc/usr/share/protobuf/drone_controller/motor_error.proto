@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package DroneController.Messages.MotorError;
+
+enum Enum {
+    // No error detected.
+    NONE = 0;
+    // EEPROM access failure.
+    EEPROM = 1;
+    // Motor stalled.
+    MOTOR_STALLED = 2;
+    // Propeller cutout security triggered.
+    PROPELLER_SECURITY = 3;
+    // Communication with motor failed by timeout.
+    COMM_LOST = 4;
+    // RC emergency stop.
+    RC_EMERGENCY_STOP = 5;
+    // Motor controller scheduler real-time out of bounds.
+    REAL_TIME = 6;
+    // One or several incorrect values in motor settings.
+    MOTOR_SETTING = 7;
+    // Too hot or too cold Cypress temperature.
+    TEMPERATURE = 8;
+    // Battery voltage out of bounds
+    BATTERY_VOLTAGE = 9;
+    // Incorrect number of LIPO cells.
+    LIPO_CELLS = 10;
+    // Defective MOSFET or broken motor phases.
+    MOSFETS = 11;
+    // Not use for BLDC but useful for HAL.
+    BOOTLOADER = 12;
+    // Error Made by BLDC_ASSERT().
+    ASSERT = 13;
+}

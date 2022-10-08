@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+package ColibryLite.Messages.ReferencePropagationModel;
+
+enum Enum {
+    // Reference trajectory is computed using the ideal model.
+    IDEAL_MODEL = 0;
+    // Reference trajectory is computed by integrating the input trajectory.
+    TRIPLE_INTEGRATOR = 1;
+}

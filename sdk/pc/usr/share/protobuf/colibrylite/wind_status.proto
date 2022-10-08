@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+package ColibryLite.Messages.WindStatus;
+
+enum Enum {
+    // Mean wind speed is below warning threshold
+    OK = 0;
+    // Mean wind speed is above warning threshold
+    WARNING = 1;
+    // Mean wind speed is critical and can limit the whole flight performances.
+    CRITICAL = 2;
+}

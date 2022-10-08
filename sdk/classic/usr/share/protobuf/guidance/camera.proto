@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package Guidance.Camera.Messages;
+
+enum Enum {
+    // Front camera
+    FRONT = 0;
+    // Stereo camera
+    STEREO = 1;
+}

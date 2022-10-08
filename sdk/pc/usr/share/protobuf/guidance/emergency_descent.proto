@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+
+package Guidance.EmergencyDescent.Messages;
+
+// Emergency descent type
+enum Type {
+    // Do not take horizontal piloting commands into account.
+    TYPE_DEFAULT = 0;
+    // Accept horizontal piloting commands.
+    TYPE_MANUAL = 1;
+}
+
+// Emergency descent mode configuration
+message Config {
+    // Emergency descent type.
+    Type type = 1;
+}

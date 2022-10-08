@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+
+import "cam_controller/cam_controller.proto";
+
+package ZoomCamController.Messages;
+
+// Zoom configuration.
+message Config {
+    // Field-Of-View configuration.
+    message Fov {
+      // Minimal FOV in degrees.
+      float bound_min = 1;
+      // Maximal FOV in degrees for lossless domain.
+      float bound_max_lossless = 2;
+      // Maximal FOV in degrees for lossy domain.
+      float bound_max_lossy = 3;
+      // Image ratio
+      float ratio = 4;
+    }
+
+    // Specify if zoom reference will be used or discarded.
+    oneof optional_locked {
+        bool locked = 1;
+    }
+    // Filter zoom to have a smoother zoom in, zoom out movement.
+    oneof optional_filtered {
+        bool filtered = 2;
+    }
+    // Allow lossy zoom.
+    oneof optional_lossy {
+        bool lossy = 3;
+    }
+    // Maximum zoom velocity.
+    oneof optional_max_vel {
+        float max_vel = 4;
+    }
+    // FOV configuration.
+    oneof optional_fov {
+        Fov fov = 5;
+    }
+}
+
+// Zoom reference.
+message Zoom {
+    // Control mode type.
+    CamController.Messages.ControlMode.Enum ctrl_mode = 1;
+    // Zoom level [/].
+    float position = 2;
+    // Zoom velocity [s^-1].
+    float velocity = 3;
+}
+
+// Union of all possible commands of this package.
+message Command {
+    oneof id {
+        Config set_config = 1;
+        Zoom set_zoom = 2;
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "build_sdk_target_arch": "x64",
+    "build_sdk_version": "7.3.0",
+    "desc": "This is a simple 'Hello' mission",
+    "name": "Hello mission",
+    "services": [
+        [
+            "hello-cv",
+            "airsdk-hello-cv-service",
+            "arg1",
+            "arg2"
+        ]
+    ],
+    "target_max_version": "99.99.99",
+    "target_min_version": "0.0.0",
+    "target_model_id": "091A",
+    "uid": "com.parrot.missions.samples.hello",
+    "version": "0.0.0"
+}

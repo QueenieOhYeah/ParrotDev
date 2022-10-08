@@ -1,0 +1,79 @@
+syntax = "proto3";
+
+
+import "cam_controller/cam_controller.proto";
+import "axes_cam_controller/axes_cam_controller.proto";
+import "guidance/camera.proto";
+
+package Guidance.AxesCamController.Messages;
+
+message Reset {
+    // Selected camera.
+    Guidance.Camera.Messages.Enum cam = 1;
+}
+
+message Reference {
+    // Selected camera.
+    Guidance.Camera.Messages.Enum cam = 1;
+    // Camera axes references.
+    .AxesCamController.Messages.Reference reference = 2;
+}
+
+message Config {
+    // Selected camera.
+    Guidance.Camera.Messages.Enum cam = 1;
+    // Camera axes configuration.
+    .AxesCamController.Messages.Config config = 2;
+}
+
+message ReferenceStatus {
+    // Selected camera.
+    Guidance.Camera.Messages.Enum cam = 1;
+    // Camera axes status.
+    .AxesCamController.Messages.ReferenceStatus status = 2;
+}
+
+message Capabilities {
+    message Bounds {
+        // Min angle value [rad].
+        float min = 1;
+        // Max angle value [rad].
+        float max = 2;
+    }
+    // Selected camera.
+    Guidance.Camera.Messages.Enum cam = 1;
+    // Yaw axis drivable.
+    bool yaw_drivable = 2;
+    // Pitch axis drivable.
+    bool pitch_drivable = 3;
+    // Roll axis drivable.
+    bool roll_drivable = 4;
+    // Angle bounds for yaw axis.
+    Bounds yaw_bounds = 5;
+    // Angle bounds for pitch axis.
+    Bounds pitch_bounds = 6;
+    // Angle bounds for roll axis.
+    Bounds roll_bounds = 7;
+}
+
+message Command {
+    oneof id {
+        // Reset camera axes reference.
+        Reset reset = 1;
+        // Set camera axes reference.
+        Reference set_reference = 2;
+        // Set camera axes configuration.
+        Config set_config = 3;
+    }
+}
+
+message Event {
+    oneof id {
+        // Camera axes configuration advertised after a mode change.
+        Config config = 1;
+        // Camera axes reference status
+        ReferenceStatus reference_status = 2;
+        // Camera axes capabilities advertised when a client connects.
+        Capabilities capabilities = 3;
+    }
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package ColibryLite.Messages.HorizontalPositionTargetKind;
+
+enum Enum {
+	// No source of comparison
+    NONE = 0;
+    // Compare the norm of the position filtered reference to the norm of the position raw reference
+    // in the horizontal plane (x,y axis)
+    FILTREF_REF = 1;
+    // Compare the norm of the estimated position to the norm of the position filtered reference
+    // in the horizontal plane (x,y axis)
+    FILTREF_EST = 2;
+    // Compare the norm of the estimated position to the norm of the position raw reference
+    // in the horizontal plane (x,y axis)
+    REF_EST = 3;
+}

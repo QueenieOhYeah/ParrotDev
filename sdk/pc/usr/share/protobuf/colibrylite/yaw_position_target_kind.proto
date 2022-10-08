@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package ColibryLite.Messages.YawPositionTargetKind;
+
+enum Enum {
+	// No source of comparison.
+    NONE = 0;
+    // Compare the yaw angular position filtered reference to the yaw angular position raw reference.
+    FILTREF_REF = 1;
+    // Compare the estimated yaw angular position to the yaw angular position filtered reference.
+    FILTREF_EST = 2;
+    // Compare the estimated yaw angular position to the yaw angular position raw reference.
+    REF_EST = 3;
+}

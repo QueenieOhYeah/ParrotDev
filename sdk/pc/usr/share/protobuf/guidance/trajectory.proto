@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "guidance/common.proto";
+
+package Guidance.Trajectory.Messages;
+
+// All messages listed here are for debug
+
+// A list of 3d points and an RGBA color
+// Used for nominal and corrected trajectory visualization
+// in the context of obstacle avoidance.
+message PositionTrajectory {
+    repeated Guidance.Common.Vector3d point = 1; // [m]
+    Guidance.Common.Color color = 2;
+}

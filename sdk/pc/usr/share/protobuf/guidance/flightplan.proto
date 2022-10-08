@@ -1,0 +1,109 @@
+syntax = "proto3";
+
+import 'flightplan/flightplan.proto';
+import 'google/protobuf/empty.proto';
+
+package Guidance.Flightplan.Messages;
+
+message InsertWaypoint {
+    .Flightplan.Messages.Waypoint waypoint = 1;
+    int32 index = 2;
+}
+
+message ReplaceWaypoint {
+    .Flightplan.Messages.Waypoint waypoint = 1;
+    int32 index = 2;
+    bool keep_original_id = 3;
+}
+
+// TODO : allow msghub to send int32 commands/events
+message Index {
+    int32 value = 1;
+}
+
+message WaypointValidated {
+    // Id of the waypoint being joined after validation
+    int32 current_waypoint_id = 1;
+    // Id of the waypoint that was validated
+    int32 waypoint_id = 2;
+    // Original Id of the waypoint that was validated
+    int32 original_id = 3;
+}
+
+message WaypointSkipped {
+    // Id of the waypoint being joined after skipping waypoint
+    int32 current_waypoint_id = 1;
+    // Id of the waypoint that was skipped
+    int32 skipped_waypoint_id = 2;
+    // Original Id of the waypoint that was skipped
+    int32 original_id = 3;
+}
+
+// Flightplan mode configuration
+message Config {
+    // List of waypoints
+    .Flightplan.Messages.WaypointPath waypoint_path = 1;
+
+    // Limit horizontal speed (optional) [m/s]
+    oneof optional_max_horizontal_speed {
+        float max_horizontal_speed = 2;
+    }
+
+    // Limit vertical speed (optional) [m/s]
+    oneof optional_max_vertical_speed {
+        float max_vertical_speed = 3;
+    }
+
+    // Limit yaw speed (optional) [rad/s]
+    oneof optional_max_yaw_speed {
+        float max_yaw_speed = 4;
+    }
+}
+
+message Command {
+    oneof id {
+        // Pause current flightplan, brake and go to fixed point.
+        google.protobuf.Empty pause = 1;
+
+        // Resume flightplan
+        google.protobuf.Empty resume = 2;
+
+        // Insert waypoint at given index
+        // The waypoint that formerly had index i will be shifted to i+1.
+        // All subsequent waypoints will be shifted in the same way.
+        InsertWaypoint insert_waypoint = 3;
+
+        // Remove waypoint at given index.
+        int32 remove_waypoint = 4;
+
+        // Replace waypoint at given index with another waypoint.
+        ReplaceWaypoint replace_waypoint = 5;
+
+        // Change current waypoint index.
+        uint32 set_current_index = 6;
+    }
+}
+
+message Event {
+    oneof id {
+        // The waypoint list has been completed.
+        google.protobuf.Empty done = 1;
+
+        // A waypoint has been validated.
+        WaypointValidated waypoint_validated = 2;
+
+        // A waypoint has been skipped
+        WaypointSkipped waypoint_skipped = 3;
+
+        // Flightplan modifications have been accepted
+        // return new flightplan
+        .Flightplan.Messages.WaypointPath changed = 4;
+
+        // Flightplan modifications have been rejected
+        google.protobuf.Empty rejected = 5;
+
+        // An obstacle was detected.
+        // TODO: is it obsoleted by guidance::obstacle_avoidance_stuck
+        google.protobuf.Empty blockage_detected = 6;
+    }
+}

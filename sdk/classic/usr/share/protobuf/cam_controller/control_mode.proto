@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+package CamController.Messages.ControlMode;
+
+enum Enum {
+    // Axis position [rad] or zoom level [/].
+    POSITION = 0;
+    // Axis velocity [rad/s] or zoom velocity [s^-1].
+    VELOCITY = 1;
+    // Position velocity.
+    POSITION_VELOCITY = 2;
+    // Target has no frame (target will not be taken into account).
+    NONE = 3;
+}

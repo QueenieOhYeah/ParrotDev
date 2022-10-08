@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package DroneController.Messages.EmergencyBehavior;
+
+enum Enum {
+    // Configure emergency as ground.
+    // Watchdog will be disabled. Drone controller will monitor the takeoff
+    // phase automatically by observing motors messages. It will thus
+    // automatically stop motors if not configured as 'FLYING' by flight
+    // supervisor while the drone is in its ascent phase after ramping is done.
+    GROUND = 0;
+    // Configure emergency as flying.
+    // Watchdog will be enabled. Regular references are expected to be
+    // received in this mode. If not, a safe hovering state will be initiated
+    // automatically.
+    FLYING = 1;
+    // Configure emergency as landing.
+    // Watchdog will be enabled. Regular references are expected to be
+    // received in this mode. If not, a safe landing state will be initiated
+    // automatically.
+    LANDING = 2;
+}

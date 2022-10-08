@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+
+package ColibryLite.Messages.MotionState;
+
+enum Enum {
+    // No motion detected.
+    STEADY = 0;
+    // Drone is moving.
+    MOVING = 1;
+}

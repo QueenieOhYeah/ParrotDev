@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+package DroneController.Messages.BatteryDataRole;
+
+enum Enum {
+    // Unknown data role.
+    NONE = 0;
+    // Usb on battery is Host.
+    HOST = 1;
+    // Usb on battery is device.
+    DEVICE = 2;
+}

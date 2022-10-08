@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+
+package Guidance.HandLaunch.Messages;
+
+// Hand launch mode state
+enum State {
+    // Set vertical reference as constant thrust to minimum reachable value, to enable closed loop control.
+    STATE_CONSTANT_MIN_THRUST = 0;
+    // Set vertical reference as thrust ramp with null horizontal angles reference.
+    STATE_THRUST_RAMP_ZERO_ANGLE = 1;
+    // Set vertical reference as constant thrust value with null horizontal angles reference.
+    STATE_CONSTANT_THRUST_ZERO_ANGLE = 2;
+    // Set vertical reference according to piloting commands with null horizontal angles reference.
+    STATE_VERTICAL_SPEED_ZERO_ANGLE = 3;
+    // Set vertical reference according to piloting commands and go to fixed point.
+    STATE_VERTICAL_SPEED_GO_TO_FIX = 4;
+}
+
+enum FCamBehavior {
+    // Follow the drone attitude
+    FCAM_BEHAVIOR_FOLLOW_DRONE = 0;
+    // Stabilize camera to horizon
+    FCAM_BEHAVIOR_STABILIZE = 1;
+}
+
+// Hand launch mode configuration
+message Config {
+    // Hand launch mode state.
+    State state = 1;
+    // Front camera configuration.
+    FCamBehavior fcam = 2;
+}

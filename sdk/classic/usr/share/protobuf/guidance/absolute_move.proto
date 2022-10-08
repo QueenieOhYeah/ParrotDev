@@ -1,0 +1,63 @@
+syntax = "proto3";
+
+import 'google/protobuf/empty.proto';
+
+package Guidance.AbsoluteMove.Messages;
+
+// Define yaw orientation type
+enum YawType {
+    // Current yaw
+    NONE = 0;
+    // Yaw toward the destination
+    TARGET = 1;
+    // Yaw from yaw value in Destination message.
+    CUSTOM = 2;
+}
+
+message Vector3f {
+    float x = 1;
+    float y = 2;
+    float z = 3;
+}
+
+// Destination position and velocity
+message Destination {
+    // Destination position in global frame [m]
+    Vector3f position = 1;
+    // Destination velocity in global frame [m]
+    Vector3f velocity = 2;
+    // Yaw angle in NED vector basis [rad]
+    float yaw = 3;
+    // Yaw rate in NED vector basis [rad/s]
+    float yaw_rate = 4;
+    // Yaw type
+    YawType yaw_type = 5;
+    // Max horizontal speed [m/s]
+    float max_horizontal_speed = 6;
+    // Max vertical speed [m/s]
+    float max_vertical_speed = 7;
+    // Max yaw rate [rad/s]
+    float max_yaw_rate = 8;
+}
+
+// Go to mode configuration
+message Config {
+    // Requested destination
+    Destination destination = 1;
+    // Set the radius to consider the movement as completed [m]
+    float validation_radius = 2;
+}
+
+message Command {
+    oneof id {
+        // New destination
+        Destination set_new_destination = 1;
+    }
+}
+
+message Event {
+    oneof id {
+        // Send movement completed
+        google.protobuf.Empty done = 1;
+    }
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package ColibryLite.Messages.VerticalPositionTargetKind;
+
+enum Enum {
+    // No source of comparison
+    NONE = 0;
+    // Compare the altitude above takeoff filtered reference to the altitude above takeoff raw reference
+    FILTREF_REF = 1;
+    // Compare the altitude above takeoff filtered reference to the estimated altitude above takeoff
+    FILTREF_EST = 2;
+    // Compare the estimated altitude above takeoff to the altitude above takeoff raw reference
+    REF_EST = 3;
+}

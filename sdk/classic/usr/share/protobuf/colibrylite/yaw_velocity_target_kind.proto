@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package ColibryLite.Messages.YawVelocityTargetKind;
+
+enum Enum {
+    // No source of comparison.
+    NONE = 0;
+    // Compare the yaw angular velocity filtered reference to the yaw angular velocity raw reference.
+    FILTREF_REF = 1;
+    // Compare the estimated yaw angular velocity to the yaw angular velocity filtered reference.
+    FILTREF_EST = 2;
+    // Compare the estimated yaw angular velocity to the yaw angular velocity raw reference.
+    REF_EST = 3;
+}

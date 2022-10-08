@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package CamController.Messages.ReferenceStatus;
+
+enum Enum  {
+	// No reference set.
+	NONE = 0;
+	// Reference is being reached.
+	IN_PROGRESS = 1;
+	// Reference reached.
+	REACHED = 2;
+}

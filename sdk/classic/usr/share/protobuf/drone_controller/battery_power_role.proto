@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+package DroneController.Messages.BatteryPowerRole;
+
+enum Enum {
+    // Unknown power role.
+    NONE = 0;
+    // Battery is powering the drone.
+    SOURCE = 1;
+    // Battery is being powered externally.
+    SINK = 2;
+}

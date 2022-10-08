@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package Guidance.Common;
+
+// A vector with 3 components
+message Vector3d
+{
+    double x = 1;
+    double y = 2;
+    double z = 3;
+}
+
+message Quaternion
+{
+    double w = 1;
+    double x = 2;
+    double y = 3;
+    double z = 4;
+}
+
+// Color in "red blue green alpha" (RGBA) format
+// Each component is a float between 0 and 1
+// a = 1 stands for an opaque color
+// a = 0 stands for a completely transparent color
+message Color {
+    float r = 1;
+    float g = 2;
+    float b = 3;
+    float a = 4;
+}
+
+

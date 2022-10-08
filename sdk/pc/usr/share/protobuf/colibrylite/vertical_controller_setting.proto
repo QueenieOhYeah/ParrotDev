@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+
+package ColibryLite.Messages.VerticalControllerSetting;
+
+enum Enum {
+    // Default altitude control setting
+    // Medium reactivity, nervosity and variations in motors commands
+    DEFAULT = 0;
+    // Slow and smooth altitude control setting
+    // Low reactivity, nervosity and variations in motors commands
+    SOFT = 1;
+    // Fast and nervous altitude control setting
+    // Strong reactivity, nervosity and variations in motors commands
+    AGGRESSIVE = 2;
+}

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+
+package ColibryLite.Messages.YawControlConfig;
+
+enum Enum {
+    // Default ideal model
+    // Maximum command angular rate: 100 °/s
+    // Maximum angular rate: 180 °/s
+    DEFAULT = 0;
+    // Slow and smooth ideal model
+    // Maximum command angular rate: 60 °/s
+    // Maximum angular rate: 45 °/s
+    SOFT = 1;
+    // Aggressive ideal model
+    // Maximum command angular rate: 235 °/s
+    // Maximum angular rate: 235 °/s
+    AGGRESSIVE = 2;
+    // Customizable speed config with default ideal model
+    // Maximum command angular rate: from reference message (but never higher than 235 °/s)
+    // Maximum angular rate: from reference message (but never higher than 235 °/s)
+    DYNAMIC = 3;
+}

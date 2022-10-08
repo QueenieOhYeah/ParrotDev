@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package ColibryLite.Messages.VerticalVelocityTargetKind;
+
+enum Enum {
+    // No source of comparison.
+    NONE = 0;
+    // Compare the vertical velocity filtered reference to the vertical velocity raw reference.
+    FILTREF_REF = 1;
+    // Compare the estimated velocity to the vertical velocity filtered reference.
+    FILTREF_EST = 2;
+    // Compare the estimated velocity to the vertical velocity raw reference.
+    REF_EST = 3;
+}

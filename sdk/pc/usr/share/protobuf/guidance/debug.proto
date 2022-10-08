@@ -1,0 +1,51 @@
+syntax = "proto3";
+
+import "guidance/common.proto";
+import "guidance/trajectory.proto";
+import "guidance/stereo_spherical_map.proto";
+import "guidance/occupancy_grid.proto";
+
+package Guidance.Debug.Messages;
+
+
+message CameraSettings {
+    // Horizontal field of view [rad]
+    float hfov = 1;
+    // Width of the source image [pix]
+    uint32 width = 2;
+    // Height of the source image [pix]
+    uint32 height = 3;
+}
+
+message CameraPose {
+    // Position of the drone in NED frame [m]
+    Guidance.Common.Vector3d pos_ned = 1;
+    // Camera attitude in NED frame
+    Guidance.Common.Quaternion q_ned = 2;
+}
+
+message StereoSphericalMapDebug {
+    Guidance.StereoSphericalMap.Messages.StereoSphericalMapSettings stereo_sm_settings = 1;
+    Guidance.StereoSphericalMap.Messages.StereoSphericalMapData stereo_sm_data = 2;
+    repeated Guidance.Trajectory.Messages.PositionTrajectory pos_traj = 3; // translated with drone position in NED
+}
+
+message OccupancyGridDebugSettings {
+    Guidance.OccupancyGrid.Messages.OccupancyGridSettings og_settings = 1;
+    CameraSettings stcam_settings = 2;
+    CameraSettings frontcam_settings = 3;
+}
+
+message OccupancyGridDebugData {
+    Guidance.OccupancyGrid.Messages.OccupancyGridData og_data = 1;
+    CameraPose stcam_pose = 2;
+    CameraPose frontcam_pose = 3;
+}
+
+message Event {
+    oneof id {
+        StereoSphericalMapDebug stereo_sm_debug = 1;
+        OccupancyGridDebugSettings og_debug_settings = 2;
+        OccupancyGridDebugData og_debug_data = 3;
+    }
+}

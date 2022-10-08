@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package ColibryLite.Messages.EstimationMode;
+
+enum Enum {
+    // Estimators initialization at autopilot start.
+    INIT = 0;
+    // Motors stopped.
+    MOTORS_STOPPED = 1;
+    // User magnetometer calibration performed on the ground.
+    USER_MAGNETO_CALIBRATION = 2;
+    // Starting motors before takeoff or stopping motors after landing (ESC in open-loop).
+    MOTORS_STARTING_STOPPING = 3;
+    // Motors ramping until reaching the speed to leave the ground.
+    MOTORS_RAMPING = 4;
+    // Takeoff ascent phase.
+    TAKEOFF = 5;
+    // Wait for free fall.
+    WAIT_FREEFALL = 6;
+    // Angular and linear stabilization phase after free fall.
+    RESCUE = 7;
+    // Hovering and flying states.
+    FLYING = 8;
+    // Landing descent phase.
+    LANDING = 9;
+    // Emergency descent phase.
+    EMERGENCY_LANDING = 10;
+    // Hand landing descent phase.
+    HAND_LANDING = 11;
+}

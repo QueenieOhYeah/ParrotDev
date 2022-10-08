@@ -1,0 +1,1723 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o (__libc_csu_init)
+
+Merging program properties
+
+
+As-needed library included to satisfy reference by file (symbol)
+
+libairsdk-hello-cv-service-msghub.so
+                              /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o (samples::hello::cv_service::messages::msghub::EventSender::far(google::protobuf::Empty const&, pomp::Connection*))
+libmsghub.so                  /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o (msghub::MessageHub::MessageHub(pomp::Loop*, msghub::MessageHub::ConnectionHandler*))
+libpomp.so                    /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o (pomp_loop_wakeup)
+libtelemetry.so               /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o (tlm_consumer_new)
+libulog.so                    /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o (ulog_log_write)
+libvideo-ipc.so               /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o (vipcc_release)
+libvideo-ipc-client-config.so
+                              /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o (vipcc_cfg_get_info)
+libopencv_world.so.4.1        /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o (cv::mean(cv::_InputArray const&, cv::_InputArray const&))
+libprotobuf.so.18             /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o (google::protobuf::Empty::~Empty())
+libstdc++.so.6                /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o (typeinfo for char const*@@CXXABI_1.3)
+libgcc_s.so.1                 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o (_Unwind_Resume@@GCC_3.0)
+libpthread.so.0               /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o (pthread_mutex_destroy@@GLIBC_2.2.5)
+libc.so.6                     /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o (strsignal@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .rodata.cst4   0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .group         0x0000000000000000       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .text          0x0000000000000000        0x0 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .data          0x0000000000000000        0x0 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .group         0x0000000000000000       0x14 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .group         0x0000000000000000       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .text          0x0000000000000000        0x0 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .data          0x0000000000000000        0x0 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .data          0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+LOAD /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+LOAD /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+LOAD /home/queenie/airsdk/out/hello-pc/staging/usr/lib/libairsdk-hello-cv-service-msghub.so
+LOAD /home/queenie/airsdk/sdk/pc/usr/lib/libmsghub.so
+LOAD /home/queenie/airsdk/sdk/pc/usr/lib/libpomp.so
+LOAD /home/queenie/airsdk/sdk/pc/usr/lib/libtelemetry.so
+LOAD /home/queenie/airsdk/sdk/pc/usr/lib/libulog.so
+LOAD /home/queenie/airsdk/sdk/pc/usr/lib/libvideo-ipc.so
+LOAD /home/queenie/airsdk/sdk/pc/usr/lib/libvideo-ipc-client-config.so
+LOAD /home/queenie/airsdk/sdk/pc/usr/lib/libopencv4_world.so
+LOAD /home/queenie/airsdk/sdk/pc/usr/lib/libprotobuf.so
+LOAD /home/queenie/airsdk/sdk/pc/usr/lib/libprotoc.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libstdc++.so
+LOAD /home/queenie/airsdk/sdk/pc/lib/x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /home/queenie/airsdk/sdk/pc/lib/x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so
+LOAD /home/queenie/airsdk/sdk/pc/lib/x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /home/queenie/airsdk/sdk/pc/lib/x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x0))
+                0x0000000000000318                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.interp         0x0000000000000318       0x1c
+ *(.interp)
+ .interp        0x0000000000000318       0x1c /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.property
+                0x0000000000000338       0x20
+ .note.gnu.property
+                0x0000000000000338       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.build-id
+                0x0000000000000358       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000000358       0x24 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.ABI-tag   0x000000000000037c       0x20
+ .note.ABI-tag  0x000000000000037c       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000003a0       0x4c
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000003a0       0x4c /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynsym         0x00000000000003f0      0xb40
+ *(.dynsym)
+ .dynsym        0x00000000000003f0      0xb40 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynstr         0x0000000000000f30     0x102f
+ *(.dynstr)
+ .dynstr        0x0000000000000f30     0x102f /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version    0x0000000000001f60       0xf0
+ *(.gnu.version)
+ .gnu.version   0x0000000000001f60       0xf0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_d  0x0000000000002050        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000002050        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_r  0x0000000000002050       0xe0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000002050       0xe0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.dyn       0x0000000000002130     0x15f0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text._ZN7cvflann7anyimpl21typed_base_any_policyINS0_9empty_anyEE4typeEv
+                0x0000000000002130        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZN7cvflann7anyimpl21typed_base_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE4typeEv
+                0x0000000000002130        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZN7cvflann7anyimpl21typed_base_any_policyINS_17flann_algorithm_tEE4typeEv
+                0x0000000000002130        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text._ZN7cvflann7anyimpl21typed_base_any_policyINS_20flann_centers_init_tEE4typeEv
+                0x0000000000002130        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text.startup._GLOBAL__sub_I_processing.cpp
+                0x0000000000002130        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text.startup._GLOBAL__sub_I_sample.cpp
+                0x0000000000002130        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.text     0x0000000000002130        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.ro
+                0x0000000000002130        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local
+                0x0000000000002130       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+                0x0000000000002178       0x30 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann17flann_algorithm_tE
+                0x00000000000021a8       0x30 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann20flann_centers_init_tE
+                0x00000000000021d8       0x30 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel._ZN7cvflann7anyimpl12SinglePolicyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE6policyE
+                0x0000000000002208       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel._ZN7cvflann7anyimpl12SinglePolicyIjE6policyE
+                0x0000000000002220       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel._ZN7cvflann7anyimpl12SinglePolicyINS_20flann_centers_init_tEE6policyE
+                0x0000000000002238       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel._ZN7cvflann7anyimpl12SinglePolicyINS_17flann_algorithm_tEE6policyE
+                0x0000000000002250       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel._ZN7cvflann7anyimpl12SinglePolicyIbE6policyE
+                0x0000000000002268       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel._ZN7cvflann7anyimpl12SinglePolicyIfE6policyE
+                0x0000000000002280       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel._ZN7cvflann7anyimpl12SinglePolicyIiE6policyE
+                0x0000000000002298       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel._ZN7cvflann7anyimpl12SinglePolicyIPKcE6policyE
+                0x00000000000022b0       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel._ZN7cvflann7anyimpl12SinglePolicyINS0_9empty_anyEE6policyE
+                0x00000000000022c8       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl15base_any_policyE
+                0x00000000000022e0       0x30 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyINS_20flann_centers_init_tEEE
+                0x0000000000002310       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl14big_any_policyINS_20flann_centers_init_tEEE
+                0x0000000000002358       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyINS_17flann_algorithm_tEEE
+                0x00000000000023a0       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl14big_any_policyINS_17flann_algorithm_tEEE
+                0x00000000000023e8       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+                0x0000000000002430       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl14big_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+                0x0000000000002478       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyINS0_9empty_anyEEE
+                0x00000000000024c0       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl14big_any_policyINS0_9empty_anyEEE
+                0x0000000000002508       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl9empty_anyE
+                0x0000000000002550       0x30 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyIPKcEE
+                0x0000000000002580       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl16small_any_policyIPKcEE
+                0x00000000000025c8       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyIiEE
+                0x0000000000002610       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl16small_any_policyIiEE
+                0x0000000000002658       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyIfEE
+                0x00000000000026a0       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl16small_any_policyIfEE
+                0x00000000000026e8       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyIbEE
+                0x0000000000002730       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl16small_any_policyIbEE
+                0x0000000000002778       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyIjEE
+                0x00000000000027c0       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTIN7cvflann7anyimpl16small_any_policyIjEE
+                0x0000000000002808       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTVN7cvflann7anyimpl14big_any_policyINS_20flann_centers_init_tEEE
+                0x0000000000002850      0x120 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTVN7cvflann7anyimpl14big_any_policyINS_17flann_algorithm_tEEE
+                0x0000000000002970      0x120 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTVN7cvflann7anyimpl14big_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+                0x0000000000002a90      0x120 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTVN7cvflann7anyimpl14big_any_policyINS0_9empty_anyEEE
+                0x0000000000002bb0      0x120 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTVN7cvflann7anyimpl16small_any_policyIPKcEE
+                0x0000000000002cd0      0x120 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTVN7cvflann7anyimpl16small_any_policyIiEE
+                0x0000000000002df0      0x120 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTVN7cvflann7anyimpl16small_any_policyIfEE
+                0x0000000000002f10      0x120 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTVN7cvflann7anyimpl16small_any_policyIbEE
+                0x0000000000003030      0x120 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTVN7cvflann7anyimpl16small_any_policyIjEE
+                0x0000000000003150      0x120 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000003270       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTI26HelloServiceCommandHandler
+                0x0000000000003288       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTV26HelloServiceCommandHandler
+                0x00000000000032d0       0xa8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro.local
+                0x0000000000003378      0x210 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000003588      0x138 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x00000000000036c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x00000000000036c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.fini_array
+                0x00000000000036c0       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.init_array
+                0x00000000000036d8       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.eh_frame
+                0x0000000000003720        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.plt       0x0000000000003720      0x870
+ *(.rela.plt)
+ .rela.plt      0x0000000000003720      0x870 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.iplt)
+                0x0000000000004000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000004000       0x1b
+ *(SORT_NONE(.init))
+ .init          0x0000000000004000       0x16 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000004000                _init
+ .init          0x0000000000004016        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000004020      0x5b0
+ *(.plt)
+ .plt           0x0000000000004020      0x5b0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ *(.iplt)
+
+.plt.got        0x00000000000045d0       0x10
+ *(.plt.got)
+ .plt.got       0x00000000000045d0       0x10 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                0x00000000000045d0                __cxa_finalize@@GLIBC_2.2.5
+
+.plt.sec        0x00000000000045e0      0x5a0
+ *(.plt.sec)
+ .plt.sec       0x00000000000045e0      0x5a0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                0x00000000000045e0                pthread_cond_signal@@GLIBC_2.3.2
+                0x00000000000045f0                tlm_consumer_reg_struct_ptr
+                0x0000000000004600                msghub::MessageHandler::~MessageHandler()
+                0x0000000000004610                cv::fastFree(void*)
+                0x0000000000004620                tlm_producer_new
+                0x0000000000004630                samples::hello::cv_service::messages::msghub::EventSender::EventSender()
+                0x0000000000004640                vipcc_new
+                0x0000000000004650                vipcc_release_safe
+                0x0000000000004660                pomp_loop_wakeup
+                0x0000000000004670                strerror@@GLIBC_2.2.5
+                0x0000000000004680                vipcc_stop
+                0x0000000000004690                cv::calcHist(cv::Mat const*, int, int const*, cv::_InputArray const&, cv::_OutputArray const&, int, int const*, float const**, bool, bool)
+                0x00000000000046a0                samples::hello::cv_service::messages::msghub::EventSender::depthMean(float, pomp::Connection*)
+                0x00000000000046b0                ulog_log_write
+                0x00000000000046c0                pomp_evt_destroy
+                0x00000000000046d0                strlen@@GLIBC_2.2.5
+                0x00000000000046e0                vipcc_cfg_release_info
+                0x00000000000046f0                cv::noArray()
+                0x0000000000004700                pthread_join@@GLIBC_2.2.5
+                0x0000000000004710                pomp_addr_parse
+                0x0000000000004720                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@@GLIBCXX_3.4.21
+                0x0000000000004730                pomp_evt_attach_to_loop
+                0x0000000000004740                pthread_create@@GLIBC_2.2.5
+                0x0000000000004750                vipcc_release
+                0x0000000000004760                google::protobuf::Empty::~Empty()
+                0x0000000000004770                calloc@@GLIBC_2.2.5
+                0x0000000000004780                std::ostream& std::ostream::_M_insert<unsigned long>(unsigned long)@@GLIBCXX_3.4.9
+                0x0000000000004790                std::__throw_logic_error(char const*)@@GLIBCXX_3.4
+                0x00000000000047a0                vipcc_destroy
+                0x00000000000047b0                samples::hello::cv_service::messages::msghub::EventSender::close(google::protobuf::Empty const&, pomp::Connection*)
+                0x00000000000047c0                samples::hello::cv_service::messages::msghub::EventSender::far(google::protobuf::Empty const&, pomp::Connection*)
+                0x00000000000047d0                pthread_mutex_unlock@@GLIBC_2.2.5
+                0x00000000000047e0                tlm_producer_put_sample
+                0x00000000000047f0                pomp_loop_wait_and_process
+                0x0000000000004800                cv::Mat::create(int, int const*, int)
+                0x0000000000004810                msghub::MessageHub::~MessageHub()
+                0x0000000000004820                memcpy@@GLIBC_2.14
+                0x0000000000004830                tlm_consumer_new
+                0x0000000000004840                tlm_consumer_get_sample
+                0x0000000000004850                tlm_producer_reg_struct_ptr
+                0x0000000000004860                __cxa_atexit@@GLIBC_2.2.5
+                0x0000000000004870                msghub::MessageHub::attachMessageSender(msghub::MessageSender*, msghub::Channel*)
+                0x0000000000004880                samples::hello::cv_service::messages::msghub::CommandHandler::CommandHandler()
+                0x0000000000004890                pomp_loop_destroy
+                0x00000000000048a0                operator delete(void*)@@GLIBCXX_3.4
+                0x00000000000048b0                tlm_consumer_destroy
+                0x00000000000048c0                msghub::MessageSender::~MessageSender()
+                0x00000000000048d0                operator new(unsigned long)@@GLIBCXX_3.4
+                0x00000000000048e0                ulog_init_cookie
+                0x00000000000048f0                __stack_chk_fail@@GLIBC_2.4
+                0x0000000000004900                std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@@GLIBCXX_3.4.9
+                0x0000000000004910                google::protobuf::Empty::Empty()
+                0x0000000000004920                pthread_mutex_destroy@@GLIBC_2.2.5
+                0x0000000000004930                tlm_producer_reg_complete
+                0x0000000000004940                signal@@GLIBC_2.2.5
+                0x0000000000004950                msghub::MessageHub::attachMessageHandler(msghub::MessageHandler*)
+                0x0000000000004960                free@@GLIBC_2.2.5
+                0x0000000000004970                pthread_cond_init@@GLIBC_2.3.2
+                0x0000000000004980                pomp_evt_signal
+                0x0000000000004990                pomp_loop_new
+                0x00000000000049a0                vipcc_cfg_get_info
+                0x00000000000049b0                cv::minMaxIdx(cv::_InputArray const&, double*, double*, int*, int*, cv::_InputArray const&)
+                0x00000000000049c0                pthread_mutex_lock@@GLIBC_2.2.5
+                0x00000000000049d0                pthread_mutex_init@@GLIBC_2.2.5
+                0x00000000000049e0                cv::mean(cv::_InputArray const&, cv::_InputArray const&)
+                0x00000000000049f0                pthread_cond_wait@@GLIBC_2.3.2
+                0x0000000000004a00                std::ios_base::Init::Init()@@GLIBCXX_3.4
+                0x0000000000004a10                std::ostream& std::ostream::_M_insert<double>(double)@@GLIBCXX_3.4.9
+                0x0000000000004a20                cv::Mat::updateContinuityFlag()
+                0x0000000000004a30                std::ostream& std::ostream::_M_insert<bool>(bool)@@GLIBCXX_3.4.9
+                0x0000000000004a40                tlm_consumer_reg_complete
+                0x0000000000004a50                cv::Mat::operator=(cv::Scalar_<double> const&)
+                0x0000000000004a60                cv::error(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*, char const*, int)
+                0x0000000000004a70                msghub::MessageHub::detachMessageSender(msghub::MessageSender*)
+                0x0000000000004a80                vipcc_start
+                0x0000000000004a90                std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)@@GLIBCXX_3.4
+                0x0000000000004aa0                std::ostream::operator<<(int)@@GLIBCXX_3.4
+                0x0000000000004ab0                pomp_evt_new
+                0x0000000000004ac0                _Unwind_Resume@@GCC_3.0
+                0x0000000000004ad0                strsignal@@GLIBC_2.2.5
+                0x0000000000004ae0                tlm_producer_destroy
+                0x0000000000004af0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@@GLIBCXX_3.4.21
+                0x0000000000004b00                msghub::MessageHub::detachMessageHandler(msghub::MessageHandler*)
+                0x0000000000004b10                pomp_evt_detach_from_loop
+                0x0000000000004b20                msghub::MessageHub::startServerChannel(pomp::Address const&, unsigned int)
+                0x0000000000004b30                pthread_cond_destroy@@GLIBC_2.3.2
+                0x0000000000004b40                cv::Mat::deallocate()
+                0x0000000000004b50                msghub::MessageHub::stop()
+                0x0000000000004b60                msghub::MessageHub::MessageHub(pomp::Loop*, msghub::MessageHub::ConnectionHandler*)
+                0x0000000000004b70                vipc_eos_reason_to_str
+
+.text           0x0000000000004b80     0x37b5
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ .text.unlikely._ZL12thread_entryPv
+                0x0000000000004b80       0x68 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .text.unlikely._GLOBAL__sub_I_sample.cpp
+                0x0000000000004be8       0x3b /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .text.unlikely._ZL17processing_evt_cbP8pomp_evtPv
+                0x0000000000004c23       0x20 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .text.unlikely.main
+                0x0000000000004c43       0x20 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *fill*         0x0000000000004c63        0xd 
+ .text.startup._GLOBAL__sub_I_processing.cpp
+                0x0000000000004c70      0x1de /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ *fill*         0x0000000000004e4e        0x2 
+ .text.startup._GLOBAL__sub_I_sample.cpp
+                0x0000000000004e50       0xb0 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .text.startup.main
+                0x0000000000004f00      0x649 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+                0x0000000000004f00                main
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ *fill*         0x0000000000005549        0x7 
+ .text          0x0000000000005550       0x2f /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000005550                _start
+ *fill*         0x000000000000557f        0x1 
+ .text          0x0000000000005580       0xb9 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x0000000000005639        0x7 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS0_9empty_anyEED2Ev
+                0x0000000000005640        0x5 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005640                cvflann::anyimpl::big_any_policy<cvflann::anyimpl::empty_any>::~big_any_policy()
+                0x0000000000005640                cvflann::anyimpl::big_any_policy<cvflann::anyimpl::empty_any>::~big_any_policy()
+ *fill*         0x0000000000005645        0xb 
+ .text._ZN7cvflann7anyimpl16small_any_policyIPKcED2Ev
+                0x0000000000005650        0x5 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005650                cvflann::anyimpl::small_any_policy<char const*>::~small_any_policy()
+                0x0000000000005650                cvflann::anyimpl::small_any_policy<char const*>::~small_any_policy()
+ *fill*         0x0000000000005655        0xb 
+ .text._ZN7cvflann7anyimpl16small_any_policyIiED2Ev
+                0x0000000000005660        0x5 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005660                cvflann::anyimpl::small_any_policy<int>::~small_any_policy()
+                0x0000000000005660                cvflann::anyimpl::small_any_policy<int>::~small_any_policy()
+ *fill*         0x0000000000005665        0xb 
+ .text._ZN7cvflann7anyimpl16small_any_policyIfED2Ev
+                0x0000000000005670        0x5 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005670                cvflann::anyimpl::small_any_policy<float>::~small_any_policy()
+                0x0000000000005670                cvflann::anyimpl::small_any_policy<float>::~small_any_policy()
+ *fill*         0x0000000000005675        0xb 
+ .text._ZN7cvflann7anyimpl16small_any_policyIbED2Ev
+                0x0000000000005680        0x5 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005680                cvflann::anyimpl::small_any_policy<bool>::~small_any_policy()
+                0x0000000000005680                cvflann::anyimpl::small_any_policy<bool>::~small_any_policy()
+ *fill*         0x0000000000005685        0xb 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_17flann_algorithm_tEED2Ev
+                0x0000000000005690        0x5 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005690                cvflann::anyimpl::big_any_policy<cvflann::flann_algorithm_t>::~big_any_policy()
+                0x0000000000005690                cvflann::anyimpl::big_any_policy<cvflann::flann_algorithm_t>::~big_any_policy()
+ *fill*         0x0000000000005695        0xb 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_20flann_centers_init_tEED2Ev
+                0x00000000000056a0        0x5 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000056a0                cvflann::anyimpl::big_any_policy<cvflann::flann_centers_init_t>::~big_any_policy()
+                0x00000000000056a0                cvflann::anyimpl::big_any_policy<cvflann::flann_centers_init_t>::~big_any_policy()
+ *fill*         0x00000000000056a5        0xb 
+ .text._ZN7cvflann7anyimpl16small_any_policyIjED2Ev
+                0x00000000000056b0        0x5 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000056b0                cvflann::anyimpl::small_any_policy<unsigned int>::~small_any_policy()
+                0x00000000000056b0                cvflann::anyimpl::small_any_policy<unsigned int>::~small_any_policy()
+ *fill*         0x00000000000056b5        0xb 
+ .text._ZN7cvflann7anyimpl14big_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev
+                0x00000000000056c0        0x5 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000056c0                cvflann::anyimpl::big_any_policy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~big_any_policy()
+                0x00000000000056c0                cvflann::anyimpl::big_any_policy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~big_any_policy()
+ *fill*         0x00000000000056c5        0xb 
+ .text._ZN7cvflann7anyimpl16small_any_policyIjE13static_deleteEPPv
+                0x00000000000056d0        0x5 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000056d0                cvflann::anyimpl::small_any_policy<unsigned int>::static_delete(void**)
+ *fill*         0x00000000000056d5        0xb 
+ .text._ZN7cvflann7anyimpl16small_any_policyIjE15copy_from_valueEPKvPPv
+                0x00000000000056e0        0x9 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000056e0                cvflann::anyimpl::small_any_policy<unsigned int>::copy_from_value(void const*, void**)
+ *fill*         0x00000000000056e9        0x7 
+ .text._ZN7cvflann7anyimpl16small_any_policyIjE5cloneEPKPvPS3_
+                0x00000000000056f0        0xb /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000056f0                cvflann::anyimpl::small_any_policy<unsigned int>::clone(void* const*, void**)
+ *fill*         0x00000000000056fb        0x5 
+ .text._ZN7cvflann7anyimpl16small_any_policyIjE4moveEPKPvPS3_
+                0x0000000000005700        0xb /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005700                cvflann::anyimpl::small_any_policy<unsigned int>::move(void* const*, void**)
+ *fill*         0x000000000000570b        0x5 
+ .text._ZN7cvflann7anyimpl16small_any_policyIjE9get_valueEPPv
+                0x0000000000005710        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005710                cvflann::anyimpl::small_any_policy<unsigned int>::get_value(void**)
+ *fill*         0x0000000000005718        0x8 
+ .text._ZN7cvflann7anyimpl16small_any_policyIjE9get_valueEPKPv
+                0x0000000000005720        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005720                cvflann::anyimpl::small_any_policy<unsigned int>::get_value(void* const*)
+ *fill*         0x0000000000005728        0x8 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyIjE8get_sizeEv
+                0x0000000000005730        0xa /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005730                cvflann::anyimpl::typed_base_any_policy<unsigned int>::get_size()
+ *fill*         0x000000000000573a        0x6 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyIjE4typeEv
+                0x0000000000005740        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005740                cvflann::anyimpl::typed_base_any_policy<unsigned int>::type()
+ *fill*         0x000000000000574c        0x4 
+ .text._ZN7cvflann7anyimpl16small_any_policyIbE13static_deleteEPPv
+                0x0000000000005750        0x5 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005750                cvflann::anyimpl::small_any_policy<bool>::static_delete(void**)
+ *fill*         0x0000000000005755        0xb 
+ .text._ZN7cvflann7anyimpl16small_any_policyIbE15copy_from_valueEPKvPPv
+                0x0000000000005760        0xa /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005760                cvflann::anyimpl::small_any_policy<bool>::copy_from_value(void const*, void**)
+ *fill*         0x000000000000576a        0x6 
+ .text._ZN7cvflann7anyimpl16small_any_policyIbE5cloneEPKPvPS3_
+                0x0000000000005770        0xb /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005770                cvflann::anyimpl::small_any_policy<bool>::clone(void* const*, void**)
+ *fill*         0x000000000000577b        0x5 
+ .text._ZN7cvflann7anyimpl16small_any_policyIbE4moveEPKPvPS3_
+                0x0000000000005780        0xb /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005780                cvflann::anyimpl::small_any_policy<bool>::move(void* const*, void**)
+ *fill*         0x000000000000578b        0x5 
+ .text._ZN7cvflann7anyimpl16small_any_policyIbE9get_valueEPPv
+                0x0000000000005790        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005790                cvflann::anyimpl::small_any_policy<bool>::get_value(void**)
+ *fill*         0x0000000000005798        0x8 
+ .text._ZN7cvflann7anyimpl16small_any_policyIbE9get_valueEPKPv
+                0x00000000000057a0        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000057a0                cvflann::anyimpl::small_any_policy<bool>::get_value(void* const*)
+ *fill*         0x00000000000057a8        0x8 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyIbE8get_sizeEv
+                0x00000000000057b0        0xa /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000057b0                cvflann::anyimpl::typed_base_any_policy<bool>::get_size()
+ *fill*         0x00000000000057ba        0x6 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyIbE4typeEv
+                0x00000000000057c0        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000057c0                cvflann::anyimpl::typed_base_any_policy<bool>::type()
+ *fill*         0x00000000000057cc        0x4 
+ .text._ZN7cvflann7anyimpl16small_any_policyIfE13static_deleteEPPv
+                0x00000000000057d0        0x5 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000057d0                cvflann::anyimpl::small_any_policy<float>::static_delete(void**)
+ *fill*         0x00000000000057d5        0xb 
+ .text._ZN7cvflann7anyimpl16small_any_policyIfE15copy_from_valueEPKvPPv
+                0x00000000000057e0        0xd /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000057e0                cvflann::anyimpl::small_any_policy<float>::copy_from_value(void const*, void**)
+ *fill*         0x00000000000057ed        0x3 
+ .text._ZN7cvflann7anyimpl16small_any_policyIfE5cloneEPKPvPS3_
+                0x00000000000057f0        0xb /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000057f0                cvflann::anyimpl::small_any_policy<float>::clone(void* const*, void**)
+ *fill*         0x00000000000057fb        0x5 
+ .text._ZN7cvflann7anyimpl16small_any_policyIfE4moveEPKPvPS3_
+                0x0000000000005800        0xb /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005800                cvflann::anyimpl::small_any_policy<float>::move(void* const*, void**)
+ *fill*         0x000000000000580b        0x5 
+ .text._ZN7cvflann7anyimpl16small_any_policyIfE9get_valueEPPv
+                0x0000000000005810        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005810                cvflann::anyimpl::small_any_policy<float>::get_value(void**)
+ *fill*         0x0000000000005818        0x8 
+ .text._ZN7cvflann7anyimpl16small_any_policyIfE9get_valueEPKPv
+                0x0000000000005820        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005820                cvflann::anyimpl::small_any_policy<float>::get_value(void* const*)
+ *fill*         0x0000000000005828        0x8 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyIfE8get_sizeEv
+                0x0000000000005830        0xa /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005830                cvflann::anyimpl::typed_base_any_policy<float>::get_size()
+ *fill*         0x000000000000583a        0x6 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyIfE4typeEv
+                0x0000000000005840        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005840                cvflann::anyimpl::typed_base_any_policy<float>::type()
+ *fill*         0x000000000000584c        0x4 
+ .text._ZN7cvflann7anyimpl16small_any_policyIiE13static_deleteEPPv
+                0x0000000000005850        0x5 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005850                cvflann::anyimpl::small_any_policy<int>::static_delete(void**)
+ *fill*         0x0000000000005855        0xb 
+ .text._ZN7cvflann7anyimpl16small_any_policyIiE15copy_from_valueEPKvPPv
+                0x0000000000005860        0x9 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005860                cvflann::anyimpl::small_any_policy<int>::copy_from_value(void const*, void**)
+ *fill*         0x0000000000005869        0x7 
+ .text._ZN7cvflann7anyimpl16small_any_policyIiE5cloneEPKPvPS3_
+                0x0000000000005870        0xb /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005870                cvflann::anyimpl::small_any_policy<int>::clone(void* const*, void**)
+ *fill*         0x000000000000587b        0x5 
+ .text._ZN7cvflann7anyimpl16small_any_policyIiE4moveEPKPvPS3_
+                0x0000000000005880        0xb /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005880                cvflann::anyimpl::small_any_policy<int>::move(void* const*, void**)
+ *fill*         0x000000000000588b        0x5 
+ .text._ZN7cvflann7anyimpl16small_any_policyIiE9get_valueEPPv
+                0x0000000000005890        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005890                cvflann::anyimpl::small_any_policy<int>::get_value(void**)
+ *fill*         0x0000000000005898        0x8 
+ .text._ZN7cvflann7anyimpl16small_any_policyIiE9get_valueEPKPv
+                0x00000000000058a0        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000058a0                cvflann::anyimpl::small_any_policy<int>::get_value(void* const*)
+ *fill*         0x00000000000058a8        0x8 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyIiE8get_sizeEv
+                0x00000000000058b0        0xa /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000058b0                cvflann::anyimpl::typed_base_any_policy<int>::get_size()
+ *fill*         0x00000000000058ba        0x6 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyIiE4typeEv
+                0x00000000000058c0        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000058c0                cvflann::anyimpl::typed_base_any_policy<int>::type()
+ *fill*         0x00000000000058cc        0x4 
+ .text._ZN7cvflann7anyimpl16small_any_policyIPKcE13static_deleteEPPv
+                0x00000000000058d0        0x5 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000058d0                cvflann::anyimpl::small_any_policy<char const*>::static_delete(void**)
+ *fill*         0x00000000000058d5        0xb 
+ .text._ZN7cvflann7anyimpl16small_any_policyIPKcE15copy_from_valueEPKvPPv
+                0x00000000000058e0        0xb /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000058e0                cvflann::anyimpl::small_any_policy<char const*>::copy_from_value(void const*, void**)
+ *fill*         0x00000000000058eb        0x5 
+ .text._ZN7cvflann7anyimpl16small_any_policyIPKcE5cloneEPKPvPS5_
+                0x00000000000058f0        0xb /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000058f0                cvflann::anyimpl::small_any_policy<char const*>::clone(void* const*, void**)
+ *fill*         0x00000000000058fb        0x5 
+ .text._ZN7cvflann7anyimpl16small_any_policyIPKcE4moveEPKPvPS5_
+                0x0000000000005900        0xb /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005900                cvflann::anyimpl::small_any_policy<char const*>::move(void* const*, void**)
+ *fill*         0x000000000000590b        0x5 
+ .text._ZN7cvflann7anyimpl16small_any_policyIPKcE9get_valueEPPv
+                0x0000000000005910        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005910                cvflann::anyimpl::small_any_policy<char const*>::get_value(void**)
+ *fill*         0x0000000000005918        0x8 
+ .text._ZN7cvflann7anyimpl16small_any_policyIPKcE9get_valueEPKPv
+                0x0000000000005920        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005920                cvflann::anyimpl::small_any_policy<char const*>::get_value(void* const*)
+ *fill*         0x0000000000005928        0x8 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyIPKcE8get_sizeEv
+                0x0000000000005930        0xa /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005930                cvflann::anyimpl::typed_base_any_policy<char const*>::get_size()
+ *fill*         0x000000000000593a        0x6 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyIPKcE4typeEv
+                0x0000000000005940        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005940                cvflann::anyimpl::typed_base_any_policy<char const*>::type()
+ *fill*         0x000000000000594c        0x4 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS0_9empty_anyEE4moveEPKPvPS4_
+                0x0000000000005950        0x5 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005950                cvflann::anyimpl::big_any_policy<cvflann::anyimpl::empty_any>::move(void* const*, void**)
+ *fill*         0x0000000000005955        0xb 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS0_9empty_anyEE9get_valueEPPv
+                0x0000000000005960        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005960                cvflann::anyimpl::big_any_policy<cvflann::anyimpl::empty_any>::get_value(void**)
+ *fill*         0x0000000000005968        0x8 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS0_9empty_anyEE9get_valueEPKPv
+                0x0000000000005970        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005970                cvflann::anyimpl::big_any_policy<cvflann::anyimpl::empty_any>::get_value(void* const*)
+ *fill*         0x0000000000005978        0x8 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyINS0_9empty_anyEE8get_sizeEv
+                0x0000000000005980        0xa /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005980                cvflann::anyimpl::typed_base_any_policy<cvflann::anyimpl::empty_any>::get_size()
+ *fill*         0x000000000000598a        0x6 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyINS0_9empty_anyEE4typeEv
+                0x0000000000005990        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005990                cvflann::anyimpl::typed_base_any_policy<cvflann::anyimpl::empty_any>::type()
+ *fill*         0x000000000000599c        0x4 
+ .text._ZN7cvflann7anyimpl14big_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE9get_valueEPPv
+                0x00000000000059a0        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000059a0                cvflann::anyimpl::big_any_policy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::get_value(void**)
+ *fill*         0x00000000000059a8        0x8 
+ .text._ZN7cvflann7anyimpl14big_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE9get_valueEPKPv
+                0x00000000000059b0        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000059b0                cvflann::anyimpl::big_any_policy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::get_value(void* const*)
+ *fill*         0x00000000000059b8        0x8 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE8get_sizeEv
+                0x00000000000059c0        0xa /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000059c0                cvflann::anyimpl::typed_base_any_policy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::get_size()
+ *fill*         0x00000000000059ca        0x6 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE4typeEv
+                0x00000000000059d0        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000059d0                cvflann::anyimpl::typed_base_any_policy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::type()
+ *fill*         0x00000000000059dc        0x4 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_17flann_algorithm_tEE4moveEPKPvPS4_
+                0x00000000000059e0       0x12 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000059e0                cvflann::anyimpl::big_any_policy<cvflann::flann_algorithm_t>::move(void* const*, void**)
+ *fill*         0x00000000000059f2        0xe 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_17flann_algorithm_tEE9get_valueEPPv
+                0x0000000000005a00        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005a00                cvflann::anyimpl::big_any_policy<cvflann::flann_algorithm_t>::get_value(void**)
+ *fill*         0x0000000000005a08        0x8 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_17flann_algorithm_tEE9get_valueEPKPv
+                0x0000000000005a10        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005a10                cvflann::anyimpl::big_any_policy<cvflann::flann_algorithm_t>::get_value(void* const*)
+ *fill*         0x0000000000005a18        0x8 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyINS_17flann_algorithm_tEE8get_sizeEv
+                0x0000000000005a20        0xa /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005a20                cvflann::anyimpl::typed_base_any_policy<cvflann::flann_algorithm_t>::get_size()
+ *fill*         0x0000000000005a2a        0x6 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyINS_17flann_algorithm_tEE4typeEv
+                0x0000000000005a30        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005a30                cvflann::anyimpl::typed_base_any_policy<cvflann::flann_algorithm_t>::type()
+ *fill*         0x0000000000005a3c        0x4 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_20flann_centers_init_tEE4moveEPKPvPS4_
+                0x0000000000005a40       0x12 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005a40                cvflann::anyimpl::big_any_policy<cvflann::flann_centers_init_t>::move(void* const*, void**)
+ *fill*         0x0000000000005a52        0xe 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_20flann_centers_init_tEE9get_valueEPPv
+                0x0000000000005a60        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005a60                cvflann::anyimpl::big_any_policy<cvflann::flann_centers_init_t>::get_value(void**)
+ *fill*         0x0000000000005a68        0x8 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_20flann_centers_init_tEE9get_valueEPKPv
+                0x0000000000005a70        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005a70                cvflann::anyimpl::big_any_policy<cvflann::flann_centers_init_t>::get_value(void* const*)
+ *fill*         0x0000000000005a78        0x8 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyINS_20flann_centers_init_tEE8get_sizeEv
+                0x0000000000005a80        0xa /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005a80                cvflann::anyimpl::typed_base_any_policy<cvflann::flann_centers_init_t>::get_size()
+ *fill*         0x0000000000005a8a        0x6 
+ .text._ZN7cvflann7anyimpl21typed_base_any_policyINS_20flann_centers_init_tEE4typeEv
+                0x0000000000005a90        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005a90                cvflann::anyimpl::typed_base_any_policy<cvflann::flann_centers_init_t>::type()
+ *fill*         0x0000000000005a9c        0x4 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_20flann_centers_init_tEE13static_deleteEPPv
+                0x0000000000005aa0       0x1e /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005aa0                cvflann::anyimpl::big_any_policy<cvflann::flann_centers_init_t>::static_delete(void**)
+ *fill*         0x0000000000005abe        0x2 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_17flann_algorithm_tEE13static_deleteEPPv
+                0x0000000000005ac0       0x1e /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005ac0                cvflann::anyimpl::big_any_policy<cvflann::flann_algorithm_t>::static_delete(void**)
+ *fill*         0x0000000000005ade        0x2 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS0_9empty_anyEE13static_deleteEPPv
+                0x0000000000005ae0       0x1e /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005ae0                cvflann::anyimpl::big_any_policy<cvflann::anyimpl::empty_any>::static_delete(void**)
+ *fill*         0x0000000000005afe        0x2 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS0_9empty_anyEED0Ev
+                0x0000000000005b00        0x9 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005b00                cvflann::anyimpl::big_any_policy<cvflann::anyimpl::empty_any>::~big_any_policy()
+ *fill*         0x0000000000005b09        0x7 
+ .text._ZN7cvflann7anyimpl16small_any_policyIPKcED0Ev
+                0x0000000000005b10        0x9 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005b10                cvflann::anyimpl::small_any_policy<char const*>::~small_any_policy()
+ *fill*         0x0000000000005b19        0x7 
+ .text._ZN7cvflann7anyimpl16small_any_policyIiED0Ev
+                0x0000000000005b20        0x9 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005b20                cvflann::anyimpl::small_any_policy<int>::~small_any_policy()
+ *fill*         0x0000000000005b29        0x7 
+ .text._ZN7cvflann7anyimpl16small_any_policyIfED0Ev
+                0x0000000000005b30        0x9 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005b30                cvflann::anyimpl::small_any_policy<float>::~small_any_policy()
+ *fill*         0x0000000000005b39        0x7 
+ .text._ZN7cvflann7anyimpl16small_any_policyIbED0Ev
+                0x0000000000005b40        0x9 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005b40                cvflann::anyimpl::small_any_policy<bool>::~small_any_policy()
+ *fill*         0x0000000000005b49        0x7 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_17flann_algorithm_tEED0Ev
+                0x0000000000005b50        0x9 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005b50                cvflann::anyimpl::big_any_policy<cvflann::flann_algorithm_t>::~big_any_policy()
+ *fill*         0x0000000000005b59        0x7 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_20flann_centers_init_tEED0Ev
+                0x0000000000005b60        0x9 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005b60                cvflann::anyimpl::big_any_policy<cvflann::flann_centers_init_t>::~big_any_policy()
+ *fill*         0x0000000000005b69        0x7 
+ .text._ZN7cvflann7anyimpl16small_any_policyIjED0Ev
+                0x0000000000005b70        0x9 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005b70                cvflann::anyimpl::small_any_policy<unsigned int>::~small_any_policy()
+ *fill*         0x0000000000005b79        0x7 
+ .text._ZN7cvflann7anyimpl14big_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED0Ev
+                0x0000000000005b80        0x9 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005b80                cvflann::anyimpl::big_any_policy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~big_any_policy()
+ *fill*         0x0000000000005b89        0x7 
+ .text._ZN7cvflann7anyimpl14big_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE13static_deleteEPPv
+                0x0000000000005b90       0x3d /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005b90                cvflann::anyimpl::big_any_policy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::static_delete(void**)
+ *fill*         0x0000000000005bcd        0x3 
+ .text._ZN7cvflann7anyimpl14big_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE4moveEPKPvPS9_
+                0x0000000000005bd0       0x36 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005bd0                cvflann::anyimpl::big_any_policy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::move(void* const*, void**)
+ *fill*         0x0000000000005c06        0xa 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_20flann_centers_init_tEE5cloneEPKPvPS4_
+                0x0000000000005c10       0x2c /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005c10                cvflann::anyimpl::big_any_policy<cvflann::flann_centers_init_t>::clone(void* const*, void**)
+ *fill*         0x0000000000005c3c        0x4 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_20flann_centers_init_tEE15copy_from_valueEPKvPPv
+                0x0000000000005c40       0x29 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005c40                cvflann::anyimpl::big_any_policy<cvflann::flann_centers_init_t>::copy_from_value(void const*, void**)
+ *fill*         0x0000000000005c69        0x7 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_17flann_algorithm_tEE5cloneEPKPvPS4_
+                0x0000000000005c70       0x2c /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005c70                cvflann::anyimpl::big_any_policy<cvflann::flann_algorithm_t>::clone(void* const*, void**)
+ *fill*         0x0000000000005c9c        0x4 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_17flann_algorithm_tEE15copy_from_valueEPKvPPv
+                0x0000000000005ca0       0x29 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005ca0                cvflann::anyimpl::big_any_policy<cvflann::flann_algorithm_t>::copy_from_value(void const*, void**)
+ *fill*         0x0000000000005cc9        0x7 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS0_9empty_anyEE5cloneEPKPvPS4_
+                0x0000000000005cd0       0x17 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005cd0                cvflann::anyimpl::big_any_policy<cvflann::anyimpl::empty_any>::clone(void* const*, void**)
+ *fill*         0x0000000000005ce7        0x9 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS0_9empty_anyEE15copy_from_valueEPKvPPv
+                0x0000000000005cf0       0x17 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005cf0                cvflann::anyimpl::big_any_policy<cvflann::anyimpl::empty_any>::copy_from_value(void const*, void**)
+ *fill*         0x0000000000005d07        0x9 
+ .text._ZN7cvflann7anyimpl16small_any_policyIjE5printERSoPKPv
+                0x0000000000005d10        0xe /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005d10                cvflann::anyimpl::small_any_policy<unsigned int>::print(std::ostream&, void* const*)
+ *fill*         0x0000000000005d1e        0x2 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_20flann_centers_init_tEE5printERSoPKPv
+                0x0000000000005d20       0x11 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005d20                cvflann::anyimpl::big_any_policy<cvflann::flann_centers_init_t>::print(std::ostream&, void* const*)
+ *fill*         0x0000000000005d31        0xf 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS_17flann_algorithm_tEE5printERSoPKPv
+                0x0000000000005d40       0x11 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005d40                cvflann::anyimpl::big_any_policy<cvflann::flann_algorithm_t>::print(std::ostream&, void* const*)
+ *fill*         0x0000000000005d51        0xf 
+ .text._ZN7cvflann7anyimpl16small_any_policyIiE5printERSoPKPv
+                0x0000000000005d60        0xe /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005d60                cvflann::anyimpl::small_any_policy<int>::print(std::ostream&, void* const*)
+ *fill*         0x0000000000005d6e        0x2 
+ .text._ZN7cvflann7anyimpl16small_any_policyIbE5printERSoPKPv
+                0x0000000000005d70        0xf /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005d70                cvflann::anyimpl::small_any_policy<bool>::print(std::ostream&, void* const*)
+ *fill*         0x0000000000005d7f        0x1 
+ .text._ZN7cvflann7anyimpl16small_any_policyIfE5printERSoPKPv
+                0x0000000000005d80       0x14 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005d80                cvflann::anyimpl::small_any_policy<float>::print(std::ostream&, void* const*)
+ *fill*         0x0000000000005d94        0xc 
+ .text._ZN7cvflann7anyimpl14big_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE5printERSoPKPv
+                0x0000000000005da0       0x5c /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005da0                cvflann::anyimpl::big_any_policy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::print(std::ostream&, void* const*)
+ *fill*         0x0000000000005dfc        0x4 
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2EPKcRKS3_.isra.0
+                0x0000000000005e00       0xb7 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ *fill*         0x0000000000005eb7        0x9 
+ .text._ZN7cvflann7anyimpl14big_any_policyINS0_9empty_anyEE5printERSoPKPv
+                0x0000000000005ec0       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005ec0                cvflann::anyimpl::big_any_policy<cvflann::anyimpl::empty_any>::print(std::ostream&, void* const*)
+ *fill*         0x0000000000005ed8        0x8 
+ .text._ZN7cvflann7anyimpl16small_any_policyIPKcE5printERSoPKPv
+                0x0000000000005ee0       0x54 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005ee0                cvflann::anyimpl::small_any_policy<char const*>::print(std::ostream&, void* const*)
+ *fill*         0x0000000000005f34        0xc 
+ .text._ZN2cv3MatD2Ev
+                0x0000000000005f40       0x7f /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000005f40                cv::Mat::~Mat()
+                0x0000000000005f40                cv::Mat::~Mat()
+ *fill*         0x0000000000005fbf        0x1 
+ .text._ZL12thread_entryPv
+                0x0000000000005fc0      0xb26 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ *fill*         0x0000000000006ae6        0xa 
+ .text._Z14processing_newP8pomp_evtPP10processing
+                0x0000000000006af0      0x114 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000006af0                processing_new(pomp_evt*, processing**)
+ *fill*         0x0000000000006c04        0xc 
+ .text._Z16processing_startP10processing
+                0x0000000000006c10      0x17d /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000006c10                processing_start(processing*)
+ *fill*         0x0000000000006d8d        0x3 
+ .text._Z15processing_stopP10processing
+                0x0000000000006d90       0xb9 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000006d90                processing_stop(processing*)
+ *fill*         0x0000000000006e49        0x7 
+ .text._Z18processing_destroyP10processing
+                0x0000000000006e50       0x31 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000006e50                processing_destroy(processing*)
+ *fill*         0x0000000000006e81        0xf 
+ .text._Z15processing_stepP10processingPK16processing_input
+                0x0000000000006e90      0x1f8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000006e90                processing_step(processing*, processing_input const*)
+ *fill*         0x0000000000007088        0x8 
+ .text._Z21processing_get_outputP10processingP17processing_output
+                0x0000000000007090      0x147 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000007090                processing_get_output(processing*, processing_output*)
+ *fill*         0x00000000000071d7        0x9 
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag
+                0x00000000000071e0       0xd0 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000071e0                void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag)
+ .text._ZN7cvflann7anyimpl14big_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE5cloneEPKPvPS9_
+                0x00000000000072b0       0x58 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000072b0                cvflann::anyimpl::big_any_policy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::clone(void* const*, void**)
+ *fill*         0x0000000000007308        0x8 
+ .text._ZN7cvflann7anyimpl14big_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE15copy_from_valueEPKvPPv
+                0x0000000000007310       0x55 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000007310                cvflann::anyimpl::big_any_policy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::copy_from_value(void const*, void**)
+ *fill*         0x0000000000007365        0xb 
+ .text._ZL9status_cbP9vipcc_ctxPK11vipc_statusPv
+                0x0000000000007370      0x13f /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ *fill*         0x00000000000074af        0x1 
+ .text._ZN26HelloServiceCommandHandler14processingStopERKN6google8protobuf5EmptyE
+                0x00000000000074b0       0x42 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+                0x00000000000074b0                HelloServiceCommandHandler::processingStop(google::protobuf::Empty const&)
+ *fill*         0x00000000000074f2        0xe 
+ .text._ZL10sighandleri
+                0x0000000000007500       0x7d /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ *fill*         0x000000000000757d        0x3 
+ .text._ZN26HelloServiceCommandHandlerD2Ev
+                0x0000000000007580       0x17 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+                0x0000000000007580                HelloServiceCommandHandler::~HelloServiceCommandHandler()
+                0x0000000000007580                HelloServiceCommandHandler::~HelloServiceCommandHandler()
+ *fill*         0x0000000000007597        0x9 
+ .text._ZN26HelloServiceCommandHandlerD0Ev
+                0x00000000000075a0       0x24 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+                0x00000000000075a0                HelloServiceCommandHandler::~HelloServiceCommandHandler()
+ *fill*         0x00000000000075c4        0xc 
+ .text._ZN7contextD2Ev
+                0x00000000000075d0       0x5a /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+                0x00000000000075d0                context::~context()
+                0x00000000000075d0                context::~context()
+ *fill*         0x000000000000762a        0x6 
+ .text._ZL14conn_status_cbP9vipcc_ctxbPv
+                0x0000000000007630       0x65 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ *fill*         0x0000000000007695        0xb 
+ .text._ZL6eos_cbP9vipcc_ctx15vipc_eos_reasonPv
+                0x00000000000076a0       0x6d /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ *fill*         0x000000000000770d        0x3 
+ .text._ZL8frame_cbP9vipcc_ctxPK10vipc_framePvS4_
+                0x0000000000007710      0x355 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ *fill*         0x0000000000007a65        0xb 
+ .text._ZN26HelloServiceCommandHandler15processingStartERKN6google8protobuf5EmptyE
+                0x0000000000007a70      0x283 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+                0x0000000000007a70                HelloServiceCommandHandler::processingStart(google::protobuf::Empty const&)
+ *fill*         0x0000000000007cf3        0xd 
+ .text._ZL13context_cleanP7context.constprop.0
+                0x0000000000007d00      0x271 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ *fill*         0x0000000000007f71        0xf 
+ .text._ZL17processing_evt_cbP8pomp_evtPv
+                0x0000000000007f80      0x33f /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ *fill*         0x00000000000082bf        0x1 
+ .text          0x00000000000082c0       0x75 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                0x00000000000082c0                __libc_csu_init
+                0x0000000000008330                __libc_csu_fini
+ *(.gnu.warning)
+
+.fini           0x0000000000008338        0xd
+ *(SORT_NONE(.fini))
+ .fini          0x0000000000008338        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000008338                _fini
+ .fini          0x0000000000008340        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x0000000000009000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x0000000000009000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x0000000000009000      0xeb8
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata._ZN7cvflann7anyimpl14big_any_policyINS0_9empty_anyEE5printERSoPKPv.str1.1
+                0x0000000000009000        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .rodata.str1.1
+                0x000000000000900c       0xa4 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .rodata.str1.8
+                0x00000000000090b0       0xf6 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ *fill*         0x00000000000091a6        0x2 
+ .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag.str1.8
+                0x00000000000091a8       0x2a /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ *fill*         0x00000000000091d2        0xe 
+ .rodata._ZTSNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+                0x00000000000091e0       0x35 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000091e0                typeinfo name for std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >
+ *fill*         0x0000000000009215        0xb 
+ .rodata._ZTSN7cvflann17flann_algorithm_tE
+                0x0000000000009220       0x1e /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000009220                typeinfo name for cvflann::flann_algorithm_t
+ *fill*         0x000000000000923e        0x2 
+ .rodata._ZTSN7cvflann20flann_centers_init_tE
+                0x0000000000009240       0x21 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000009240                typeinfo name for cvflann::flann_centers_init_t
+ *fill*         0x0000000000009261       0x1f 
+ .rodata._ZTSN7cvflann7anyimpl15base_any_policyE
+                0x0000000000009280       0x24 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000009280                typeinfo name for cvflann::anyimpl::base_any_policy
+ *fill*         0x00000000000092a4       0x1c 
+ .rodata._ZTSN7cvflann7anyimpl21typed_base_any_policyINS_20flann_centers_init_tEEE
+                0x00000000000092c0       0x46 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000092c0                typeinfo name for cvflann::anyimpl::typed_base_any_policy<cvflann::flann_centers_init_t>
+ *fill*         0x0000000000009306       0x1a 
+ .rodata._ZTSN7cvflann7anyimpl14big_any_policyINS_20flann_centers_init_tEEE
+                0x0000000000009320       0x3f /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000009320                typeinfo name for cvflann::anyimpl::big_any_policy<cvflann::flann_centers_init_t>
+ *fill*         0x000000000000935f        0x1 
+ .rodata._ZTSN7cvflann7anyimpl21typed_base_any_policyINS_17flann_algorithm_tEEE
+                0x0000000000009360       0x43 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000009360                typeinfo name for cvflann::anyimpl::typed_base_any_policy<cvflann::flann_algorithm_t>
+ *fill*         0x00000000000093a3       0x1d 
+ .rodata._ZTSN7cvflann7anyimpl14big_any_policyINS_17flann_algorithm_tEEE
+                0x00000000000093c0       0x3c /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000093c0                typeinfo name for cvflann::anyimpl::big_any_policy<cvflann::flann_algorithm_t>
+ *fill*         0x00000000000093fc        0x4 
+ .rodata._ZTSN7cvflann7anyimpl21typed_base_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+                0x0000000000009400       0x60 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000009400                typeinfo name for cvflann::anyimpl::typed_base_any_policy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+ .rodata._ZTSN7cvflann7anyimpl14big_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+                0x0000000000009460       0x59 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000009460                typeinfo name for cvflann::anyimpl::big_any_policy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+ *fill*         0x00000000000094b9        0x7 
+ .rodata._ZTSN7cvflann7anyimpl21typed_base_any_policyINS0_9empty_anyEEE
+                0x00000000000094c0       0x3b /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000094c0                typeinfo name for cvflann::anyimpl::typed_base_any_policy<cvflann::anyimpl::empty_any>
+ *fill*         0x00000000000094fb        0x5 
+ .rodata._ZTSN7cvflann7anyimpl14big_any_policyINS0_9empty_anyEEE
+                0x0000000000009500       0x34 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000009500                typeinfo name for cvflann::anyimpl::big_any_policy<cvflann::anyimpl::empty_any>
+ *fill*         0x0000000000009534        0xc 
+ .rodata._ZTSN7cvflann7anyimpl9empty_anyE
+                0x0000000000009540       0x1d /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000009540                typeinfo name for cvflann::anyimpl::empty_any
+ *fill*         0x000000000000955d        0x3 
+ .rodata._ZTSN7cvflann7anyimpl21typed_base_any_policyIPKcEE
+                0x0000000000009560       0x2f /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000009560                typeinfo name for cvflann::anyimpl::typed_base_any_policy<char const*>
+ *fill*         0x000000000000958f       0x11 
+ .rodata._ZTSN7cvflann7anyimpl16small_any_policyIPKcEE
+                0x00000000000095a0       0x2a /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000095a0                typeinfo name for cvflann::anyimpl::small_any_policy<char const*>
+ *fill*         0x00000000000095ca       0x16 
+ .rodata._ZTSN7cvflann7anyimpl21typed_base_any_policyIiEE
+                0x00000000000095e0       0x2d /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000095e0                typeinfo name for cvflann::anyimpl::typed_base_any_policy<int>
+ *fill*         0x000000000000960d       0x13 
+ .rodata._ZTSN7cvflann7anyimpl16small_any_policyIiEE
+                0x0000000000009620       0x28 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000009620                typeinfo name for cvflann::anyimpl::small_any_policy<int>
+ *fill*         0x0000000000009648       0x18 
+ .rodata._ZTSN7cvflann7anyimpl21typed_base_any_policyIfEE
+                0x0000000000009660       0x2d /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000009660                typeinfo name for cvflann::anyimpl::typed_base_any_policy<float>
+ *fill*         0x000000000000968d       0x13 
+ .rodata._ZTSN7cvflann7anyimpl16small_any_policyIfEE
+                0x00000000000096a0       0x28 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000096a0                typeinfo name for cvflann::anyimpl::small_any_policy<float>
+ *fill*         0x00000000000096c8       0x18 
+ .rodata._ZTSN7cvflann7anyimpl21typed_base_any_policyIbEE
+                0x00000000000096e0       0x2d /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000096e0                typeinfo name for cvflann::anyimpl::typed_base_any_policy<bool>
+ *fill*         0x000000000000970d       0x13 
+ .rodata._ZTSN7cvflann7anyimpl16small_any_policyIbEE
+                0x0000000000009720       0x28 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000009720                typeinfo name for cvflann::anyimpl::small_any_policy<bool>
+ *fill*         0x0000000000009748       0x18 
+ .rodata._ZTSN7cvflann7anyimpl21typed_base_any_policyIjEE
+                0x0000000000009760       0x2d /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x0000000000009760                typeinfo name for cvflann::anyimpl::typed_base_any_policy<unsigned int>
+ *fill*         0x000000000000978d       0x13 
+ .rodata._ZTSN7cvflann7anyimpl16small_any_policyIjEE
+                0x00000000000097a0       0x28 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x00000000000097a0                typeinfo name for cvflann::anyimpl::small_any_policy<unsigned int>
+ .rodata.cst8   0x00000000000097c8        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .rodata.cst4   0x00000000000097d0        0xc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ *fill*         0x00000000000097dc        0x4 
+ .rodata.str1.8
+                0x00000000000097e0      0x40f /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .rodata.str1.1
+                0x0000000000009bef      0x295 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+                                        0x2a8 (size before relaxing)
+ *fill*         0x0000000000009e84        0xc 
+ .rodata._ZTS26HelloServiceCommandHandler
+                0x0000000000009e90       0x1d /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+                0x0000000000009e90                typeinfo name for HelloServiceCommandHandler
+ *fill*         0x0000000000009ead        0x3 
+ .rodata.cst4   0x0000000000009eb0        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000009eb8      0x43c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000009eb8      0x43c /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000009eb8                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000000a2f8     0x1158
+ *(.eh_frame)
+ .eh_frame      0x000000000000a2f8       0x30 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x2c (size before relaxing)
+ *fill*         0x000000000000a328        0x0 
+ .eh_frame      0x000000000000a328       0x28 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000000a350       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000a368       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000a380      0xbe8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                                        0xc00 (size before relaxing)
+ .eh_frame      0x000000000000af68      0x488 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+                                        0x4c0 (size before relaxing)
+ .eh_frame      0x000000000000b3f0       0x5c /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x000000000000b44c        0x4 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+                0x000000000000b450       0xd7
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table._ZN2cv3MatD2Ev
+                0x000000000000b450        0x4 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .gcc_except_table._ZL12thread_entryPv
+                0x000000000000b454       0x45 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .gcc_except_table._ZN7cvflann7anyimpl14big_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE5cloneEPKPvPS9_
+                0x000000000000b499       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .gcc_except_table._ZN7cvflann7anyimpl14big_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE15copy_from_valueEPKvPPv
+                0x000000000000b4a9       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .gcc_except_table._ZN7contextD2Ev
+                0x000000000000b4b9        0x4 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .gcc_except_table._GLOBAL__sub_I_sample.cpp
+                0x000000000000b4bd       0x1a /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .gcc_except_table._ZL17processing_evt_cbP8pomp_evtPv
+                0x000000000000b4d7       0x27 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .gcc_except_table.main
+                0x000000000000b4fe       0x29 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x000000000000d020                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata          0x000000000000d020        0x0
+                [!provide]                        PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x000000000000d020        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x000000000000d020       0x18
+                0x000000000000d020                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000000d020        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .init_array    0x000000000000d028        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .init_array    0x000000000000d030        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+                0x000000000000d038                PROVIDE (__init_array_end = .)
+
+.fini_array     0x000000000000d038        0x8
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000000d038        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x000000000000d040      0x998
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x000000000000d040      0x398 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000000d3d8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .data.rel.ro._ZTINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+                0x000000000000d3d8       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d3d8                typeinfo for std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >
+ .data.rel.ro._ZTIN7cvflann17flann_algorithm_tE
+                0x000000000000d3e8       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d3e8                typeinfo for cvflann::flann_algorithm_t
+ .data.rel.ro._ZTIN7cvflann20flann_centers_init_tE
+                0x000000000000d3f8       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d3f8                typeinfo for cvflann::flann_centers_init_t
+ .data.rel.ro._ZTIN7cvflann7anyimpl15base_any_policyE
+                0x000000000000d408       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d408                typeinfo for cvflann::anyimpl::base_any_policy
+ .data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyINS_20flann_centers_init_tEEE
+                0x000000000000d418       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d418                typeinfo for cvflann::anyimpl::typed_base_any_policy<cvflann::flann_centers_init_t>
+ .data.rel.ro._ZTIN7cvflann7anyimpl14big_any_policyINS_20flann_centers_init_tEEE
+                0x000000000000d430       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d430                typeinfo for cvflann::anyimpl::big_any_policy<cvflann::flann_centers_init_t>
+ .data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyINS_17flann_algorithm_tEEE
+                0x000000000000d448       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d448                typeinfo for cvflann::anyimpl::typed_base_any_policy<cvflann::flann_algorithm_t>
+ .data.rel.ro._ZTIN7cvflann7anyimpl14big_any_policyINS_17flann_algorithm_tEEE
+                0x000000000000d460       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d460                typeinfo for cvflann::anyimpl::big_any_policy<cvflann::flann_algorithm_t>
+ .data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+                0x000000000000d478       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d478                typeinfo for cvflann::anyimpl::typed_base_any_policy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+ .data.rel.ro._ZTIN7cvflann7anyimpl14big_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+                0x000000000000d490       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d490                typeinfo for cvflann::anyimpl::big_any_policy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+ .data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyINS0_9empty_anyEEE
+                0x000000000000d4a8       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d4a8                typeinfo for cvflann::anyimpl::typed_base_any_policy<cvflann::anyimpl::empty_any>
+ .data.rel.ro._ZTIN7cvflann7anyimpl14big_any_policyINS0_9empty_anyEEE
+                0x000000000000d4c0       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d4c0                typeinfo for cvflann::anyimpl::big_any_policy<cvflann::anyimpl::empty_any>
+ .data.rel.ro._ZTIN7cvflann7anyimpl9empty_anyE
+                0x000000000000d4d8       0x10 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d4d8                typeinfo for cvflann::anyimpl::empty_any
+ .data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyIPKcEE
+                0x000000000000d4e8       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d4e8                typeinfo for cvflann::anyimpl::typed_base_any_policy<char const*>
+ .data.rel.ro._ZTIN7cvflann7anyimpl16small_any_policyIPKcEE
+                0x000000000000d500       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d500                typeinfo for cvflann::anyimpl::small_any_policy<char const*>
+ .data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyIiEE
+                0x000000000000d518       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d518                typeinfo for cvflann::anyimpl::typed_base_any_policy<int>
+ .data.rel.ro._ZTIN7cvflann7anyimpl16small_any_policyIiEE
+                0x000000000000d530       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d530                typeinfo for cvflann::anyimpl::small_any_policy<int>
+ .data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyIfEE
+                0x000000000000d548       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d548                typeinfo for cvflann::anyimpl::typed_base_any_policy<float>
+ .data.rel.ro._ZTIN7cvflann7anyimpl16small_any_policyIfEE
+                0x000000000000d560       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d560                typeinfo for cvflann::anyimpl::small_any_policy<float>
+ .data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyIbEE
+                0x000000000000d578       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d578                typeinfo for cvflann::anyimpl::typed_base_any_policy<bool>
+ .data.rel.ro._ZTIN7cvflann7anyimpl16small_any_policyIbEE
+                0x000000000000d590       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d590                typeinfo for cvflann::anyimpl::small_any_policy<bool>
+ .data.rel.ro._ZTIN7cvflann7anyimpl21typed_base_any_policyIjEE
+                0x000000000000d5a8       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d5a8                typeinfo for cvflann::anyimpl::typed_base_any_policy<unsigned int>
+ .data.rel.ro._ZTIN7cvflann7anyimpl16small_any_policyIjEE
+                0x000000000000d5c0       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d5c0                typeinfo for cvflann::anyimpl::small_any_policy<unsigned int>
+ .data.rel.ro._ZTVN7cvflann7anyimpl14big_any_policyINS_20flann_centers_init_tEEE
+                0x000000000000d5d8       0x68 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d5d8                vtable for cvflann::anyimpl::big_any_policy<cvflann::flann_centers_init_t>
+ .data.rel.ro._ZTVN7cvflann7anyimpl14big_any_policyINS_17flann_algorithm_tEEE
+                0x000000000000d640       0x68 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d640                vtable for cvflann::anyimpl::big_any_policy<cvflann::flann_algorithm_t>
+ .data.rel.ro._ZTVN7cvflann7anyimpl14big_any_policyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE
+                0x000000000000d6a8       0x68 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d6a8                vtable for cvflann::anyimpl::big_any_policy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+ .data.rel.ro._ZTVN7cvflann7anyimpl14big_any_policyINS0_9empty_anyEEE
+                0x000000000000d710       0x68 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d710                vtable for cvflann::anyimpl::big_any_policy<cvflann::anyimpl::empty_any>
+ .data.rel.ro._ZTVN7cvflann7anyimpl16small_any_policyIPKcEE
+                0x000000000000d778       0x68 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d778                vtable for cvflann::anyimpl::small_any_policy<char const*>
+ .data.rel.ro._ZTVN7cvflann7anyimpl16small_any_policyIiEE
+                0x000000000000d7e0       0x68 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d7e0                vtable for cvflann::anyimpl::small_any_policy<int>
+ .data.rel.ro._ZTVN7cvflann7anyimpl16small_any_policyIfEE
+                0x000000000000d848       0x68 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d848                vtable for cvflann::anyimpl::small_any_policy<float>
+ .data.rel.ro._ZTVN7cvflann7anyimpl16small_any_policyIbEE
+                0x000000000000d8b0       0x68 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d8b0                vtable for cvflann::anyimpl::small_any_policy<bool>
+ .data.rel.ro._ZTVN7cvflann7anyimpl16small_any_policyIjEE
+                0x000000000000d918       0x68 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000d918                vtable for cvflann::anyimpl::small_any_policy<unsigned int>
+ .data.rel.ro._ZTI26HelloServiceCommandHandler
+                0x000000000000d980       0x18 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+                0x000000000000d980                typeinfo for HelloServiceCommandHandler
+ .data.rel.ro._ZTV26HelloServiceCommandHandler
+                0x000000000000d998       0x40 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+                0x000000000000d998                vtable for HelloServiceCommandHandler
+
+.dynamic        0x000000000000d9d8      0x2c0
+ *(.dynamic)
+ .dynamic       0x000000000000d9d8      0x2c0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                0x000000000000d9d8                _DYNAMIC
+
+.got            0x000000000000dc98      0x350
+ *(.got.plt)
+ .got.plt       0x000000000000dc98      0x2e8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                0x000000000000dc98                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ *(.got)
+ .got           0x000000000000df80       0x68 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ *(.igot)
+                0x000000000000e000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.data           0x000000000000e000       0xc0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x000000000000e000        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                0x000000000000e000                __dso_handle
+ .data.rel._ZN7cvflann7anyimpl12SinglePolicyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE6policyE
+                0x000000000000e008        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e008                cvflann::anyimpl::SinglePolicy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::policy
+ .data.rel._ZN7cvflann7anyimpl12SinglePolicyIjE6policyE
+                0x000000000000e010        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e010                cvflann::anyimpl::SinglePolicy<unsigned int>::policy
+ .data.rel._ZN7cvflann7anyimpl12SinglePolicyINS_20flann_centers_init_tEE6policyE
+                0x000000000000e018        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e018                cvflann::anyimpl::SinglePolicy<cvflann::flann_centers_init_t>::policy
+ .data.rel._ZN7cvflann7anyimpl12SinglePolicyINS_17flann_algorithm_tEE6policyE
+                0x000000000000e020        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e020                cvflann::anyimpl::SinglePolicy<cvflann::flann_algorithm_t>::policy
+ .data.rel._ZN7cvflann7anyimpl12SinglePolicyIbE6policyE
+                0x000000000000e028        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e028                cvflann::anyimpl::SinglePolicy<bool>::policy
+ .data.rel._ZN7cvflann7anyimpl12SinglePolicyIfE6policyE
+                0x000000000000e030        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e030                cvflann::anyimpl::SinglePolicy<float>::policy
+ .data.rel._ZN7cvflann7anyimpl12SinglePolicyIiE6policyE
+                0x000000000000e038        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e038                cvflann::anyimpl::SinglePolicy<int>::policy
+ .data.rel._ZN7cvflann7anyimpl12SinglePolicyIPKcE6policyE
+                0x000000000000e040        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e040                cvflann::anyimpl::SinglePolicy<char const*>::policy
+ .data.rel._ZN7cvflann7anyimpl12SinglePolicyINS0_9empty_anyEE6policyE
+                0x000000000000e048        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e048                cvflann::anyimpl::SinglePolicy<cvflann::anyimpl::empty_any>::policy
+ *fill*         0x000000000000e050       0x10 
+ .data.rel.local
+                0x000000000000e060       0x20 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e060                __ulog_cookie_ms_processing
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x000000000000e080        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e080                DW.ref.__gxx_personality_v0
+ *fill*         0x000000000000e088       0x18 
+ .data.rel.local
+                0x000000000000e0a0       0x20 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+                0x000000000000e0a0                __ulog_cookie_ms_sample
+
+.tm_clone_table
+                0x000000000000e0c0        0x0
+ .tm_clone_table
+                0x000000000000e0c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .tm_clone_table
+                0x000000000000e0c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.data1
+ *(.data1)
+                0x000000000000e0c0                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x000000000000e0c0                . = .
+                0x000000000000e0c0                __bss_start = .
+
+.bss            0x000000000000e0c0      0x1b0
+ *(.dynbss)
+ .dynbss        0x000000000000e0c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000e0c0        0x1 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .bss           0x000000000000e0c1        0x1 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ *fill*         0x000000000000e0c2        0x6 
+ .bss._ZGVN7cvflann7anyimpl12SinglePolicyINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE6policyE
+                0x000000000000e0c8        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e0c8                guard variable for cvflann::anyimpl::SinglePolicy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::policy
+ .bss._ZGVN7cvflann7anyimpl12SinglePolicyIjE6policyE
+                0x000000000000e0d0        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e0d0                guard variable for cvflann::anyimpl::SinglePolicy<unsigned int>::policy
+ .bss._ZGVN7cvflann7anyimpl12SinglePolicyINS_20flann_centers_init_tEE6policyE
+                0x000000000000e0d8        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e0d8                guard variable for cvflann::anyimpl::SinglePolicy<cvflann::flann_centers_init_t>::policy
+ .bss._ZGVN7cvflann7anyimpl12SinglePolicyINS_17flann_algorithm_tEE6policyE
+                0x000000000000e0e0        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e0e0                guard variable for cvflann::anyimpl::SinglePolicy<cvflann::flann_algorithm_t>::policy
+ .bss._ZGVN7cvflann7anyimpl12SinglePolicyIbE6policyE
+                0x000000000000e0e8        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e0e8                guard variable for cvflann::anyimpl::SinglePolicy<bool>::policy
+ .bss._ZGVN7cvflann7anyimpl12SinglePolicyIfE6policyE
+                0x000000000000e0f0        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e0f0                guard variable for cvflann::anyimpl::SinglePolicy<float>::policy
+ .bss._ZGVN7cvflann7anyimpl12SinglePolicyIiE6policyE
+                0x000000000000e0f8        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e0f8                guard variable for cvflann::anyimpl::SinglePolicy<int>::policy
+ .bss._ZGVN7cvflann7anyimpl12SinglePolicyIPKcE6policyE
+                0x000000000000e100        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e100                guard variable for cvflann::anyimpl::SinglePolicy<char const*>::policy
+ .bss._ZGVN7cvflann7anyimpl12SinglePolicyINS0_9empty_anyEE6policyE
+                0x000000000000e108        0x8 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                0x000000000000e108                guard variable for cvflann::anyimpl::SinglePolicy<cvflann::anyimpl::empty_any>::policy
+ *fill*         0x000000000000e110       0x10 
+ .bss           0x000000000000e120      0x149 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ *(COMMON)
+                0x000000000000e270                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x000000000000e269        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x000000000000e270                . = ALIGN (0x8)
+                0x000000000000e270                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000010270        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000010270                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000010270                . = ALIGN (0x8)
+                0x000000000000e270                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000010270                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .comment       0x000000000000002b       0x2c /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+ .comment       0x000000000000002b       0x2c /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x840
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x710 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .debug_aranges
+                0x0000000000000710      0x130 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x447c4
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000    0x2d658 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .debug_info    0x000000000002d658    0x1716c /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+
+.debug_abbrev   0x0000000000000000     0x273b
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000     0x14cc /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .debug_abbrev  0x00000000000014cc     0x126f /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+
+.debug_line     0x0000000000000000     0x462b
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000     0x2e5e /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .debug_line    0x0000000000002e5e     0x17cd /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000    0x4e2f3
+ *(.debug_str)
+ .debug_str     0x0000000000000000    0x33905 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+                                      0x3452b (size before relaxing)
+ .debug_str     0x0000000000033905    0x1a9ee /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+                                      0x25049 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0xaf18
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x7d7c /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .debug_loc     0x0000000000007d7c     0x319c /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x36b0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000     0x2250 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/processing.cpp.o
+ .debug_ranges  0x0000000000002250     0x1460 /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service/obj/services/native/sample.cpp.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/hello-pc/build/airsdk-hello-cv-service/airsdk-hello-cv-service elf64-x86-64)

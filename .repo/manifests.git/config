@@ -1,0 +1,35 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+[filter "lfs"]
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+[remote "origin"]
+	url = ssh://git@github.com/Parrot-Developers/airsdk-samples-manifest
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[manifest]
+	platform = auto
+[branch "default"]
+	remote = origin
+	merge = refs/heads/master
+[repo "syncstate.main"]
+	synctime = 2022-09-30T23:53:54.099409Z
+	version = 1
+[repo "syncstate.sys"]
+	argv = ['/home/queenie/airsdk/.repo/repo/main.py', '--repo-dir=/home/queenie/airsdk/.repo', '--wrapper-version=2.21', '--wrapper-path=/home/queenie/bin/repo', '--', 'sync']
+[repo "syncstate.options"]
+	jobs = 4
+	outermanifest = true
+	mpupdate = true
+	clonebundle = true
+	retryfetches = 0
+	prune = true
+	repoverify = true
+	quiet = false
+	verbose = false
+[repo "syncstate.remote.origin"]
+	url = ssh://git@github.com/Parrot-Developers/airsdk-samples-manifest
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[repo "syncstate.branch.default"]
+	remote = origin
+	merge = refs/heads/master

@@ -1,0 +1,929 @@
+
+Merging program properties
+
+
+As-needed library included to satisfy reference by file (symbol)
+
+libprotobuf.so.18             /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o (AddDescriptors_google_2fprotobuf_2fempty_2eproto())
+libstdc++.so.6                /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o (std::ios_base::Init::~Init()@@GLIBCXX_3.4)
+libgcc_s.so.1                 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o (_Unwind_Resume@@GCC_3.0)
+libpthread.so.0               /home/queenie/airsdk/sdk/pc/usr/lib/libprotobuf.so (write@@GLIBC_2.2.5)
+libc.so.6                     /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o (__stack_chk_fail@@GLIBC_2.4)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .group         0x0000000000000000        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .text          0x0000000000000000        0x0 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .data          0x0000000000000000        0x0 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+LOAD /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+LOAD /home/queenie/airsdk/sdk/pc/usr/lib/libprotobuf.so
+LOAD /home/queenie/airsdk/sdk/pc/usr/lib/libprotoc.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libstdc++.so
+LOAD /home/queenie/airsdk/sdk/pc/lib/x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /home/queenie/airsdk/sdk/pc/lib/x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so
+LOAD /home/queenie/airsdk/sdk/pc/lib/x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /home/queenie/airsdk/sdk/pc/lib/x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                0x00000000000002a8                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.note.gnu.property
+                0x00000000000002a8       0x20
+ .note.gnu.property
+                0x00000000000002a8       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.note.gnu.build-id
+                0x00000000000002c8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000002c8       0x24 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000002f0      0x3bc
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000002f0      0x3bc /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynsym         0x00000000000006b0      0xf60
+ *(.dynsym)
+ .dynsym        0x00000000000006b0      0xf60 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.dynstr         0x0000000000001610     0x2aa0
+ *(.dynstr)
+ .dynstr        0x0000000000001610     0x2aa0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version    0x00000000000040b0      0x148
+ *(.gnu.version)
+ .gnu.version   0x00000000000040b0      0x148 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_d  0x00000000000041f8        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000000041f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.gnu.version_r  0x00000000000041f8       0x80
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000041f8       0x80 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.dyn       0x0000000000004278      0x9f0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000004278        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.text.startup._GLOBAL__sub_I_messages.pb.cc
+                0x0000000000004278        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.local
+                0x0000000000004278       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTIN7samples5hello10cv_service8messages7CommandE
+                0x0000000000004290       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTIN7samples5hello10cv_service8messages5EventE
+                0x00000000000042d8       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTIN6google8protobuf8internal29InternalMetadataWithArenaBaseINS0_15UnknownFieldSetENS1_25InternalMetadataWithArenaEE9ContainerE
+                0x0000000000004320       0x30 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTVN7samples5hello10cv_service8messages7CommandE
+                0x0000000000004350      0x270 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro._ZTVN7samples5hello10cv_service8messages5EventE
+                0x00000000000045c0      0x270 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.ro
+                0x0000000000004830       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel
+                0x0000000000004878      0x150 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.data.rel.local.DW.ref.__gxx_personality_v0
+                0x00000000000049c8       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x00000000000049e0      0x240 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000004c20        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.fini_array
+                0x0000000000004c20       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.init_array
+                0x0000000000004c38       0x30 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .rela.eh_frame
+                0x0000000000004c68        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.rela.plt       0x0000000000004c68      0x678
+ *(.rela.plt)
+ .rela.plt      0x0000000000004c68      0x678 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.rela.iplt)
+                0x0000000000006000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000006000       0x1b
+ *(SORT_NONE(.init))
+ .init          0x0000000000006000       0x16 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000006000                _init
+ .init          0x0000000000006016        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000006020      0x460
+ *(.plt)
+ .plt           0x0000000000006020      0x460 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.iplt)
+
+.plt.got        0x0000000000006480       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000006480       0x10 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.plt.sec        0x0000000000006490      0x450
+ *(.plt.sec)
+ .plt.sec       0x0000000000006490      0x450 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+
+.text           0x00000000000068e0     0x20ae
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ .text.unlikely._ZN7samples5hello10cv_service8messages7CommandC2Ev
+                0x00000000000068e0       0x11 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ *fill*         0x00000000000068f1        0x1 
+ .text.unlikely._ZN6google8protobuf5Arena18CreateMaybeMessageIN7samples5hello10cv_service8messages7CommandEJEEEPT_PS1_DpOT0_
+                0x00000000000068f2       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .text.unlikely._ZN7samples5hello10cv_service8messages5EventC2Ev
+                0x0000000000006902       0x11 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ *fill*         0x0000000000006913        0x1 
+ .text.unlikely._ZN6google8protobuf5Arena18CreateMaybeMessageIN7samples5hello10cv_service8messages5EventEJEEEPT_PS1_DpOT0_
+                0x0000000000006914       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .text.unlikely._ZN7samples5hello10cv_service8messages5Event9MergeFromERKS3_
+                0x0000000000006924       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .text.unlikely._ZN7samples5hello10cv_service8messages5Event9MergeFromERKN6google8protobuf7MessageE
+                0x0000000000006934       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .text.unlikely._ZN7samples5hello10cv_service8messages7CommandC2ERKS3_
+                0x0000000000006944       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .text.unlikely._ZN7samples5hello10cv_service8messages5EventC2ERKS3_
+                0x0000000000006954       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .text.unlikely._ZN7samples5hello10cv_service8messages7Command9MergeFromERKS3_
+                0x0000000000006964       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .text.unlikely._ZN7samples5hello10cv_service8messages7Command9MergeFromERKN6google8protobuf7MessageE
+                0x0000000000006974       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *fill*         0x0000000000006984        0xc 
+ .text.startup._GLOBAL__sub_I_messages.pb.cc
+                0x0000000000006990       0x37 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ *fill*         0x00000000000069c7        0x9 
+ .text          0x00000000000069d0       0xb9 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x0000000000006a89        0x7 
+ .text._ZNK6google8protobuf11MessageLite8GetArenaEv
+                0x0000000000006a90        0x7 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006a90                google::protobuf::MessageLite::GetArena() const
+ *fill*         0x0000000000006a97        0x9 
+ .text._ZNK6google8protobuf11MessageLite20GetMaybeArenaPointerEv
+                0x0000000000006aa0        0xa /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006aa0                google::protobuf::MessageLite::GetMaybeArenaPointer() const
+ *fill*         0x0000000000006aaa        0x6 
+ .text._ZNK6google8protobuf11MessageLite16InternalGetTableEv
+                0x0000000000006ab0        0x7 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006ab0                google::protobuf::MessageLite::InternalGetTable() const
+ *fill*         0x0000000000006ab7        0x9 
+ .text._ZNK6google8protobuf7Message13GetReflectionEv
+                0x0000000000006ac0       0x19 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006ac0                google::protobuf::Message::GetReflection() const
+ *fill*         0x0000000000006ad9        0x7 
+ .text._ZNK7samples5hello10cv_service8messages7Command13IsInitializedEv
+                0x0000000000006ae0        0xa /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006ae0                samples::hello::cv_service::messages::Command::IsInitialized() const
+                0x0000000000006ae0                samples::hello::cv_service::messages::Event::IsInitialized() const
+ *fill*         0x0000000000006aea        0x6 
+ .text._ZN6google8protobuf8internal21arena_destruct_objectIN7samples5hello10cv_service8messages7CommandEEEvPv
+                0x0000000000006af0        0x9 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006af0                void google::protobuf::internal::arena_destruct_object<samples::hello::cv_service::messages::Command>(void*)
+ *fill*         0x0000000000006af9        0x7 
+ .text._ZN6google8protobuf8internal21arena_destruct_objectIN7samples5hello10cv_service8messages5EventEEEvPv
+                0x0000000000006b00        0x9 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006b00                void google::protobuf::internal::arena_destruct_object<samples::hello::cv_service::messages::Event>(void*)
+ *fill*         0x0000000000006b09        0x7 
+ .text._ZNK6google8protobuf5Empty8GetArenaEv
+                0x0000000000006b10       0x28 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006b10                google::protobuf::Empty::GetArena() const
+ *fill*         0x0000000000006b38        0x8 
+ .text._ZNK7samples5hello10cv_service8messages5Event13GetCachedSizeEv
+                0x0000000000006b40        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006b40                samples::hello::cv_service::messages::Event::GetCachedSize() const
+ *fill*         0x0000000000006b48        0x8 
+ .text._ZNK7samples5hello10cv_service8messages7Command13GetCachedSizeEv
+                0x0000000000006b50        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006b50                samples::hello::cv_service::messages::Command::GetCachedSize() const
+ *fill*         0x0000000000006b58        0x8 
+ .text._Z64AddDescriptors_samples_2fhello_2fcv_2dservice_2fmessages_2eprotov
+                0x0000000000006b60       0x1c /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006b60                AddDescriptors_samples_2fhello_2fcv_2dservice_2fmessages_2eproto()
+ *fill*         0x0000000000006b7c        0x4 
+ .text._ZNK7samples5hello10cv_service8messages7Command13SetCachedSizeEi
+                0x0000000000006b80        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006b80                samples::hello::cv_service::messages::Command::SetCachedSize(int) const
+ *fill*         0x0000000000006b88        0x8 
+ .text._ZNK7samples5hello10cv_service8messages5Event13SetCachedSizeEi
+                0x0000000000006b90        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006b90                samples::hello::cv_service::messages::Event::SetCachedSize(int) const
+ *fill*         0x0000000000006b98        0x8 
+ .text._ZNK7samples5hello10cv_service8messages7Command11GetMetadataEv
+                0x0000000000006ba0       0x27 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006ba0                samples::hello::cv_service::messages::Command::GetMetadata() const
+ *fill*         0x0000000000006bc7        0x9 
+ .text._ZNK7samples5hello10cv_service8messages5Event11GetMetadataEv
+                0x0000000000006bd0       0x28 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006bd0                samples::hello::cv_service::messages::Event::GetMetadata() const
+ *fill*         0x0000000000006bf8        0x8 
+ .text._ZN6google8protobuf8internal21arena_destruct_objectINS1_29InternalMetadataWithArenaBaseINS0_15UnknownFieldSetENS1_25InternalMetadataWithArenaEE9ContainerEEEvPv
+                0x0000000000006c00       0x32 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006c00                void google::protobuf::internal::arena_destruct_object<google::protobuf::internal::InternalMetadataWithArenaBase<google::protobuf::UnknownFieldSet, google::protobuf::internal::InternalMetadataWithArena>::Container>(void*)
+ *fill*         0x0000000000006c32        0xe 
+ .text._Z62InitDefaults_samples_2fhello_2fcv_2dservice_2fmessages_2eprotov
+                0x0000000000006c40       0x4e /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006c40                InitDefaults_samples_2fhello_2fcv_2dservice_2fmessages_2eproto()
+ *fill*         0x0000000000006c8e        0x2 
+ .text._ZN7samples5hello10cv_service8messages7Command21InitAsDefaultInstanceEv
+                0x0000000000006c90       0x1b /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006c90                samples::hello::cv_service::messages::Command::InitAsDefaultInstance()
+ *fill*         0x0000000000006cab        0x5 
+ .text._ZN7samples5hello10cv_service8messages7Command13HasBitSetters16processing_startEPKS3_
+                0x0000000000006cb0        0x9 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006cb0                samples::hello::cv_service::messages::Command::HasBitSetters::processing_start(samples::hello::cv_service::messages::Command const*)
+ *fill*         0x0000000000006cb9        0x7 
+ .text._ZN7samples5hello10cv_service8messages7Command13HasBitSetters15processing_stopEPKS3_
+                0x0000000000006cc0        0x9 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006cc0                samples::hello::cv_service::messages::Command::HasBitSetters::processing_stop(samples::hello::cv_service::messages::Command const*)
+ *fill*         0x0000000000006cc9        0x7 
+ .text._ZNK7samples5hello10cv_service8messages7Command24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE
+                0x0000000000006cd0       0x8a /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006cd0                samples::hello::cv_service::messages::Command::SerializeWithCachedSizes(google::protobuf::io::CodedOutputStream*) const
+ *fill*         0x0000000000006d5a        0x6 
+ .text._ZN7samples5hello10cv_service8messages7Command22clear_processing_startEv
+                0x0000000000006d60       0x2c /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006d60                samples::hello::cv_service::messages::Command::clear_processing_start()
+ *fill*         0x0000000000006d8c        0x4 
+ .text._ZN7samples5hello10cv_service8messages7Command21clear_processing_stopEv
+                0x0000000000006d90       0x2c /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006d90                samples::hello::cv_service::messages::Command::clear_processing_stop()
+ *fill*         0x0000000000006dbc        0x4 
+ .text._ZN7samples5hello10cv_service8messages7Command10SharedCtorEv
+                0x0000000000006dc0       0x2e /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006dc0                samples::hello::cv_service::messages::Command::SharedCtor()
+ *fill*         0x0000000000006dee        0x2 
+ .text._ZN7samples5hello10cv_service8messages7Command16default_instanceEv
+                0x0000000000006df0       0x35 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006df0                samples::hello::cv_service::messages::Command::default_instance()
+ *fill*         0x0000000000006e25        0xb 
+ .text._ZN7samples5hello10cv_service8messages7Command8clear_idEv
+                0x0000000000006e30       0x2d /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006e30                samples::hello::cv_service::messages::Command::clear_id()
+ *fill*         0x0000000000006e5d        0x3 
+ .text._ZN7samples5hello10cv_service8messages7Command10SharedDtorEv
+                0x0000000000006e60       0x15 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006e60                samples::hello::cv_service::messages::Command::SharedDtor()
+ *fill*         0x0000000000006e75        0xb 
+ .text._ZN7samples5hello10cv_service8messages7CommandD2Ev
+                0x0000000000006e80       0x86 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006e80                samples::hello::cv_service::messages::Command::~Command()
+                0x0000000000006e80                samples::hello::cv_service::messages::Command::~Command()
+ *fill*         0x0000000000006f06        0xa 
+ .text._ZN7samples5hello10cv_service8messages7CommandD0Ev
+                0x0000000000006f10       0x16 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006f10                samples::hello::cv_service::messages::Command::~Command()
+ *fill*         0x0000000000006f26        0xa 
+ .text._ZN7samples5hello10cv_service8messages7Command30set_allocated_processing_startEPN6google8protobuf5EmptyE
+                0x0000000000006f30       0x76 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006f30                samples::hello::cv_service::messages::Command::set_allocated_processing_start(google::protobuf::Empty*)
+ *fill*         0x0000000000006fa6        0xa 
+ .text._ZN7samples5hello10cv_service8messages7Command29set_allocated_processing_stopEPN6google8protobuf5EmptyE
+                0x0000000000006fb0       0x76 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000006fb0                samples::hello::cv_service::messages::Command::set_allocated_processing_stop(google::protobuf::Empty*)
+ *fill*         0x0000000000007026        0xa 
+ .text._ZN7samples5hello10cv_service8messages5Event21InitAsDefaultInstanceEv
+                0x0000000000007030       0x22 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007030                samples::hello::cv_service::messages::Event::InitAsDefaultInstance()
+ *fill*         0x0000000000007052        0xe 
+ .text._ZN7samples5hello10cv_service8messages5Event13HasBitSetters5closeEPKS3_
+                0x0000000000007060        0x9 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007060                samples::hello::cv_service::messages::Event::HasBitSetters::close(samples::hello::cv_service::messages::Event const*)
+ *fill*         0x0000000000007069        0x7 
+ .text._ZN7samples5hello10cv_service8messages5Event13HasBitSetters3farEPKS3_
+                0x0000000000007070        0x9 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007070                samples::hello::cv_service::messages::Event::HasBitSetters::far(samples::hello::cv_service::messages::Event const*)
+ *fill*         0x0000000000007079        0x7 
+ .text._ZNK7samples5hello10cv_service8messages5Event24SerializeWithCachedSizesEPN6google8protobuf2io17CodedOutputStreamE
+                0x0000000000007080       0xa5 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007080                samples::hello::cv_service::messages::Event::SerializeWithCachedSizes(google::protobuf::io::CodedOutputStream*) const
+ *fill*         0x0000000000007125        0xb 
+ .text._ZN7samples5hello10cv_service8messages5Event11clear_closeEv
+                0x0000000000007130       0x2c /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007130                samples::hello::cv_service::messages::Event::clear_close()
+ *fill*         0x000000000000715c        0x4 
+ .text._ZN7samples5hello10cv_service8messages5Event9clear_farEv
+                0x0000000000007160       0x2c /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007160                samples::hello::cv_service::messages::Event::clear_far()
+ *fill*         0x000000000000718c        0x4 
+ .text._ZN7samples5hello10cv_service8messages5Event10SharedCtorEv
+                0x0000000000007190       0x2e /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007190                samples::hello::cv_service::messages::Event::SharedCtor()
+ *fill*         0x00000000000071be        0x2 
+ .text._ZN7samples5hello10cv_service8messages5Event16default_instanceEv
+                0x00000000000071c0       0x35 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x00000000000071c0                samples::hello::cv_service::messages::Event::default_instance()
+ *fill*         0x00000000000071f5        0xb 
+ .text._ZN7samples5hello10cv_service8messages5Event8clear_idEv
+                0x0000000000007200       0x2d /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007200                samples::hello::cv_service::messages::Event::clear_id()
+ *fill*         0x000000000000722d        0x3 
+ .text._ZN7samples5hello10cv_service8messages5Event10SharedDtorEv
+                0x0000000000007230       0x15 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007230                samples::hello::cv_service::messages::Event::SharedDtor()
+ *fill*         0x0000000000007245        0xb 
+ .text._ZN7samples5hello10cv_service8messages5EventD2Ev
+                0x0000000000007250       0x86 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007250                samples::hello::cv_service::messages::Event::~Event()
+                0x0000000000007250                samples::hello::cv_service::messages::Event::~Event()
+ *fill*         0x00000000000072d6        0xa 
+ .text._ZN7samples5hello10cv_service8messages5EventD0Ev
+                0x00000000000072e0       0x16 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x00000000000072e0                samples::hello::cv_service::messages::Event::~Event()
+ *fill*         0x00000000000072f6        0xa 
+ .text._ZN7samples5hello10cv_service8messages5Event19set_allocated_closeEPN6google8protobuf5EmptyE
+                0x0000000000007300       0x76 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007300                samples::hello::cv_service::messages::Event::set_allocated_close(google::protobuf::Empty*)
+ *fill*         0x0000000000007376        0xa 
+ .text._ZN7samples5hello10cv_service8messages5Event17set_allocated_farEPN6google8protobuf5EmptyE
+                0x0000000000007380       0x76 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007380                samples::hello::cv_service::messages::Event::set_allocated_far(google::protobuf::Empty*)
+ *fill*         0x00000000000073f6        0xa 
+ .text._ZN6google8protobuf8internal29InternalMetadataWithArenaBaseINS0_15UnknownFieldSetENS1_25InternalMetadataWithArenaEED2Ev
+                0x0000000000007400       0x66 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007400                google::protobuf::internal::InternalMetadataWithArenaBase<google::protobuf::UnknownFieldSet, google::protobuf::internal::InternalMetadataWithArena>::~InternalMetadataWithArenaBase()
+                0x0000000000007400                google::protobuf::internal::InternalMetadataWithArenaBase<google::protobuf::UnknownFieldSet, google::protobuf::internal::InternalMetadataWithArena>::~InternalMetadataWithArenaBase()
+ *fill*         0x0000000000007466        0xa 
+ .text._ZN7samples5hello10cv_service8messages7CommandC2Ev
+                0x0000000000007470       0x42 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007470                samples::hello::cv_service::messages::Command::Command()
+                0x0000000000007470                samples::hello::cv_service::messages::Command::Command()
+ *fill*         0x00000000000074b2        0xe 
+ .text._ZN6google8protobuf5Arena18CreateMaybeMessageIN7samples5hello10cv_service8messages7CommandEJEEEPT_PS1_DpOT0_
+                0x00000000000074c0       0x89 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x00000000000074c0                samples::hello::cv_service::messages::Command* google::protobuf::Arena::CreateMaybeMessage<samples::hello::cv_service::messages::Command>(google::protobuf::Arena*)
+ *fill*         0x0000000000007549        0x7 
+ .text._ZNK7samples5hello10cv_service8messages7Command3NewEPN6google8protobuf5ArenaE
+                0x0000000000007550        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007550                samples::hello::cv_service::messages::Command::New(google::protobuf::Arena*) const
+ *fill*         0x000000000000755c        0x4 
+ .text._ZNK7samples5hello10cv_service8messages7Command3NewEv
+                0x0000000000007560        0xb /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007560                samples::hello::cv_service::messages::Command::New() const
+ *fill*         0x000000000000756b        0x5 
+ .text._ZL69InitDefaultsCommand_samples_2fhello_2fcv_2dservice_2fmessages_2eprotov
+                0x0000000000007570       0x3f /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ *fill*         0x00000000000075af        0x1 
+ .text._ZN7samples5hello10cv_service8messages5EventC2Ev
+                0x00000000000075b0       0x42 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x00000000000075b0                samples::hello::cv_service::messages::Event::Event()
+                0x00000000000075b0                samples::hello::cv_service::messages::Event::Event()
+ *fill*         0x00000000000075f2        0xe 
+ .text._ZN6google8protobuf5Arena18CreateMaybeMessageIN7samples5hello10cv_service8messages5EventEJEEEPT_PS1_DpOT0_
+                0x0000000000007600       0x89 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007600                samples::hello::cv_service::messages::Event* google::protobuf::Arena::CreateMaybeMessage<samples::hello::cv_service::messages::Event>(google::protobuf::Arena*)
+ *fill*         0x0000000000007689        0x7 
+ .text._ZNK7samples5hello10cv_service8messages5Event3NewEPN6google8protobuf5ArenaE
+                0x0000000000007690        0xc /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007690                samples::hello::cv_service::messages::Event::New(google::protobuf::Arena*) const
+ *fill*         0x000000000000769c        0x4 
+ .text._ZNK7samples5hello10cv_service8messages5Event3NewEv
+                0x00000000000076a0        0xb /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x00000000000076a0                samples::hello::cv_service::messages::Event::New() const
+ *fill*         0x00000000000076ab        0x5 
+ .text._ZL67InitDefaultsEvent_samples_2fhello_2fcv_2dservice_2fmessages_2eprotov
+                0x00000000000076b0       0x3f /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ *fill*         0x00000000000076ef        0x1 
+ .text._ZN6google8protobuf8internal29InternalMetadataWithArenaBaseINS0_15UnknownFieldSetENS1_25InternalMetadataWithArenaEE27mutable_unknown_fields_slowEv
+                0x00000000000076f0       0xd9 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x00000000000076f0                google::protobuf::internal::InternalMetadataWithArenaBase<google::protobuf::UnknownFieldSet, google::protobuf::internal::InternalMetadataWithArena>::mutable_unknown_fields_slow()
+ *fill*         0x00000000000077c9        0x7 
+ .text._ZN7samples5hello10cv_service8messages5Event9MergeFromERKS3_
+                0x00000000000077d0      0x1c0 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x00000000000077d0                samples::hello::cv_service::messages::Event::MergeFrom(samples::hello::cv_service::messages::Event const&)
+ .text._ZN7samples5hello10cv_service8messages5Event9MergeFromERKN6google8protobuf7MessageE
+                0x0000000000007990       0xf0 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007990                samples::hello::cv_service::messages::Event::MergeFrom(google::protobuf::Message const&)
+ .text._ZN7samples5hello10cv_service8messages5Event5ClearEv
+                0x0000000000007a80       0x33 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007a80                samples::hello::cv_service::messages::Event::Clear()
+ *fill*         0x0000000000007ab3        0xd 
+ .text._ZN7samples5hello10cv_service8messages5Event8CopyFromERKN6google8protobuf7MessageE
+                0x0000000000007ac0       0x31 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007ac0                samples::hello::cv_service::messages::Event::CopyFrom(google::protobuf::Message const&)
+ *fill*         0x0000000000007af1        0xf 
+ .text._ZN7samples5hello10cv_service8messages5Event8CopyFromERKS3_
+                0x0000000000007b00       0x31 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007b00                samples::hello::cv_service::messages::Event::CopyFrom(samples::hello::cv_service::messages::Event const&)
+ *fill*         0x0000000000007b31        0xf 
+ .text._ZN7samples5hello10cv_service8messages5Event12InternalSwapEPS3_
+                0x0000000000007b40       0xab /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007b40                samples::hello::cv_service::messages::Event::InternalSwap(samples::hello::cv_service::messages::Event*)
+ *fill*         0x0000000000007beb        0x5 
+ .text._ZN7samples5hello10cv_service8messages5Event4SwapEPS3_
+                0x0000000000007bf0       0x11 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007bf0                samples::hello::cv_service::messages::Event::Swap(samples::hello::cv_service::messages::Event*)
+ *fill*         0x0000000000007c01        0xf 
+ .text._ZN7samples5hello10cv_service8messages7Command12InternalSwapEPS3_
+                0x0000000000007c10       0xab /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007c10                samples::hello::cv_service::messages::Command::InternalSwap(samples::hello::cv_service::messages::Command*)
+ *fill*         0x0000000000007cbb        0x5 
+ .text._ZN7samples5hello10cv_service8messages7Command4SwapEPS3_
+                0x0000000000007cc0       0x11 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007cc0                samples::hello::cv_service::messages::Command::Swap(samples::hello::cv_service::messages::Command*)
+ *fill*         0x0000000000007cd1        0xf 
+ .text._ZN7samples5hello10cv_service8messages7Command5ClearEv
+                0x0000000000007ce0       0x33 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007ce0                samples::hello::cv_service::messages::Command::Clear()
+ *fill*         0x0000000000007d13        0xd 
+ .text._ZN7samples5hello10cv_service8messages7CommandC2ERKS3_
+                0x0000000000007d20       0xe5 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007d20                samples::hello::cv_service::messages::Command::Command(samples::hello::cv_service::messages::Command const&)
+                0x0000000000007d20                samples::hello::cv_service::messages::Command::Command(samples::hello::cv_service::messages::Command const&)
+ *fill*         0x0000000000007e05        0xb 
+ .text._ZN7samples5hello10cv_service8messages5EventC2ERKS3_
+                0x0000000000007e10      0x13c /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007e10                samples::hello::cv_service::messages::Event::Event(samples::hello::cv_service::messages::Event const&)
+                0x0000000000007e10                samples::hello::cv_service::messages::Event::Event(samples::hello::cv_service::messages::Event const&)
+ *fill*         0x0000000000007f4c        0x4 
+ .text._ZN7samples5hello10cv_service8messages7Command9MergeFromERKS3_
+                0x0000000000007f50      0x180 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000007f50                samples::hello::cv_service::messages::Command::MergeFrom(samples::hello::cv_service::messages::Command const&)
+ .text._ZN7samples5hello10cv_service8messages7Command9MergeFromERKN6google8protobuf7MessageE
+                0x00000000000080d0       0xf0 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x00000000000080d0                samples::hello::cv_service::messages::Command::MergeFrom(google::protobuf::Message const&)
+ .text._ZN7samples5hello10cv_service8messages7Command8CopyFromERKN6google8protobuf7MessageE
+                0x00000000000081c0       0x31 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x00000000000081c0                samples::hello::cv_service::messages::Command::CopyFrom(google::protobuf::Message const&)
+ *fill*         0x00000000000081f1        0xf 
+ .text._ZN7samples5hello10cv_service8messages7Command8CopyFromERKS3_
+                0x0000000000008200       0x31 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000008200                samples::hello::cv_service::messages::Command::CopyFrom(samples::hello::cv_service::messages::Command const&)
+ *fill*         0x0000000000008231        0xf 
+ .text._ZN7samples5hello10cv_service8messages7Command27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE
+                0x0000000000008240      0x1ca /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000008240                samples::hello::cv_service::messages::Command::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*)
+ *fill*         0x000000000000840a        0x6 
+ .text._ZN7samples5hello10cv_service8messages5Event27MergePartialFromCodedStreamEPN6google8protobuf2io16CodedInputStreamE
+                0x0000000000008410      0x254 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000008410                samples::hello::cv_service::messages::Event::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*)
+ *fill*         0x0000000000008664        0xc 
+ .text._ZNK7samples5hello10cv_service8messages7Command39InternalSerializeWithCachedSizesToArrayEPh
+                0x0000000000008670       0xe7 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000008670                samples::hello::cv_service::messages::Command::InternalSerializeWithCachedSizesToArray(unsigned char*) const
+ *fill*         0x0000000000008757        0x9 
+ .text._ZNK7samples5hello10cv_service8messages5Event39InternalSerializeWithCachedSizesToArrayEPh
+                0x0000000000008760      0x115 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000008760                samples::hello::cv_service::messages::Event::InternalSerializeWithCachedSizesToArray(unsigned char*) const
+ *fill*         0x0000000000008875        0xb 
+ .text._ZNK7samples5hello10cv_service8messages7Command12ByteSizeLongEv
+                0x0000000000008880       0x75 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000008880                samples::hello::cv_service::messages::Command::ByteSizeLong() const
+ *fill*         0x00000000000088f5        0xb 
+ .text._ZNK7samples5hello10cv_service8messages5Event12ByteSizeLongEv
+                0x0000000000008900       0x8e /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000008900                samples::hello::cv_service::messages::Event::ByteSizeLong() const
+ *(.gnu.warning)
+
+.fini           0x0000000000008990        0xd
+ *(SORT_NONE(.fini))
+ .fini          0x0000000000008990        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000008990                _fini
+ .fini          0x0000000000008998        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x0000000000009000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x0000000000009000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x0000000000009000      0x3a4
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.8
+                0x0000000000009000       0xb0 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ *fill*         0x00000000000090b0       0x10 
+ .rodata._ZTSN7samples5hello10cv_service8messages7CommandE
+                0x00000000000090c0       0x2e /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x00000000000090c0                typeinfo name for samples::hello::cv_service::messages::Command
+ *fill*         0x00000000000090ee       0x12 
+ .rodata._ZTSN7samples5hello10cv_service8messages5EventE
+                0x0000000000009100       0x2c /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000009100                typeinfo name for samples::hello::cv_service::messages::Event
+ *fill*         0x000000000000912c       0x14 
+ .rodata._ZTSN6google8protobuf8internal29InternalMetadataWithArenaBaseINS0_15UnknownFieldSetENS1_25InternalMetadataWithArenaEE9ContainerE
+                0x0000000000009140       0x7d /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x0000000000009140                typeinfo name for google::protobuf::internal::InternalMetadataWithArenaBase<google::protobuf::UnknownFieldSet, google::protobuf::internal::InternalMetadataWithArena>::Container
+ *fill*         0x00000000000091bd        0x3 
+ .rodata        0x00000000000091c0      0x1e4 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x00000000000091c0                samples::hello::cv_service::messages::Event::kDepthMeanFieldNumber
+                0x00000000000091c4                samples::hello::cv_service::messages::Event::kFarFieldNumber
+                0x00000000000091c8                samples::hello::cv_service::messages::Event::kCloseFieldNumber
+                0x00000000000091cc                samples::hello::cv_service::messages::Command::kProcessingStopFieldNumber
+                0x00000000000091d0                samples::hello::cv_service::messages::Command::kProcessingStartFieldNumber
+                0x0000000000009360                TableStruct_samples_2fhello_2fcv_2dservice_2fmessages_2eproto::offsets
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00000000000093a4      0x2f4
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000000093a4      0x2f4 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x00000000000093a4                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000009698      0xd9c
+ *(.eh_frame)
+ .eh_frame      0x0000000000009698       0x40 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .eh_frame      0x00000000000096d8       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x00000000000096f0       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000009708      0xd28 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                                        0xd40 (size before relaxing)
+ .eh_frame      0x000000000000a430        0x4 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+                0x000000000000a434      0x10d
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table._ZN6google8protobuf8internal21arena_destruct_objectINS1_29InternalMetadataWithArenaBaseINS0_15UnknownFieldSetENS1_25InternalMetadataWithArenaEE9ContainerEEEvPv
+                0x000000000000a434        0x4 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages7CommandD2Ev
+                0x000000000000a438        0x4 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages5EventD2Ev
+                0x000000000000a43c        0x4 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .gcc_except_table._ZN6google8protobuf8internal29InternalMetadataWithArenaBaseINS0_15UnknownFieldSetENS1_25InternalMetadataWithArenaEED2Ev
+                0x000000000000a440        0x4 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages7CommandC2Ev
+                0x000000000000a444       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .gcc_except_table._ZN6google8protobuf5Arena18CreateMaybeMessageIN7samples5hello10cv_service8messages7CommandEJEEEPT_PS1_DpOT0_
+                0x000000000000a454       0x18 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages5EventC2Ev
+                0x000000000000a46c       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .gcc_except_table._ZN6google8protobuf5Arena18CreateMaybeMessageIN7samples5hello10cv_service8messages5EventEJEEEPT_PS1_DpOT0_
+                0x000000000000a47c       0x18 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages5Event9MergeFromERKS3_
+                0x000000000000a494       0x23 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages5Event9MergeFromERKN6google8protobuf7MessageE
+                0x000000000000a4b7       0x22 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages7CommandC2ERKS3_
+                0x000000000000a4d9       0x11 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages5EventC2ERKS3_
+                0x000000000000a4ea       0x12 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages7Command9MergeFromERKS3_
+                0x000000000000a4fc       0x23 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .gcc_except_table._ZN7samples5hello10cv_service8messages7Command9MergeFromERKN6google8protobuf7MessageE
+                0x000000000000a51f       0x22 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x000000000000baf8                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x000000000000baf8       0x10
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000000baf8        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .init_array    0x000000000000bb00        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+
+.fini_array     0x000000000000bb08        0x8
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000000bb08        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x000000000000bb10      0x210
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000000bb10        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data.rel.ro._ZTIN7samples5hello10cv_service8messages7CommandE
+                0x000000000000bb10       0x18 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x000000000000bb10                typeinfo for samples::hello::cv_service::messages::Command
+ .data.rel.ro._ZTIN7samples5hello10cv_service8messages5EventE
+                0x000000000000bb28       0x18 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x000000000000bb28                typeinfo for samples::hello::cv_service::messages::Event
+ .data.rel.ro._ZTIN6google8protobuf8internal29InternalMetadataWithArenaBaseINS0_15UnknownFieldSetENS1_25InternalMetadataWithArenaEE9ContainerE
+                0x000000000000bb40       0x10 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x000000000000bb40                typeinfo for google::protobuf::internal::InternalMetadataWithArenaBase<google::protobuf::UnknownFieldSet, google::protobuf::internal::InternalMetadataWithArena>::Container
+ .data.rel.ro._ZTVN7samples5hello10cv_service8messages7CommandE
+                0x000000000000bb50       0xd8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x000000000000bb50                vtable for samples::hello::cv_service::messages::Command
+ .data.rel.ro._ZTVN7samples5hello10cv_service8messages5EventE
+                0x000000000000bc28       0xd8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x000000000000bc28                vtable for samples::hello::cv_service::messages::Event
+ .data.rel.ro   0x000000000000bd00       0x20 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+
+.dynamic        0x000000000000bd20      0x220
+ *(.dynamic)
+ .dynamic       0x000000000000bd20      0x220 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x000000000000bd20                _DYNAMIC
+
+.got            0x000000000000bf40       0xc0
+ *(.got)
+ .got           0x000000000000bf40       0xc0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.igot)
+                0x000000000000cfe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x000000000000c000      0x240
+ *(.got.plt)
+ .got.plt       0x000000000000c000      0x240 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x000000000000c000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x000000000000c240       0xf0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x000000000000c240        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                0x000000000000c240                __dso_handle
+ *fill*         0x000000000000c248       0x18 
+ .data.rel      0x000000000000c260       0xc8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x000000000000c260                descriptor_table_samples_2fhello_2fcv_2dservice_2fmessages_2eproto
+                0x000000000000c2a0                assign_descriptors_table_samples_2fhello_2fcv_2dservice_2fmessages_2eproto
+                0x000000000000c2f0                scc_info_Event_samples_2fhello_2fcv_2dservice_2fmessages_2eproto
+                0x000000000000c310                scc_info_Command_samples_2fhello_2fcv_2dservice_2fmessages_2eproto
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x000000000000c328        0x8 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x000000000000c328                DW.ref.__gxx_personality_v0
+
+.tm_clone_table
+                0x000000000000c330        0x0
+ .tm_clone_table
+                0x000000000000c330        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .tm_clone_table
+                0x000000000000c330        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.data1
+ *(.data1)
+                [!provide]                        PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                0x000000000000c330                . = .
+                [!provide]                        PROVIDE (__bss_start = .)
+
+.bss            0x000000000000c340       0xb8
+ *(.dynbss)
+ .dynbss        0x000000000000c340        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000000c340        0x1 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x000000000000c341       0x1f 
+ .bss           0x000000000000c360       0x91 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                0x000000000000c360                file_level_metadata_samples_2fhello_2fcv_2dservice_2fmessages_2eproto
+                0x000000000000c380                samples::hello::cv_service::messages::_Event_default_instance_
+                0x000000000000c3c0                samples::hello::cv_service::messages::_Command_default_instance_
+ *(COMMON)
+                0x000000000000c3f8                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x000000000000c3f1        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x000000000000c3f8                . = ALIGN (0x8)
+                0x000000000000c3f8                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x000000000000e3f8        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x000000000000e3f8                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x000000000000e3f8                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+                0x000000000000e3f8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+ .comment       0x000000000000002b       0x2c /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x5a0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x5a0 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x2934f
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000    0x2934f /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+
+.debug_abbrev   0x0000000000000000     0x1912
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000     0x1912 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+
+.debug_line     0x0000000000000000     0x40ea
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000     0x40ea /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000    0x382dd
+ *(.debug_str)
+ .debug_str     0x0000000000000000    0x382dd /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+                                      0x391b1 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0xb0e0
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0xb0e0 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x3dc0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000     0x3dc0 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/obj/gen/samples/hello/cv-service/messages.pb.cc.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(out/hello-pc/build/libairsdk-hello-cv-service-pb/libairsdk-hello-cv-service-pb.so elf64-x86-64)

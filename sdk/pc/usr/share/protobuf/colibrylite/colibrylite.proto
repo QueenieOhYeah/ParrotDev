@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+
+import public "colibrylite/estimation_mode.proto";
+import public "colibrylite/horizontal_control_config.proto";
+import public "colibrylite/defective_motor_id.proto";
+import public "colibrylite/defective_motor_failure_type.proto";
+import public "colibrylite/vertical_control_config.proto";
+import public "colibrylite/yaw_control_config.proto";
+import public "colibrylite/types.proto";
+import public "colibrylite/reference_propagation_model.proto";
+import public "colibrylite/vertical_controller_setting.proto";
+
+import public "colibrylite/motion_state.proto";
+import public "colibrylite/wind_status.proto";
+import public "colibrylite/three_level_status.proto";
+import public "colibrylite/event_detection_state.proto";
+
+import public "colibrylite/horizontal_position_target_kind.proto";
+import public "colibrylite/horizontal_velocity_target_kind.proto";
+import public "colibrylite/vertical_position_target_kind.proto";
+import public "colibrylite/vertical_velocity_target_kind.proto";
+import public "colibrylite/yaw_position_target_kind.proto";
+import public "colibrylite/yaw_velocity_target_kind.proto";

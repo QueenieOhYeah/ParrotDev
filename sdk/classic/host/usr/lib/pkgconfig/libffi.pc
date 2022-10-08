@@ -1,0 +1,11 @@
+prefix=/data/jenkins/jobs/anafi2-airsdk-release/workspace/out/anafi2-classic_airsdk/staging-host/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${exec_prefix}/lib
+includedir=${libdir}/libffi-3.2.1/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.2.1
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

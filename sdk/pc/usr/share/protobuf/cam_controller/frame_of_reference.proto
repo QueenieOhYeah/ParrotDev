@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+
+package CamController.Messages.FrameOfReference;
+
+enum Enum {
+    // Target is expressed in the frame defined by the latest reference.
+    RELATIVE = 0;
+    // Target is expressed in NED (North East Down).
+    NED = 1;
+    // Target is expressed in NED start (North East Down).
+    NED_START = 2;
+    // Target is expressed in the frame defined by the base.
+    BASE = 3;
+    // Target has no frame (target will not be taken into account).
+    NONE = 4;
+}

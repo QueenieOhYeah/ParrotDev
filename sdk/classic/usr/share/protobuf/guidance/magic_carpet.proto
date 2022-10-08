@@ -1,0 +1,50 @@
+syntax = "proto3";
+package Guidance.MagicCarpet.Messages;
+
+import 'google/protobuf/empty.proto';
+
+enum Axis {
+   // First axis in NED frame
+   AXIS_NORTH = 0 ;
+   // Second axis in NED frame
+   AXIS_EAST = 1 ;
+   // Third axis in NED frame
+   AXIS_DOWN = 2 ;
+   // Drone yaw
+   AXIS_YAW = 3 ;
+}
+
+message Trajectory {
+    // Axis along which the trajectory is performed
+    Axis axis = 1 ;
+    // Type of trajectory
+    uint32 type = 2 ;
+    // Duration of the trajectory [ms]
+    float duration = 3 ;
+    // Position at the end of the trajectory [mm]
+    float position = 4 ;
+    // Speed of the trajectory [mm/s]
+    float speed = 5 ;
+    // Phase of the sine trajectory [rad]
+    float phase = 6 ;
+}
+
+message ForceHeading {
+    // Unused
+    float heading = 1 ;
+}
+
+message Command {
+    oneof id {
+        // Perform given trajectory
+        Trajectory set_trajectory = 1;
+        // Unused
+        ForceHeading set_force_heading = 2;
+    }
+}
+
+message Event {
+    oneof id {
+        google.protobuf.Empty empty = 1;
+    }
+}

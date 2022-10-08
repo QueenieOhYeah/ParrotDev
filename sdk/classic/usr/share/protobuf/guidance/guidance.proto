@@ -1,0 +1,132 @@
+syntax = "proto3";
+
+package Guidance.Messages;
+
+import 'guidance/axes_cam_controller.proto';
+import 'guidance/magic_carpet.proto';
+import 'google/protobuf/any.proto';
+import 'google/protobuf/empty.proto';
+
+// TODO rename into ModeConfig
+message SetMode {
+    // Mode name.
+    string mode = 1;
+    // Serialized config object specific to each mode.
+    google.protobuf.Any config = 2;
+    // Override the camera axes configuration (if supported).
+    // If multiple configurations are given for the same camera, they will be
+    // merged.
+    repeated .Guidance.AxesCamController.Messages.Config cam_config_override = 4;
+}
+
+message Pcmd {
+    // Roll angle [rad]. If positive the drone will fly to the right.
+    float roll = 1;
+    // Pitch angle [rad]. If positive the drone will fly forward.
+    float pitch = 2;
+    // Yaw angular rate [rad/s]. If positive the drone will turn clockwise.
+    float yaw = 3;
+    // Vertical speed [m/s]. If positive, the drone will go down.
+    float vertical = 4;
+    // Brake and go to fixed point.
+    bool gotofix = 5;
+    // Sequence number at the source (only 8 bits used so it wraps at 255 -> 0).
+    uint32 seqnum = 6;
+    // Timestamp (in ms) at the source (only 24 bits used).
+    uint32 ts = 7;
+}
+
+message GeofenceCenter {
+    // Latitude of geofence center in degrees (north).
+    float latitude = 1;
+    // Longitude of geofence center in degrees (east).
+    float longitude = 2;
+}
+
+message ModeChanged {
+    // Indicate if the mode was correctly changed after request.
+    bool ok = 1;
+    // New mode name. Set to the current mode in case of failure.
+    string mode = 2;
+    // Indicate if new mode supports obstacle avoidance.
+    bool obstacle_avoidance_available = 3;
+    // Indicate if new mode supports geofence.
+    bool geofence_available = 4;
+}
+
+message Mission {
+    // Unique id of the mission.
+    string uid = 1;
+}
+
+message Command {
+    oneof id {
+        // Set guidance mode.
+        SetMode set_mode = 1;
+
+        // Set piloting commands.
+        Pcmd set_pcmd = 2;
+
+        // Load mission guidance modes.
+        // TODO: use uid string directly
+        Mission load_mission = 10;
+        // Unload mission guidance modes.
+        // TODO: use uid string directly
+        Mission unload_mission = 11;
+
+        // Enable or disable obstacle avoidance.
+        bool set_obstacle_avoidance = 30;
+
+        // Enable or disable geofence.
+        bool set_geofence = 40;
+        // Set geofence center.
+        GeofenceCenter set_geofence_center = 41;
+    }
+}
+
+message ModeList {
+    // List of loaded mode names.
+    repeated string loaded_modes = 1;
+}
+
+message Error {
+    // Error message for logs.
+    string message = 1;
+    // Current mode.
+    string mode = 2;
+}
+
+message Event {
+    oneof id {
+        // Send a list of loaded modes after init.
+        ModeList init_ok = 1;
+        // Acknowledgment of `set_mode` command.
+        ModeChanged mode_changed = 2;
+        // Error message returned by a guidance mode via `guidance::Mode::setError`.
+        Error error = 3;
+        // List of loaded modes changed.
+        ModeList mode_list_changed = 4;
+
+        // Distance from nominal trajectory exceeds threshold.
+        bool high_trajectory_deviation = 30;
+        // Drone is stuck by a presumably large obstacle.
+        bool obstacle_avoidance_stuck = 31;
+        // Obstacle avoidance fails to compute trajectories.
+        bool obstacle_avoidance_failure = 32;
+        // Drone is moving in blind direction.
+        bool obstacle_avoidance_blind_motion_direction = 33;
+
+        // Request to go to fixed point completed.
+        google.protobuf.Empty gotofix_done = 40;
+        // Request to go to freeze point completed.
+        google.protobuf.Empty gotofreeze_done = 41;
+
+        // Indicate if the drone has reached the geofence horizontal limit
+        bool horizontal_geofence_reached = 100;
+        // Indicate if the drone has reached the geofence vertical limit
+        bool vertical_geofence_reached = 101;
+
+        // Indicate that the center of the geofence changed.
+        GeofenceCenter geofence_center_changed = 102;
+    }
+}

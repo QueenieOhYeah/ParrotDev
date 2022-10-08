@@ -1,0 +1,100 @@
+syntax = "proto3";
+
+package ColibryLite.Messages;
+
+import "colibrylite/horizontal_position_target_kind.proto";
+import "colibrylite/horizontal_velocity_target_kind.proto";
+import "colibrylite/vertical_position_target_kind.proto";
+import "colibrylite/vertical_velocity_target_kind.proto";
+import "colibrylite/yaw_position_target_kind.proto";
+import "colibrylite/yaw_velocity_target_kind.proto";
+
+// Generic trajectory
+message TrajectoryPoint {
+    // Position
+    float x = 1;
+    // Velocity
+    float dx = 2;
+    // Acceleration
+    float ddx = 3;
+}
+
+// Generic velocity trajectory
+message VelocityTrajectory {
+    // Velocity
+    float x = 1;
+    // Acceleration
+    float dx = 2;
+}
+
+// Horizontal (x, y) trajectory
+message HorizontalTrajectoryPoint {
+    TrajectoryPoint x = 1;
+    TrajectoryPoint y = 2;
+}
+
+// Horizontal (x, y) velocity trajectory
+message HorizontalVelocityTrajectory {
+    VelocityTrajectory x = 1;
+    VelocityTrajectory y = 2;
+}
+
+// Tilt (phi, theta) trajectory
+message TiltTrajectoryPoint {
+    TrajectoryPoint phi = 1;
+    TrajectoryPoint theta = 2;
+}
+
+// Vertical thrust parameters
+message VerticalThrustRamp {
+  float normalized_thrust_rate = 1;
+  float target_normalized_thrust = 2;
+}
+
+// Position target in horizontal plane
+message HorizontalPositionTarget {
+    // position sources of comparison
+    ColibryLite.Messages.HorizontalPositionTargetKind.Enum kind = 2;
+    // value in [m] to consider the target as reached
+    float threshold = 3;
+}
+
+// Velocity target in horizontal plane
+message HorizontalVelocityTarget {
+    // velocity sources of comparison
+    ColibryLite.Messages.HorizontalVelocityTargetKind.Enum kind = 2;
+    // value in [m/s] to consider the target as reached
+    float threshold = 3;
+}
+
+// Position target in vertical axis
+message VerticalPositionTarget {
+    // position sources of comparison
+    ColibryLite.Messages.VerticalPositionTargetKind.Enum kind = 2;
+    // value in [m] to consider the target as reached
+    float threshold = 3;
+}
+
+// Velocity target in vertical axis
+message VerticalVelocityTarget {
+    // velocity sources of comparison
+    ColibryLite.Messages.VerticalVelocityTargetKind.Enum kind = 2;
+    // value in [m/s] to consider the target as reached
+    float threshold = 3;
+}
+
+// Angular position target in yaw axis
+message YawPositionTarget {
+    // angular position sources of comparison
+    ColibryLite.Messages.YawPositionTargetKind.Enum kind = 2;
+    // value in [rad] to consider the target as reached
+    float threshold = 3;
+}
+
+// Angular velocity target in yaw axis
+message YawVelocityTarget {
+    // angular velocity sources of comparison
+    ColibryLite.Messages.YawVelocityTargetKind.Enum kind = 2;
+    // value in [rad/s] to consider the target as reached
+    float threshold = 3;
+}

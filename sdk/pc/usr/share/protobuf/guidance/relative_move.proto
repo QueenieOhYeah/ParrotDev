@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+import 'google/protobuf/empty.proto';
+
+package Guidance.RelativeMove.Messages;
+
+// Relative move displacement
+// The frame of reference is horizontal and relative to the current drone orientation
+message Displacement {
+    // Wanted displacement along the front axis [m]
+    float dx = 1;
+    // Displacement along the right axis [m]
+    float dy = 2;
+    // Displacement along the down axis [m]
+    float dz = 3;
+    // Change of yaw in the NED frame [rad] clockwise
+    float dyaw = 4;
+}
+
+// Relative move mode configuration
+message Config {
+    // Requested displacement
+    Displacement displacement = 1;
+    // Set to true if this relative move is the last one
+    bool last_move = 2;
+}
+
+message Event {
+    oneof id {
+        // Send effective displacement when done and is last_move
+        Displacement done = 1;
+        // Send effective displacement when done and is not last_move
+        Displacement move_validated = 2;
+
+        // Drone blocked (obstacle, strong front wind, ...)
+        google.protobuf.Empty stuck = 3;
+    }
+}

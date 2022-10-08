@@ -1,0 +1,11 @@
+prefix=/data/jenkins/jobs/anafi2-airsdk-release/workspace/out/anafi2-classic_airsdk/staging-host/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: expat
+Version: 2.4.6
+Description: expat XML parser
+URL: https://libexpat.github.io/
+Libs: -L${libdir} -lexpat -lm
+Cflags: -I${includedir}

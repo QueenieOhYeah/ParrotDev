@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+
+import "cam_controller/cam_controller.proto";
+
+package AxesCamController.Messages;
+
+// Axes configuration.
+message Config {
+    // Yaw axis configuration.
+    CamController.Messages.AxisConfig yaw = 1;
+    // Pitch axis configuration.
+    CamController.Messages.AxisConfig pitch = 2;
+    // Roll axis configuration.
+    CamController.Messages.AxisConfig roll = 3;
+}
+
+// Axes reference, consisting of one reference for each axis (yaw, pitch, roll).
+message Reference {
+    // Yaw axis reference.
+    CamController.Messages.AxisReference yaw = 1;
+    // Pitch axis reference.
+    CamController.Messages.AxisReference pitch = 2;
+    // Roll axis reference.
+    CamController.Messages.AxisReference roll = 3;
+}
+
+// Axes reference status.
+message ReferenceStatus {
+    oneof id {
+        // Yaw axis reference status.
+        CamController.Messages.ReferenceStatus.Enum yaw = 1;
+        // Pitch axis reference status.
+        CamController.Messages.ReferenceStatus.Enum pitch = 2;
+        // Roll axis reference status.
+        CamController.Messages.ReferenceStatus.Enum roll = 3;
+    }
+}
+
+// Union of all possible commands of this package.
+message Command {
+    oneof id {
+        Config set_config = 1;
+        Reference set_reference = 2;
+    }
+}

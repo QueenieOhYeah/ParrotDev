@@ -1,0 +1,3 @@
+/home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/gen/samples/hello/cv-service/messages.msghub.cc \
+/home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/gen/samples/hello/cv-service/messages.msghub.h: /home/queenie/airsdk/sdk/pc/usr/share/protobuf/google/protobuf/empty.proto\
+ /home/queenie/airsdk/packages/airsdk-samples/hello/services/native/protobuf/samples/hello/cv-service/messages.proto

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+
+package ColibryLite.Messages.EventDetectionState;
+
+enum Enum {
+    FALSE = 0;
+    TRUE = 1;
+    UNKNOWN = 2;
+}

@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+
+package ColibryLite.Messages.HorizontalControlConfig;
+
+enum Enum {
+    // Default configuration.
+    // Maximum horizontal speed: 12 m/s
+    // Maximum horizontal acceleration: 4 m/s²
+    // Maximum pitch/roll angles: 30°
+    // Maximum pitch/roll angular rates: 300°/s
+    DEFAULT = 0;
+    // Fast and aggressive config.
+    // Maximum horizontal speed: 15 m/s
+    // Maximum horizontal acceleration: 6 m/s²
+    // Maximum pitch/roll angles: 30°
+    // Maximum pitch/roll angular rates: 600°/s
+    AGGRESSIVE = 1;
+    // Slow and smooth config.
+    // Maximum horizontal speed: 8 m/s
+    // Maximum horizontal acceleration: 2 m/s²
+    // Maximum pitch/roll angles: 20°
+    // Maximum pitch/roll angular rates: 80°/s
+    SOFT = 2;
+    // Customizable speed config.
+    // Maximum horizontal speed: from reference message (but never higher than 12 ms/s)
+    // Maximum horizontal acceleration: 4 m/s²
+    // Maximum pitch/roll angles: 30°
+    // Maximum pitch/roll angular rates: 300°/s
+    DYNAMIC = 3;
+}

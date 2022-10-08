@@ -1,0 +1,37 @@
+syntax = "proto3";
+package Guidance.Ascent.Messages;
+
+import 'google/protobuf/empty.proto';
+
+// Ascent type options
+enum Type {
+    // Do not take horizontal piloting commands into account.
+    TYPE_DEFAULT = 0;
+    // Accept horizontal piloting commands.
+    TYPE_MANUAL = 1;
+}
+
+// Ascent mode configuration
+message Config {
+    // Ascent type.
+    Type type = 1;
+    // Target altitude [m].
+    float altitude = 2;
+}
+
+message Command {
+    oneof id {
+        google.protobuf.Empty empty = 1;
+    }
+}
+
+message Event {
+    oneof id {
+        // Ascent is completed.
+        google.protobuf.Empty done = 1;
+        // Ascent is completed and drone is immobile
+        google.protobuf.Empty done_with_immobility = 2;
+        // Ascent is completed and drone is not immobile
+        google.protobuf.Empty done_without_immobility = 3;
+    }
+}

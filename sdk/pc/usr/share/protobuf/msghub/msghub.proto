@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package MsgHub;
+
+/// Empty message to be used for commands/events without arguments
+message Void {
+}

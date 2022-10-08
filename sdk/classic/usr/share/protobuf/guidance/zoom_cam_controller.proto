@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+
+import "cam_controller/cam_controller.proto";
+import "zoom_cam_controller/zoom_cam_controller.proto";
+import "guidance/camera.proto";
+
+package Guidance.ZoomCamController.Messages;
+
+message Reset {
+    // Selected camera.
+    Guidance.Camera.Messages.Enum cam = 1;
+}
+
+message Zoom {
+    // Selected camera.
+    Guidance.Camera.Messages.Enum cam = 1;
+    // Camera zoom level.
+    .ZoomCamController.Messages.Zoom zoom = 2;
+}
+
+message Config {
+    // Selected camera.
+    Guidance.Camera.Messages.Enum cam = 1;
+    // Camera zoom configuration.
+    .ZoomCamController.Messages.Config config = 2;
+}
+
+message Command {
+    oneof id {
+        // Reset camera zoom level.
+        Reset reset = 1;
+        // Set camera zoom level.
+        Zoom set_zoom = 2;
+        // Set camera zoom configuration.
+        Config set_config = 3;
+    }
+}
+
+message Event {
+    oneof id {
+        // Camera zoom configuration advertised after a mode change.
+        Config config = 1;
+    }
+}

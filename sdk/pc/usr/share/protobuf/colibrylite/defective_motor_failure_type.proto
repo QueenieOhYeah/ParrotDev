@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+
+package ColibryLite.Messages.DefectiveMotorFailureType;
+
+enum Enum {
+    // Default: all motors running.
+    NONE = 0;
+    // ESC error : Motor Stalled.
+    MOTOR_STALLED = 1;
+    // ESC error : Propeller Security.
+    PROPELLER_SECURITY = 2;
+    // ESC error : Emergency Stop.
+    RC_EMERGENCY_STOP = 3;
+    // Defective propeller detected.
+    DEFECTIVE_PROP = 4;
+    // Blocked propeller detected
+    BLOCKED_PROP = 5;
+
+}

@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package Guidance.OccupancyGrid.Messages;
+
+message OccupancyGridSettings {
+    // Each voxel is a cube of voxel_size^3 m^3 [m]
+    double voxel_size = 1;
+    // Number of horizontal voxels
+    uint32 h_voxels_count = 2;
+    // Number of vertical voxels
+    uint32 v_voxels_count = 3;
+    // Horizontal field of view of the stereo cam [rad]
+    double stcam_hfov = 4;
+    // Ratio of the number of horizontal pixels over the vertical pixels
+    double stcam_ratio = 5;
+    // Maximal value for voxel logodd
+    uint32 max_logodd = 6;
+    // Minimal value for voxel logodd
+    int32 min_logodd = 7;
+    // Value of the increment applied when probability of presence increases
+    uint32 logodd_full_update_val = 8;
+    // Value of the decrement applied when probability of presence decreases
+    uint32 logodd_empty_update_val = 9;
+    // Maximum distance to the closest border voxel [m]
+    double max_dist_to_cbv = 10;
+}
+
+message OccupancyGridData {
+    // Timestamp of the occupancy grid [ms]
+    double timestamp_ms = 1;
+    // Occupancy grid voxel values
+    bytes data = 2;
+}

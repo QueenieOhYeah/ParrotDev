@@ -1,0 +1,24 @@
+TARGET_GLOBAL_C_INCLUDES := /home/queenie/airsdk/out/hello-pc/staging/usr/include/x86_64-linux-gnu /home/queenie/airsdk/out/hello-pc/staging/usr/include /home/queenie/airsdk/sdk/pc/usr/include
+TARGET_GLOBAL_ASFLAGS := 
+TARGET_GLOBAL_OBJCFLAGS := -fobjc-arc
+TARGET_GLOBAL_FFLAGS := 
+TARGET_GLOBAL_VALAFLAGS := --vapidir=/home/queenie/airsdk/out/hello-pc/staging-host/usr/share/vala-0.20/vapi --vapidir=/home/queenie/airsdk/out/hello-pc/staging/usr/share/vala/vapi --vapidir=/home/queenie/airsdk/sdk/pc/usr/share/vala/vapi --target-glib=2.36
+TARGET_GLOBAL_PCHFLAGS := -x c++-header
+TARGET_GLOBAL_LDLIBS := -pthread -lrt
+PRIVATE_GLOBAL_CFLAGS := -pipe -O2 -g -ffunction-sections -DALCHEMY_BUILD -m64 -fPIC -msse -msse2 -mssse3
+PRIVATE_GLOBAL_CXXFLAGS := 
+PRIVATE_GLOBAL_LDFLAGS := -Wl,-rpath=\$ORIGIN:\$ORIGIN/..:\$ORIGIN/../lib -Wl,--unresolved-symbols=ignore-in-shared-libs -O2 -m64 -L/home/queenie/airsdk/out/hello-pc/staging/lib/x86_64-linux-gnu -L/home/queenie/airsdk/out/hello-pc/staging/lib -L/home/queenie/airsdk/out/hello-pc/staging/usr/lib/x86_64-linux-gnu -L/home/queenie/airsdk/out/hello-pc/staging/usr/lib -L/home/queenie/airsdk/sdk/pc/lib/x86_64-linux-gnu -L/home/queenie/airsdk/sdk/pc/lib -L/home/queenie/airsdk/sdk/pc/usr/lib/x86_64-linux-gnu -L/home/queenie/airsdk/sdk/pc/usr/lib -Wl,-rpath-link=/home/queenie/airsdk/out/hello-pc/staging/lib/x86_64-linux-gnu -Wl,-rpath-link=/home/queenie/airsdk/out/hello-pc/staging/lib -Wl,-rpath-link=/home/queenie/airsdk/out/hello-pc/staging/usr/lib/x86_64-linux-gnu -Wl,-rpath-link=/home/queenie/airsdk/out/hello-pc/staging/usr/lib -Wl,-rpath-link=/home/queenie/airsdk/sdk/pc/lib/x86_64-linux-gnu -Wl,-rpath-link=/home/queenie/airsdk/sdk/pc/lib -Wl,-rpath-link=/home/queenie/airsdk/sdk/pc/usr/lib/x86_64-linux-gnu -Wl,-rpath-link=/home/queenie/airsdk/sdk/pc/usr/lib
+PRIVATE_C_INCLUDES := /home/queenie/airsdk/out/hello-pc/build/airsdk-hello-cv-service /home/queenie/airsdk/packages/airsdk-samples/hello /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-msghub/gen /home/queenie/airsdk/sdk/pc/usr/include/opencv4 /home/queenie/airsdk/out/hello-pc/build/libairsdk-hello-cv-service-pb/gen /home/queenie/airsdk/sdk/pc/usr/include/libmsghub/gen
+PRIVATE_ASFLAGS := 
+PRIVATE_CFLAGS := -include /home/queenie/airsdk/out/hello-pc/build/opencv4/autoconf-opencv4.h -include /home/queenie/airsdk/out/hello-pc/build/protobuf-base/autoconf-protobuf-base.h -DBUILD_LIBAIRSDK_HELLO_CV_SERVICE_MSGHUB -DBUILD_LIBTELEMETRY -DBUILD_LIBULOG -DBUILD_LIBVIDEO_IPC -DBUILD_LIBVIDEO_IPC_CLIENT_CONFIG -DBUILD_OPENCV4 -DBUILD_LIBAIRSDK_HELLO_CV_SERVICE_PB -DBUILD_LIBMSGHUB -DBUILD_PROTOBUF -DBUILD_LIBPOMP -DBUILD_LIBVIDEO_ACQUISITION -DBUILD_LIBVIDEO_DEFS -DBUILD_LIBCONFIG -DBUILD_LIBH264 -DBUILD_LIBH265 -DBUILD_PROTOBUF_BASE
+PRIVATE_CXXFLAGS := -std=c++0x -D__STDC_FORMAT_MACROS -std=c++11
+PRIVATE_OBJCFLAGS := 
+PRIVATE_OBJCXXFLAGS := 
+PRIVATE_FFLAGS := 
+PRIVATE_VALAFLAGS := --define BUILD_LIBAIRSDK_HELLO_CV_SERVICE_MSGHUB --define BUILD_LIBTELEMETRY --define BUILD_LIBULOG --define BUILD_LIBVIDEO_IPC --define BUILD_LIBVIDEO_IPC_CLIENT_CONFIG --define BUILD_OPENCV4 --define BUILD_LIBAIRSDK_HELLO_CV_SERVICE_PB --define BUILD_LIBMSGHUB --define BUILD_PROTOBUF --define BUILD_LIBPOMP --define BUILD_LIBVIDEO_ACQUISITION --define BUILD_LIBVIDEO_DEFS --define BUILD_LIBCONFIG --define BUILD_LIBH264 --define BUILD_LIBH265 --define BUILD_PROTOBUF_BASE
+PRIVATE_PCH_INCLUDE := 
+PRIVATE_LDFLAGS := 
+PRIVATE_LDLIBS := -lopencv4_world -lprotobuf -lprotoc
+PRIVATE_WARNINGS_CFLAGS := -Wmissing-prototypes -Wno-strict-prototypes -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wunused-value -Wunused-variable -Wunused-label -Wpointer-arith -Wformat-nonliteral -Wformat-security -Winit-self -Wjump-misses-init -fdiagnostics-show-option -fdiagnostics-color -Wstrict-aliasing=3 -Wunreachable-code -Wlogical-op -Wno-format-truncation
+PRIVATE_WARNINGS_CXXFLAGS := -Wno-ctor-dtor-privacy -Wno-non-virtual-dtor -Wreorder -Woverloaded-virtual -Wall -Wextra -Wno-unused -Wno-unused-parameter -Wunused-value -Wunused-variable -Wunused-label -Wpointer-arith -Wformat-nonliteral -Wformat-security -Winit-self -fdiagnostics-show-option -fdiagnostics-color -Wstrict-aliasing=3 -Wunreachable-code -Wlogical-op -Wno-format-truncation
+

@@ -1,0 +1,56 @@
+syntax = "proto3";
+package Guidance.Descent.Messages;
+
+import 'google/protobuf/empty.proto';
+
+// Descent Type
+enum Type {
+    // Descent type does not take horizontal piloting commands into account.
+    TYPE_DEFAULT = 0;
+    // Descent type go on the precise home landing
+    TYPE_DEFAULT_PRECISE = 1;
+    // Descent type accepts horizontal piloting commands.
+    TYPE_MANUAL = 2;
+    // Descent type performs a "Go to fix" while descending.
+    TYPE_GOTOFIX = 3;
+}
+
+enum TargetType
+{
+    // No target type
+    TARGET_TYPE_GROUND = 0;
+    // Special behavior while performing a descent to ground distance
+    TARGET_TYPE_ALTITUDE_AGL = 1;
+    // Special behavior while performing a descent to global altitude (above take off)
+    TARGET_TYPE_ALTITUDE_ATO = 2;
+}
+
+// Descent mode configuration
+message Config {
+    // Set up descent type.
+    Type type = 1;
+    // Target altitude type.
+    TargetType target_type = 2;
+    // AGL altitude of descent [m]
+    float altitude = 3;
+    // Threshold for target reached [m]
+    float threshold = 4;
+    // Max custom descent speed [m/s]
+    float max_speed = 5;
+}
+
+message Command {
+    oneof id {
+        google.protobuf.Empty empty = 1;
+    }
+}
+
+// Union of all possible events of this package.
+message Event {
+    oneof id {
+        // Descent has been completed successfully
+        google.protobuf.Empty done = 1;
+        // Descent has been aborted
+        google.protobuf.Empty aborted = 2;
+    }
+}

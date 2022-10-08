@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="ssh://git@github.com/Parrot-Developers"/>
+  
+  <default remote="github" revision="master" upstream="master" sync-j="4"/>
+  
+  <project name="airsdk-samples" path="packages/airsdk-samples" revision="4b040e7d9b4a93fa9e4dabafd04ec07f1c85fe7e" dest-branch="master">
+    <linkfile src="hello/product" dest="products/hello"/>
+    <linkfile src="README.md" dest="README"/>
+  </project>
+  <project name="alchemy" path="build/alchemy" revision="b849fe1c344fee9396b0f35de89999bec8ac100d" dest-branch="master"/>
+  <project name="dragon_build" path="build/dragon_build" revision="55d7e2559debf0d70c4cb3eb49607260bd7bad94" dest-branch="master">
+    <linkfile src="root-build.sh" dest="build.sh"/>
+  </project>
+  <project name="dragon_buildext_mission" path="build/dragon_buildext_mission" revision="6516d191410bc8f602cdcefb25936d132786deb7" dest-branch="master"/>
+  <project name="dragon_buildext_sign" path="build/dragon_buildext_sign" revision="a7cc95593a8916b742a7b313dd1aae28bd003d96" dest-branch="master"/>
+</manifest>

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package Flightplan.Enums.ViewMode.Roll;
+
+// Roll view mode
+enum Enum {
+    FREE = 0;     // Unconstrained: No camera reference (reference not updated).
+    CONSTANT = 1; // Travelling: Constant camera angle.
+    RAMP = 2;     // Transition: Reference varies linearly to join the reference on the waypoint.
+    SET_ON_WAYPOINT = 3; // FREE mode outside of waypoint validation radius, CONSTANT mode inside.
+}

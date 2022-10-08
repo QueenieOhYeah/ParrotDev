@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+import 'google/protobuf/empty.proto';
+
+package Guidance.CameraRotationMove.Messages;
+
+// Relative move displacement
+// The frame of reference is horizontal and relative to the current drone orientation
+message Displacement {
+    // Wanted displacement along the roll axis [rad]
+    float roll = 1;
+    // Displacement along the pitch axis [rad]
+    float pitch = 2;
+    // Displacement along the yaw axis [rad]
+    float yaw = 3;
+}
+
+// Relative camera move mode configuration
+message Config {
+    // Requested displacement
+    Displacement displacement = 1;
+}
+
+message Event {
+    oneof id {
+        // Send when displacement is done
+        google.protobuf.Empty move_validated = 1;
+        // Send when displacement is not validated
+        google.protobuf.Empty time_out = 2;
+    }
+}

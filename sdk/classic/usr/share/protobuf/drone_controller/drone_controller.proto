@@ -1,0 +1,590 @@
+syntax = "proto3";
+
+import "colibrylite/colibrylite.proto";
+
+import "drone_controller/battery_alert.proto";
+import "drone_controller/battery_data_role.proto";
+import "drone_controller/battery_power_role.proto";
+import "drone_controller/motor_error.proto";
+import "drone_controller/emergency_behavior.proto";
+import "google/protobuf/empty.proto";
+
+package DroneController.Messages;
+
+message HorizontalAngles {
+    // Tilt trajectory (roll, pitch) in [rad].
+    ColibryLite.Messages.TiltTrajectoryPoint ref = 1;
+    // Control mode for horizontal angles.
+    ColibryLite.Messages.HorizontalControlConfig.Enum config = 2;
+    // True if estimated wind should be compensated by making the drone
+    // increase its tilt angle reference.
+    bool enable_wind_compensation = 3;
+    // True if the drone should automatically perform a banked turn.
+    bool enable_auto_banked_turn = 4;
+}
+
+message HorizontalTrajectoryLocal {
+    // Horizontal linear trajectory (X, Y) in local frame.
+    ColibryLite.Messages.HorizontalTrajectoryPoint ref = 1;
+    // Control mode for horizontal trajectory in local frame.
+    ColibryLite.Messages.HorizontalControlConfig.Enum config = 2;
+    // Propagation model used for reference trajectory computation
+    ColibryLite.Messages.ReferencePropagationModel.Enum reference_propagation_model = 3;
+    // Maximum horizontal speed [m/s]. Only taken into account when config == DYNAMIC
+    float maximum_horizontal_speed = 4;
+}
+
+message HorizontalTrajectoryGlobal {
+    // Horizontal linear trajectory (X, Y) in global frame.
+    ColibryLite.Messages.HorizontalTrajectoryPoint ref = 1;
+    // Control mode for horizontal trajectory in global frame.
+    ColibryLite.Messages.HorizontalControlConfig.Enum config = 2;
+    // Propagation model used for reference trajectory computation
+    ColibryLite.Messages.ReferencePropagationModel.Enum reference_propagation_model = 3;
+    // Maximum horizontal speed [m/s]. Only taken into account when config == DYNAMIC
+    float maximum_horizontal_speed = 4;
+}
+
+message HorizontalGoToFix {
+    // Control mode for horizontal gotofix.
+    ColibryLite.Messages.HorizontalControlConfig.Enum config = 1;
+}
+
+message HorizontalVelocityTrajectory {
+    // Horizontal velocity trajectory (X, Y) in north and east axis.
+    ColibryLite.Messages.HorizontalVelocityTrajectory ref = 1;
+    // Control mode for horizontal velocity trajectory.
+    ColibryLite.Messages.HorizontalControlConfig.Enum config = 2;
+}
+
+message HorizontalReference {
+    oneof ref {
+        // Set horizontal angle references
+        // Roll and pitch are defined respectively as the third and second Euler angle of the drone
+        // attitude in NED
+        // Euler angles mean here the ZYX angle decomposition of a given attitude (yaw, pitch, roll)
+        HorizontalAngles angles = 1;
+        // Set linear horizontal trajectory reference
+        // The trajectory is given in local frame.
+        HorizontalTrajectoryLocal trajectory_local = 2;
+        // Set linear horizontal trajectory reference
+        // The trajectory is given in global frame.
+        HorizontalTrajectoryGlobal trajectory_global = 3;
+        // Set a null horizontal velocity control (useful for braking)
+        HorizontalGoToFix go_to_fix = 4;
+        // Set linear horizontal velocity and acceleration references
+        // Both velocity and acceleration references are given in north and east axis.
+        HorizontalVelocityTrajectory velocity_trajectory = 5;
+    }
+}
+
+message VerticalVelocity {
+    // Vertical velocity reference [m/s].
+    float ref = 1;
+    // Control mode for vertical velocity.
+    ColibryLite.Messages.VerticalControlConfig.Enum config = 2;
+    // Vertical controller setting.
+    ColibryLite.Messages.VerticalControllerSetting.Enum controller_setting = 3;
+    // True if descent is limited to a minimum altitude above ground.
+    bool ground_constrained = 4;
+}
+
+message VerticalVelocityTrajectory {
+    // Vertical velocity trajectory reference in [m/s] and [m/s2]
+    ColibryLite.Messages.VelocityTrajectory ref = 1;
+    // Control mode for vertical velocity.
+    ColibryLite.Messages.VerticalControlConfig.Enum config = 2;
+    // Vertical controller setting.
+    ColibryLite.Messages.VerticalControllerSetting.Enum controller_setting = 3;
+    // True if descent is limited to a minimum altitude above ground.
+    bool ground_constrained = 4;
+}
+
+message VerticalTrajectory {
+    // Vertical trajectory reference.
+    ColibryLite.Messages.TrajectoryPoint ref = 1;
+    // Control mode for vertical trajectory.
+    ColibryLite.Messages.VerticalControlConfig.Enum config = 2;
+    // Vertical controller setting.
+    ColibryLite.Messages.VerticalControllerSetting.Enum controller_setting = 3;
+    // Propagation model used for reference trajectory computation
+    ColibryLite.Messages.ReferencePropagationModel.Enum reference_propagation_model = 4;
+    // True if descent is limited to a minimum altitude above ground.
+    bool ground_constrained = 5;
+    // Maximum vertical speed [m/s]. Only taken into account when config == DYNAMIC
+    float maximum_vertical_speed = 6;
+
+}
+
+message VerticalThrust {
+    // Vertical thrust, normalized by the drone mass [m.s^-2]
+    float ref = 1;
+    // Control mode for vertical thrust.
+    ColibryLite.Messages.VerticalControlConfig.Enum config = 2;
+}
+
+message VerticalThrustRamp {
+    // Vertical thrust target, normalized by drone mass [m.s^-2].
+    float ref = 1;
+    // Vertical thrust change rate, normalized by drone mass [m.s^-3].
+    float rate = 2;
+    // Control mode for vertical thrust ramp.
+    ColibryLite.Messages.VerticalControlConfig.Enum config = 3;
+}
+
+// Union of all kind of vertical reference messages.
+message VerticalReference {
+    oneof ref {
+        // Set vertical velocity reference.
+        // This reference is positive downwards.
+        VerticalVelocity velocity = 1;
+
+        // Set vertical velocity trajectory reference.
+        // This reference components (velocity and acceleration) are positive downwards.
+        VerticalVelocityTrajectory velocity_trajectory = 2;
+
+        // Set vertical trajectory reference.
+        // This reference components (position, velocity and acceleration) are positive downwards.
+        VerticalTrajectory trajectory = 3;
+
+        // Set vertical normalized thrust.
+        // This reference is positive downwards.
+
+        VerticalThrust thrust = 4;
+
+        // Set vertical thrust ramp.
+        // This reference is positive downwards.
+        // Thrust will ramp from the current thrust to the target thrust at a given rate.
+        VerticalThrustRamp thrust_ramp = 5;
+    }
+}
+
+message YawRate {
+    // Yaw rate reference [rad/s].
+    float ref = 1;
+    // Yaw control mode.
+    ColibryLite.Messages.YawControlConfig.Enum config = 2;
+}
+
+message YawTrajectoryNedStart {
+    // Yaw trajectory reference in NED start vector basis.
+    ColibryLite.Messages.TrajectoryPoint ref = 1;
+    // Yaw control mode.
+    ColibryLite.Messages.YawControlConfig.Enum config = 2;
+    // Propagation model used for reference trajectory computation
+    ColibryLite.Messages.ReferencePropagationModel.Enum reference_propagation_model = 3;
+    // Use the shortest path from current yaw reference.
+    bool use_shortest_path = 4;
+    // Maximum angular rate [rad/s]. Only taken into account when config == DYNAMIC
+    float maximum_yaw_angular_rate = 5;
+}
+
+message YawTrajectoryNed {
+    // Yaw trajectory reference in NED vector basis.
+    ColibryLite.Messages.TrajectoryPoint ref = 1;
+    // Yaw control mode.
+    ColibryLite.Messages.YawControlConfig.Enum config = 2;
+    // Propagation model used for reference trajectory computation
+    ColibryLite.Messages.ReferencePropagationModel.Enum reference_propagation_model = 3;
+    // Use the shortest path from current yaw reference.
+    bool use_shortest_path = 4;
+    // Maximum angular rate [rad/s]. Only taken into account when config == DYNAMIC
+    float maximum_yaw_angular_rate = 5;
+}
+
+message YawReference {
+    oneof ref {
+        // Set yaw rate reference
+        // Euler angles mean here the ZYX angle decomposition of a given attitude (yaw, pitch, roll)
+        // Yaw is defined as the first Euler angle which describes the drone attitude in NED start
+        // or NED frame (yaw rate is equal in both vector basis).
+        YawRate rate = 1;
+        // Set yaw trajectory reference
+        // Euler angles mean here the ZYX angle decomposition of a given attitude (yaw, pitch, roll)
+        // Yaw is defined as the first Euler angle which describes the drone attitude in NED start frame.
+        // North reference for NED start frame is defined at power-on (before GPS and magnetometer fix)
+        YawTrajectoryNedStart trajectory_ned_start = 2;
+        // Set yaw angular trajectory reference
+        // Euler angles mean here the ZYX angle decomposition of a given attitude (yaw, pitch, roll)
+        // Yaw is defined as the first Euler angle which describes the drone attitude in NED frame.
+        // North reference for NED frame is true north, defined when yaw alignment is completed
+        // (GPS and magnetometer fix available).
+        // Before yaw alignment is completed, NED frame will use NED start reference frame
+        YawTrajectoryNed trajectory_ned = 3;
+    }
+}
+
+message TargetReached {
+    ColibryLite.Messages.EventDetectionState.Enum horizontal_position = 1;
+    ColibryLite.Messages.EventDetectionState.Enum horizontal_velocity = 2;
+    ColibryLite.Messages.EventDetectionState.Enum vertical_position = 3;
+    ColibryLite.Messages.EventDetectionState.Enum vertical_velocity = 4;
+    ColibryLite.Messages.EventDetectionState.Enum yaw_position = 5;
+    ColibryLite.Messages.EventDetectionState.Enum yaw_velocity = 6;
+    bool all_reached = 7;
+    uint32 id = 8;
+}
+
+message NavDebug {
+    // an integer identifying which value is being debugged
+    uint32 num = 1;
+    // the actual debugging value
+    float value = 2;
+}
+
+// Battery alert events
+
+message BatteryState {
+    // Current battery voltage [V].
+    float voltage = 1;
+    // Current charge level, aka. state of charge [%].
+    int32 level = 2;
+    // Remaining battery capacity [Ah].
+    uint32 remaining_cap = 3;
+    // Full charge battery capacity [Ah].
+    uint32 full_charge_cap = 4;
+    // Indicate if battery is a SmartBattery.
+    bool is_smartbattery = 5;
+}
+
+message BatteryRole {
+    BatteryDataRole.Enum data_role = 1;
+    BatteryPowerRole.Enum power_role = 2;
+}
+
+message BatteryHealth {
+    // Battery state of health [%].
+    uint32 state_of_health = 1;
+    // Battery cycle count.
+    uint32 cycle_count = 2;
+}
+
+message TickNotificationConfig {
+    // Number of processing cycles between each tick. A period of zero will
+    // stop the notifications. One tick is 5ms (processing loop @200Hz)
+    uint32 period = 1;
+}
+
+message Tick {
+    // Tick sequence number.
+    uint32 num = 1;
+    // Tick timestamp [us].
+    uint64 timestamp_us = 2;
+}
+
+message InitStatus {
+    // True when motors are in motion
+    bool flying = 1;
+}
+
+message MotorErrorChange {
+    uint32 index = 1;
+    MotorError.Enum value = 2;
+}
+
+message MotorsErrorsChanged {
+    // one entry for each motor error change.
+    repeated MotorErrorChange errors = 1;
+}
+
+message MotorsVersion {
+    uint32 hard_version = 1;
+    uint32 major_version = 2;
+    uint32 minor_version = 3;
+    uint32 type_version = 4; // char
+    uint32 motors_count = 5;
+}
+
+message MotorsFlightInfo {
+    // Current flight number
+    uint32 nb_flights = 1;
+    // Previous flight time [s]
+    uint32 previous_time = 2;
+    // Total flight time [s]
+    uint32 total_time = 3;
+    // Last error seen on motors
+    MotorError.Enum last_error = 4;
+}
+
+message PositionVelocityTargets {
+    // Set a horizontal position target.
+    ColibryLite.Messages.HorizontalPositionTarget horizontal_position_target = 1;
+
+    // Set a horizontal velocity target.
+    ColibryLite.Messages.HorizontalVelocityTarget horizontal_velocity_target = 2;
+
+    // Set a vertical position target.
+    ColibryLite.Messages.VerticalPositionTarget vertical_position_target = 3;
+
+    // Set a vertical velocity target.
+    ColibryLite.Messages.VerticalVelocityTarget vertical_velocity_target = 4;
+
+    // Set a yaw position target.
+    ColibryLite.Messages.YawPositionTarget yaw_position_target = 5;
+
+    // Set a yaw velocity target.
+    ColibryLite.Messages.YawVelocityTarget yaw_velocity_target = 6;
+
+    // Internal Id to identify the response in target_reached.
+    uint32 id = 7;
+}
+
+message Command {
+    oneof id {
+        // Sent all events
+        google.protobuf.Empty request_all_events = 1;
+        // Sent full steady state
+        google.protobuf.Empty request_full_steady_state = 2;
+
+        // Select drone estimation mode according to the drone state.
+        ColibryLite.Messages.EstimationMode.Enum set_estimation_mode = 10;
+
+        // Disable horizontal closed loop control.
+        google.protobuf.Empty disable_horizontal_control = 20;
+        // Modify horizontal reference.
+        HorizontalReference set_horizontal_reference = 21;
+
+        // Disable vertical closed loop control.
+        google.protobuf.Empty disable_vertical_control = 30;
+        // Modify vertical reference.
+        VerticalReference set_vertical_reference = 31;
+
+        // Disable yaw closed loop control.
+        google.protobuf.Empty disable_yaw_control = 40;
+        // Modify yaw reference.
+        YawReference set_yaw_reference = 41;
+
+        // Enable or disable angle control loop integral reset.
+        // This reset should be activated when the drone model is false (for example during takeoff).
+        bool reset_quaternion_loop_integral = 53;
+        // Switch control to 3 motor mode in case of motor failure.
+        // This is effective only if 'enableMotorDownControl' is true in configuration.
+        // Once activated it is not possible to go back to 4 motor control mode.
+        google.protobuf.Empty activate_motor_down_control = 54;
+
+        // Start all motors. The service will reply with either
+        // {motors_started} or {motors_start_failure}.
+        google.protobuf.Empty start_motors = 60;
+        // Stop all motors. The service will reply with {motors_stopped}.
+        google.protobuf.Empty stop_all_motors = 61;
+        // Stop the specified motor.
+        ColibryLite.Messages.DefectiveMotorId.Enum stop_motor = 62;
+
+        // Configure notification of internal 'ticks' of the processing loop
+        TickNotificationConfig set_tick_notification_config = 70;
+
+        // Clients can send this message to notify they are still
+        // alive when they have no particular reference to send.
+        // This is used to avoid entering emergency mode.
+        google.protobuf.Empty keep_alive = 71;
+
+        // Enable magic carpet sensor.
+        bool set_vision_carpet = 80;
+
+        // Change value of internal debug value
+        // Useful only for debug purposes
+        NavDebug set_nav_debug = 81;
+
+        // Change how the drone should react in case of future loss of control
+        DroneController.Messages.EmergencyBehavior.Enum set_emergency_behavior = 90;
+
+        // Set position velocity targets.
+        PositionVelocityTargets set_position_velocity_targets = 100;
+        // Reset all targets (horizontal/vertical/yaw position/velocity).
+        google.protobuf.Empty reset_all_targets = 120;
+
+        // Clear queue of commands waiting for the 'tick' (previous commands
+        // with a {tick_num} value not yet reached)
+        google.protobuf.Empty clear_command_queue = 130;
+
+        // Activate magnetometer rejection for a nominal duration
+        // (see timeHeadingLockedAfterMagnetoLoss in common/estimator.cfg).
+        google.protobuf.Empty set_magneto_rejection_nominal = 140;
+
+        // Activate magnetometer rejection for an unlimited time.
+        google.protobuf.Empty set_magneto_rejection_unlimited = 141;
+
+        // Set the heading angle to a given external value [rad].
+        float set_external_heading = 150;
+
+        // After an external heading has been set, reallow the usage of internal
+        // sensors (magnetometer) to correct the heading immediately
+        google.protobuf.Empty stop_external_heading_mode = 151;
+
+        // Unlock the heading (being set either internally or externally)
+        google.protobuf.Empty unlock_heading = 152;
+    }
+
+    // Processing loop 'tick' of application of commands. 0 to apply immediately
+    // otherwise command will be queued and applied at given 'tick' (requires
+    // configuration of 'tick' with {set_tick_notification_config} to be useful)
+    uint32 tick_num = 1000;
+}
+
+message Event {
+    oneof id {
+        // Sent when motion state changed (steady, moving).
+        ColibryLite.Messages.MotionState.Enum motion_state_changed = 10;
+        // Sent when a moving ground has been detected.
+        ColibryLite.Messages.EventDetectionState.Enum moving_ground_state_changed = 11;
+        // Sent when the drone has entered into a freefall phase.
+        google.protobuf.Empty freefall_detected = 12;
+        // Sent when the drone has landed.
+        google.protobuf.Empty landed_detected = 13;
+        // Sent when the given thrust target has been reached.
+        google.protobuf.Empty thrust_ramp_done = 14;
+        // Sent when the drone is steady in the horizontal plan.
+        ColibryLite.Messages.EventDetectionState.Enum horizontal_steady = 15;
+        // Sent when the drone is steady on the vertical axis.
+        ColibryLite.Messages.EventDetectionState.Enum vertical_steady = 16;
+        // Sent when the drone is steady on the yaw axis.
+        ColibryLite.Messages.EventDetectionState.Enum yaw_steady = 17;
+        // Sent when the drone is steady on all axes (horizontal/vertical/yaw).
+        google.protobuf.Empty full_steady_ok = 18;
+        // Sent when the drone is not steady on all axes (horizontal/vertical/yaw).
+        google.protobuf.Empty full_steady_ko = 19;
+        // Sent when sensors detected too much pitch/roll angle.
+        google.protobuf.Empty too_much_angle_detected = 20;
+        // Sent when sensors detected too much pitch/roll angle, near ground.
+        google.protobuf.Empty too_much_angle_detected_at_low_altitude = 21;
+        // Sent when the pitch/roll angle is nominal.
+        google.protobuf.Empty nominal_angle_detected = 22;
+        // Sent when the pitch/roll angle is nominal, near ground.
+        google.protobuf.Empty nominal_angle_detected_at_low_altitude = 23;
+        // Sent when a vertical flyaway is detected.
+        // TODO: find a better name
+        google.protobuf.Empty flyaway_detected = 24;
+        // Sent when flying far from earth poles, where horizontal magnetic field is high enough.
+        google.protobuf.Empty magneto_far_enough_from_earth_poles = 25;
+        // Sent when flying near the earth poles, where horizontal magnetic field is too small.
+        google.protobuf.Empty magneto_too_close_to_earth_poles = 26;
+        // Sent when sensor magnetic norm is not coherent with earth magnetic norm.
+        google.protobuf.Empty magnetic_interference_detected = 27;
+        // Sent when sensor magnetic norm is coherent with earth magnetic norm.
+        google.protobuf.Empty no_magnetic_interference = 28;
+        // Sent when the drone is not in a freefall phase.
+        google.protobuf.Empty freefall_not_detected = 29;
+        // Sent when motors are started (requested `start_motors` ok).
+        google.protobuf.Empty motors_started = 30;
+        // Sent when motors failed to start (requested `start_motors` ko).
+        google.protobuf.Empty motors_start_failure = 31;
+        // Sent when at least one motor stopped spinning after `stop_motors` was requested.
+        google.protobuf.Empty motors_stopped = 32;
+        // Sent when at least one motor stopped spinning, but no request was made to stop motors.
+        google.protobuf.Empty motors_cutout = 33;
+        // Sent when motors reached their target speed before taking off.
+        google.protobuf.Empty motors_ramping_done = 34;
+        // Sent when motor errors changed.
+        MotorsErrorsChanged motors_errors = 35;
+        // Sent at init with motors version.
+        MotorsVersion motors_version = 36;
+        // Sent when motors flight info changed.
+        MotorsFlightInfo motors_flight_info = 37;
+
+        // Sent when one or more target references are reached.
+        TargetReached target_reached = 40;
+        // Sent when pitch/roll angle is low enough after hand takeoff.
+        ColibryLite.Messages.EventDetectionState.Enum hand_takeoff_low_angle = 41;
+        // Sent when the vertical speed error is low enough after hand takeoff.
+        ColibryLite.Messages.EventDetectionState.Enum hand_takeoff_low_vertical_speed_error = 42;
+        // Sent when the angular velocity on both horizontal plane and
+        // yaw axis are low enough after hand takeoff.
+        ColibryLite.Messages.EventDetectionState.Enum hand_takeoff_low_angular_velocity = 43;
+        // Sent when velocity estimation is reliable enough.
+        google.protobuf.Empty linear_velocity_reliable = 44;
+        // Sent when velocity estimation is not reliable.
+        google.protobuf.Empty linear_velocity_unreliable = 45;
+        // Sent when ground distance sensors are defective.
+        google.protobuf.Empty ground_distance_defective = 46;
+        // Sent when at least one ground distance sensor is not defective.
+        google.protobuf.Empty ground_distance_functional = 47;
+        // Sent when motors provide the thrust required to enable angle control.
+        google.protobuf.Empty thrust_for_angle_reached = 48;
+
+        // Sent when everything is ready for GPS navigation. The GPS has fixed
+        // a location and the geographic north is known.
+        google.protobuf.Empty gps_navigation_ready = 50;
+        // Sent when GPS navigation is unavailable. Either the GPS has not fixed
+        // a location or the geographic north is unknown.
+        google.protobuf.Empty gps_navigation_unavailable = 51;
+        // Sent when GPS sensor has fixed a location.
+        google.protobuf.Empty gps_sensor_ok = 54;
+        // Sent when GPS sensor has not fixed a location.
+        google.protobuf.Empty gps_sensor_ko = 55;
+        // Sent when geographic north is known.
+        google.protobuf.Empty heading_locked_ok = 56;
+        // Sent when geographic north is unknown.
+        google.protobuf.Empty heading_locked_ko = 57;
+        // Sent when the number of detected satellites changed.
+        uint32 gps_satellites = 52;
+        // Sent when everything is ready for vision navigation.
+        google.protobuf.Empty vision_navigation_ready = 58;
+        // Sent when vision navigation is unavailable.
+        google.protobuf.Empty vision_navigation_unavailable = 59;
+
+        // Sent when the wind status changed.
+        ColibryLite.Messages.WindStatus.Enum wind_status_changed = 70;
+        // Sent when the defective motor status changed.
+        ColibryLite.Messages.DefectiveMotorId.Enum defective_motor_id_changed = 71;
+        // Sent when the defective motor failure changed.
+        ColibryLite.Messages.DefectiveMotorFailureType.Enum defective_motor_failure_type_changed = 72;
+        // Sent on IMU vibration level changed.
+        ColibryLite.Messages.ThreeLevelStatus.Enum vibration_level_changed = 73;
+        // Sent on propeller icing level changed.
+        ColibryLite.Messages.ThreeLevelStatus.Enum propeller_icing_level_changed = 74;
+
+        // Sent on specific magneto calibration state.
+        google.protobuf.Empty magneto_not_calibrated = 80;
+        // Sent on specific magneto calibration state.
+        google.protobuf.Empty magneto_calibration_x_done = 81;
+        // Sent on specific magneto calibration state.
+        google.protobuf.Empty magneto_calibration_y_done = 82;
+        // Sent on specific magneto calibration state.
+        google.protobuf.Empty magneto_calibration_z_done = 83;
+        // Sent on specific magneto calibration state.
+        google.protobuf.Empty magneto_calibration_aborted = 84;
+        // Sent on specific magneto calibration state.
+        google.protobuf.Empty magneto_calibration_failed = 85;
+        // Sent on specific magneto calibration state.
+        google.protobuf.Empty magneto_calibration_done = 86;
+        // Sent on specific magneto calibration state.
+        google.protobuf.Empty magneto_calibration_required = 87;
+        // Sent on specific magneto calibration state.
+        google.protobuf.Empty magneto_calibration_advised = 88;
+
+        // Sent when requested to go below minimum altitude.
+        google.protobuf.Empty min_altitude_constrained = 90;
+        // Sent when exiting `min_altitude_constrained` condition.
+        google.protobuf.Empty min_altitude_not_constrained = 91;
+
+        // Sent when the state of defective sensors changed.
+        uint32 defective_sensors_state_changed = 110;
+
+        // Sent when the battery state changed.
+        BatteryState battery_state_changed = 120;
+        // Sent when the battery role changed.
+        BatteryRole battery_role_changed = 121;
+        // Sent when the battery is too hot.
+        BatteryAlert.Enum battery_alert_too_hot = 122;
+        // Sent when the battery is too cold.
+        BatteryAlert.Enum battery_alert_too_cold = 123;
+        // Sent when the battery health changed.
+        BatteryHealth battery_health = 124;
+
+        // Notify ticks of the processing loop. It is only sent if a client
+        // configured it with {set_tick_notification_config}.
+        Tick tick = 130;
+
+        // Sent when motor down control is available.
+        google.protobuf.Empty motor_down_control_ready = 140;
+        // Sent when motor down control becomes unavailable.
+        google.protobuf.Empty motor_down_control_unavailable = 141;
+        // Sent when ESC single stall becomes available.
+        google.protobuf.Empty single_stall_available = 142;
+        // Sent when ESC single stall becomes unavailable.
+        google.protobuf.Empty single_stall_unavailable = 143;
+
+        // Sent at startup when all estimators (etc.) are initialized.
+        InitStatus init_ok = 1000;
+    }
+}

@@ -1,0 +1,8 @@
+sdk/classic/usr/lib/libopencv_world.so.4.1.2 filter=lfs diff=lfs merge=lfs -text
+sdk/classic/usr/lib/libprotobuf.a filter=lfs diff=lfs merge=lfs -text
+sdk/pc/usr/lib/libprotoc.so.18.0.1 filter=lfs diff=lfs merge=lfs -text
+sdk/pc/usr/lib/libprotoc.a filter=lfs diff=lfs merge=lfs -text
+sdk.tar.gz filter=lfs diff=lfs merge=lfs -text
+sdk/classic/usr/lib/libprotoc.a filter=lfs diff=lfs merge=lfs -text
+sdk/pc/usr/lib/libopencv_world.so.4.1.2 filter=lfs diff=lfs merge=lfs -text
+sdk/pc/usr/lib/libprotobuf.a filter=lfs diff=lfs merge=lfs -text

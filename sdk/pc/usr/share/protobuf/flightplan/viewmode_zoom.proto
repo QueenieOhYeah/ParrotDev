@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package Flightplan.Enums.ViewMode.Zoom;
+
+// Zoom view mode
+enum Enum {
+    FREE = 0;     // No camera reference (reference not updated).
+    CONSTANT = 1; // Constant camera zoom.
+    RAMP = 2;     // Camera zoom varies linearly to join the reference on the waypoint.
+    SET_ON_WAYPOINT = 3; // FREE mode outside of waypoint validation radius, CONSTANT mode inside.
+}

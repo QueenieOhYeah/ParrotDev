@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+
+package ColibryLite.Messages.VerticalControlConfig;
+
+enum Enum {
+    // Default configuration.
+    // Maximum upward speed: 3 m/s
+    // Maximum downward speed: 3 m/s
+    // Maximum upward acceleration: 3 m/s²
+    // Maximum downward acceleration: 3 m/s²
+    DEFAULT = 0;
+    // Slow and smooth config.
+    // Maximum upward speed: 1 m/s
+    // Maximum downward speed: 1 m/s
+    // Maximum upward acceleration: 2 m/s²
+    // Maximum downward acceleration: 2 m/s²
+    SOFT = 1;
+    // Fast and aggressive config.
+    // Maximum upward speed: 4 m/s
+    // Maximum downward speed: 3 m/s
+    // Maximum upward acceleration: 6 m/s²
+    // Maximum downward acceleration: 5 m/s²
+    AGGRESSIVE = 2;
+    // Customizable speed config.
+    // Maximum upward speed: from reference message (but never higher than 4 m/s)
+    // Maximum downward speed: from reference message (but never higher than 3 m/s)
+    // Maximum upward acceleration: 6 m/s²
+    // Maximum downward acceleration: 5 m/s²
+    DYNAMIC = 3;
+}

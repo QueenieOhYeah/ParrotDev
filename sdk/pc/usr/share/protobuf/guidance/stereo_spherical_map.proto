@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+import "guidance/common.proto";
+
+package Guidance.StereoSphericalMap.Messages;
+
+message StereoSphericalMapSettings {
+    // Width of the map input (depth or disparity) [pix]
+    uint32 width = 1;
+    // Height of the map input (depth or disparity) [pix]
+    uint32 height = 2;
+    // Width of the output spherical map [pix]
+    uint32 downscaled_width = 3;
+    // Height of the output spherical map [pix]
+    uint32 downscaled_height = 4;
+    // Horizontal field of view [rad]
+    double hfov = 5;
+    // Vertical field of view [rad]
+    double vfov = 6;
+}
+
+message StereoSphericalMapData {
+    // Perception system position in the NED frame [m]
+    Guidance.Common.Vector3d origin = 1;
+    // Perception system quaternion attitude in the NED frame
+    Guidance.Common.Quaternion qpf = 2;
+    // Disparity map
+    bytes disparity = 3;
+    // Depth map [m]
+    bytes depths = 4;
+    // Enlarged depth map (if enabled) [m]
+    bytes enlarged_depths = 5;
+    // Distance map [m]
+    bytes distances = 6;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+
+import public "cam_controller/control_mode.proto";
+import public "cam_controller/frame_of_reference.proto";
+import public "cam_controller/reference_status.proto";
+
+import public "cam_controller/types.proto";
